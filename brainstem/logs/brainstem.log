@@ -1,0 +1,309 @@
+2014-10-01 23:16:49.458 INFO [brainstem:31] Starting Brainstem...
+2014-10-01 23:16:52.350 WARNING [brainstem:35] Caught signal: 2
+2014-10-01 23:16:52.351 INFO [brainstem:39] Stopping Conductor...
+2014-10-01 23:16:52.351 INFO [brainstem:48] Shutdown
+2014-10-06 21:36:28.653 INFO [brainstem:42] Starting Brainstem...
+2014-10-06 21:36:45.302 WARNING [web:1811] 403 GET /?encoding=text (::1) 0.87ms
+2014-10-06 21:36:59.598 WARNING [web:1811] 403 GET /?encoding=text (::1) 0.41ms
+2014-10-06 21:37:08.123 WARNING [brainstem:56] Caught signal: 2
+2014-10-06 21:37:08.124 INFO [brainstem:60] Stopping Brainstem...
+2014-10-06 21:37:08.124 INFO [brainstem:69] Shutdown
+2014-10-06 21:41:38.760 INFO [brainstem:42] Starting Brainstem...
+2014-10-06 21:41:45.286 INFO [brainstem:48] Websocket client connected
+2014-10-06 21:41:48.476 INFO [brainstem:52] Websocket client disconnected
+2014-10-06 21:41:48.476 ERROR [web:1407] Uncaught exception GET /?encoding=text (::1)
+HTTPServerRequest(protocol='http', host='localhost:8080', method='GET', uri='/?encoding=text', version='HTTP/1.1', remote_ip='::1', headers={'Pragma': 'no-cache', 'Cookie': 'sessionid=ssvz44wovt1mywy88y70o9vcxvrnst2j; csrftoken=xr1VBNATmGuY0TyZAbU0SOD8QpOvGJ1g', 'Connection': 'Upgrade', 'Origin': 'http://www.websocket.org', 'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits, x-webkit-deflate-frame', 'Cache-Control': 'no-cache', 'Sec-Websocket-Key': 'd00G97+FKKez5/zYsH4acQ==', 'Host': 'localhost:8080', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36', 'Sec-Websocket-Version': '13', 'Upgrade': 'websocket'})
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/web.py", line 1288, in _stack_context_handle_exception
+    raise_exc_info((type, value, traceback))
+  File "<string>", line 3, in raise_exc_info
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 314, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 337, in on_connection_close
+    self.on_close()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/handlers.py", line 20, in on_close
+    Brainstem.instance().remove_websocket_client(self)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 53, in remove_websocket_client
+    self.add_websocket_client.remove(client)
+AttributeError: 'function' object has no attribute 'remove'
+2014-10-06 21:41:48.485 ERROR [iostream:511] Uncaught exception, closing connection.
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/web.py", line 1288, in _stack_context_handle_exception
+    raise_exc_info((type, value, traceback))
+  File "<string>", line 3, in raise_exc_info
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 314, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 337, in on_connection_close
+    self.on_close()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/handlers.py", line 20, in on_close
+    Brainstem.instance().remove_websocket_client(self)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 53, in remove_websocket_client
+    self.add_websocket_client.remove(client)
+AttributeError: 'function' object has no attribute 'remove'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/iostream.py", line 508, in wrapper
+    return callback(*args)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 343, in wrapped
+    raise_exc_info(exc)
+  File "<string>", line 3, in raise_exc_info
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 355, in _handle_exception
+    if tail.exit(*exc):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 186, in exit
+    return self.exception_handler(type, value, traceback)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/web.py", line 1290, in _stack_context_handle_exception
+    self._handle_request_exception(value)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/web.py", line 1387, in _handle_request_exception
+    self.send_error(500, exc_info=sys.exc_info())
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 345, in _disallow_for_websocket
+    raise RuntimeError("Method not supported for Web Sockets")
+RuntimeError: Method not supported for Web Sockets
+2014-10-06 21:41:48.487 ERROR [ioloop:585] Exception in callback functools.partial(<function wrap.<locals>.null_wrapper at 0x106ee88c8>)
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/web.py", line 1288, in _stack_context_handle_exception
+    raise_exc_info((type, value, traceback))
+  File "<string>", line 3, in raise_exc_info
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 314, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 337, in on_connection_close
+    self.on_close()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/handlers.py", line 20, in on_close
+    Brainstem.instance().remove_websocket_client(self)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 53, in remove_websocket_client
+    self.add_websocket_client.remove(client)
+AttributeError: 'function' object has no attribute 'remove'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 565, in _run_callback
+    ret = callback()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 275, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/iostream.py", line 508, in wrapper
+    return callback(*args)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 343, in wrapped
+    raise_exc_info(exc)
+  File "<string>", line 3, in raise_exc_info
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 355, in _handle_exception
+    if tail.exit(*exc):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 186, in exit
+    return self.exception_handler(type, value, traceback)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/web.py", line 1290, in _stack_context_handle_exception
+    self._handle_request_exception(value)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/web.py", line 1387, in _handle_request_exception
+    self.send_error(500, exc_info=sys.exc_info())
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 345, in _disallow_for_websocket
+    raise RuntimeError("Method not supported for Web Sockets")
+RuntimeError: Method not supported for Web Sockets
+2014-10-06 21:42:19.779 WARNING [brainstem:56] Caught signal: 2
+2014-10-06 21:42:19.779 INFO [brainstem:60] Stopping Brainstem...
+2014-10-06 21:42:19.779 INFO [brainstem:69] Shutdown
+2014-10-06 21:42:20.552 INFO [brainstem:42] Starting Brainstem...
+2014-10-06 21:42:23.145 INFO [brainstem:48] Websocket client connected
+2014-10-06 21:42:24.616 INFO [brainstem:52] Websocket client disconnected
+2014-10-06 21:42:27.994 INFO [brainstem:48] Websocket client connected
+2014-10-06 21:42:29.062 INFO [brainstem:52] Websocket client disconnected
+2014-10-06 21:42:32.234 WARNING [brainstem:56] Caught signal: 2
+2014-10-06 21:42:32.235 INFO [brainstem:60] Stopping Brainstem...
+2014-10-06 21:42:32.235 INFO [brainstem:69] Shutdown
+2014-10-06 21:51:46.418 INFO [brainstem:46] Starting Brainstem...
+2014-10-06 21:52:12.902 INFO [brainstem:58] Websocket client connected
+2014-10-06 21:52:16.932 INFO [brainstem:62] Websocket client disconnected
+2014-10-06 21:52:26.310 WARNING [brainstem:66] Caught signal: 2
+2014-10-06 21:52:26.311 INFO [brainstem:70] Stopping Brainstem...
+2014-10-06 21:52:26.311 INFO [brainstem:79] Shutdown
+2014-10-06 21:52:27.213 INFO [brainstem:47] Starting Brainstem...
+2014-10-06 21:52:31.151 INFO [brainstem:59] Websocket client connected
+2014-10-06 21:52:33.152 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x10e2a8390>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 54, in send_preview
+    data = self.eye.encode()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/eye.py", line 96, in encode
+    output.append(pixel[0], pixel[1], pixel[2])
+TypeError: append() takes exactly one argument (3 given)
+2014-10-06 21:52:35.153 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x10e2a8390>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 54, in send_preview
+    data = self.eye.encode()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/eye.py", line 96, in encode
+    output.append(pixel[0], pixel[1], pixel[2])
+TypeError: append() takes exactly one argument (3 given)
+2014-10-06 21:52:37.152 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x10e2a8390>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 54, in send_preview
+    data = self.eye.encode()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/eye.py", line 96, in encode
+    output.append(pixel[0], pixel[1], pixel[2])
+TypeError: append() takes exactly one argument (3 given)
+2014-10-06 21:52:37.718 WARNING [brainstem:67] Caught signal: 2
+2014-10-06 21:52:37.718 INFO [brainstem:71] Stopping Brainstem...
+2014-10-06 21:52:37.718 INFO [brainstem:80] Shutdown
+2014-10-06 21:53:29.281 INFO [brainstem:47] Starting Brainstem...
+2014-10-06 21:53:33.169 INFO [brainstem:59] Websocket client connected
+2014-10-06 21:53:35.170 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x106331320>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 54, in send_preview
+    data = self.eye.encode()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/eye.py", line 96, in encode
+    output.append(pixel)
+TypeError: an integer is required
+2014-10-06 21:53:37.169 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x106331320>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 54, in send_preview
+    data = self.eye.encode()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/eye.py", line 96, in encode
+    output.append(pixel)
+TypeError: an integer is required
+2014-10-06 21:53:38.570 WARNING [brainstem:67] Caught signal: 2
+2014-10-06 21:53:38.571 INFO [brainstem:71] Stopping Brainstem...
+2014-10-06 21:53:38.571 INFO [brainstem:80] Shutdown
+2014-10-06 21:53:51.468 INFO [brainstem:47] Starting Brainstem...
+2014-10-06 21:53:56.360 INFO [brainstem:59] Websocket client connected
+2014-10-06 21:53:58.361 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x1071f5320>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
+    client.send(data, True)
+AttributeError: 'SimulatorHandler' object has no attribute 'send'
+2014-10-06 21:54:00.361 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x1071f5320>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
+    client.send(data, True)
+AttributeError: 'SimulatorHandler' object has no attribute 'send'
+2014-10-06 21:54:02.361 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x1071f5320>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
+    client.send(data, True)
+AttributeError: 'SimulatorHandler' object has no attribute 'send'
+2014-10-06 21:54:04.361 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x1071f5320>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
+    client.send(data, True)
+AttributeError: 'SimulatorHandler' object has no attribute 'send'
+2014-10-06 21:54:04.995 WARNING [brainstem:67] Caught signal: 2
+2014-10-06 21:54:04.995 INFO [brainstem:71] Stopping Brainstem...
+2014-10-06 21:54:04.995 INFO [brainstem:80] Shutdown
+2014-10-06 21:54:26.335 INFO [brainstem:47] Starting Brainstem...
+2014-10-06 21:54:30.617 INFO [brainstem:59] Websocket client connected
+2014-10-06 21:54:32.617 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x10f8ea390>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
+    client.write_message(data, True)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 201, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 488, in write_message
+    message = tornado.escape.utf8(message)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/escape.py", line 203, in utf8
+    "Expected bytes, unicode, or None; got %r" % type(value)
+TypeError: Expected bytes, unicode, or None; got <class 'bytearray'>
+2014-10-06 21:54:34.618 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x10f8ea390>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
+    client.write_message(data, True)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 201, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 488, in write_message
+    message = tornado.escape.utf8(message)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/escape.py", line 203, in utf8
+    "Expected bytes, unicode, or None; got %r" % type(value)
+TypeError: Expected bytes, unicode, or None; got <class 'bytearray'>
+2014-10-06 21:54:36.617 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x10f8ea390>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
+    client.write_message(data, True)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 201, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 488, in write_message
+    message = tornado.escape.utf8(message)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/escape.py", line 203, in utf8
+    "Expected bytes, unicode, or None; got %r" % type(value)
+TypeError: Expected bytes, unicode, or None; got <class 'bytearray'>
+2014-10-06 21:54:38.617 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x10f8ea390>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
+    client.write_message(data, True)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 201, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 488, in write_message
+    message = tornado.escape.utf8(message)
+  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/escape.py", line 203, in utf8
+    "Expected bytes, unicode, or None; got %r" % type(value)
+TypeError: Expected bytes, unicode, or None; got <class 'bytearray'>
+2014-10-06 21:54:39.305 WARNING [brainstem:67] Caught signal: 2
+2014-10-06 21:54:39.306 INFO [brainstem:71] Stopping Brainstem...
+2014-10-06 21:54:39.306 INFO [brainstem:80] Shutdown
+2014-10-06 21:55:43.230 INFO [brainstem:47] Starting Brainstem...
+2014-10-06 21:55:47.217 INFO [brainstem:59] Websocket client connected
+2014-10-06 21:56:05.469 INFO [brainstem:63] Websocket client disconnected
+2014-10-06 22:25:21.856 WARNING [brainstem:67] Caught signal: 2
+2014-10-06 22:25:21.865 INFO [brainstem:71] Stopping Brainstem...
+2014-10-06 22:25:21.865 INFO [brainstem:80] Shutdown
+2014-10-06 22:47:33.211 INFO [brainstem:48] Starting Brainstem...
+2014-10-06 22:47:40.845 WARNING [web:1404] 403 GET / (::1):  is not a file
+2014-10-06 22:47:40.846 WARNING [web:1811] 403 GET / (::1) 1.26ms
+2014-10-06 22:47:41.014 WARNING [web:1811] 404 GET /favicon.ico (::1) 0.56ms
+2014-10-06 22:47:46.404 INFO [web:1811] 200 GET /index.html (::1) 9.74ms
+2014-10-06 22:51:26.477 WARNING [brainstem:68] Caught signal: 2
+2014-10-06 22:51:26.478 INFO [brainstem:72] Stopping Brainstem...
+2014-10-06 22:51:26.478 INFO [brainstem:81] Shutdown
+2014-10-06 22:51:27.187 INFO [brainstem:48] Starting Brainstem...
+2014-10-06 22:51:32.992 INFO [web:1811] 200 GET / (::1) 8.29ms
+2014-10-06 22:51:34.076 INFO [web:1811] 304 GET / (::1) 0.70ms
+2014-10-06 22:51:34.558 INFO [web:1811] 304 GET / (::1) 0.67ms
+2014-10-06 22:51:43.691 INFO [web:1811] 304 GET / (::1) 0.71ms
+2014-10-06 22:56:17.014 INFO [web:1811] 304 GET / (::1) 0.56ms
+2014-10-06 22:56:18.026 INFO [web:1811] 304 GET / (::1) 0.68ms
+2014-10-06 22:56:18.698 INFO [web:1811] 304 GET / (::1) 0.67ms
+2014-10-06 22:56:19.104 INFO [web:1811] 304 GET / (::1) 0.59ms
+2014-10-06 22:56:19.379 INFO [web:1811] 304 GET / (::1) 0.69ms
+2014-10-06 22:56:19.593 INFO [web:1811] 304 GET / (::1) 0.94ms
+2014-10-06 22:56:29.785 INFO [web:1811] 304 GET / (::1) 0.68ms
+2014-10-06 22:56:30.274 INFO [web:1811] 304 GET / (::1) 0.68ms
+2014-10-06 22:56:30.657 INFO [web:1811] 304 GET / (::1) 0.66ms
+2014-10-06 22:56:32.320 WARNING [brainstem:68] Caught signal: 2
+2014-10-06 22:56:32.321 INFO [brainstem:72] Stopping Brainstem...
+2014-10-06 22:56:32.321 INFO [brainstem:81] Shutdown
+2014-10-06 22:56:33.062 INFO [brainstem:48] Starting Brainstem...
+2014-10-06 22:56:34.665 INFO [web:1811] 200 GET / (::1) 8.02ms
+2014-10-06 22:56:34.690 INFO [web:1811] 200 GET /css/style.css (::1) 0.74ms
+2014-10-06 22:56:34.692 WARNING [web:1811] 404 GET /js/paper-full.js (::1) 0.45ms
+2014-10-06 22:56:34.693 INFO [web:1811] 200 GET /js/simulator.js (::1) 0.54ms
+2014-10-06 22:56:35.625 INFO [web:1811] 304 GET / (::1) 0.66ms
+2014-10-06 22:56:35.651 INFO [web:1811] 304 GET /css/style.css (::1) 0.58ms
+2014-10-06 22:56:35.652 WARNING [web:1811] 404 GET /js/paper-full.js (::1) 0.41ms
+2014-10-06 22:56:35.653 INFO [web:1811] 304 GET /js/simulator.js (::1) 0.44ms
+2014-10-06 22:56:35.987 INFO [web:1811] 304 GET / (::1) 0.69ms
+2014-10-06 22:56:36.020 INFO [web:1811] 304 GET /css/style.css (::1) 0.93ms
+2014-10-06 22:56:36.022 WARNING [web:1811] 404 GET /js/paper-full.js (::1) 0.76ms
+2014-10-06 22:56:36.023 INFO [web:1811] 304 GET /js/simulator.js (::1) 0.99ms
+2014-10-07 11:06:32.679 WARNING [brainstem:68] Caught signal: 2
+2014-10-07 11:06:32.689 INFO [brainstem:72] Stopping Brainstem...
+2014-10-07 11:06:32.690 INFO [brainstem:81] Shutdown
