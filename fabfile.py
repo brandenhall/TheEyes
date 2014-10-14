@@ -31,7 +31,7 @@ def local():
 def production():
     env.run = run
     env.cd = cd
-    env.user = 'root'
+    env.user = 'theeyes'
     env.name = 'production'
     env.hosts = ['theey.es']
     env.path = '/srv/theeyes/'
@@ -75,10 +75,10 @@ def upload():
                                '*.pyo'))
 
         rsync_project(remote_dir=env.path,
-                      local_dir='conductor',
+                      local_dir='brainstem',
                       delete=True,
                       extra_opts=extra_opts,
-                      exclude=('conductor/logs/',
+                      exclude=('brainstem/logs/',
                                '__pycache__',
                                '*.pyc',
                                '*.pyo'))
