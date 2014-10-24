@@ -2,119 +2,195 @@
 
 var animation = [["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","b34700","b34700","ffffff","ffffff","ffffff","b34700","545454","b34700","ffffff","ffffff","ffffff","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","b34700","b34700","ffffff","ffffff","ffffff","b34700","545454","b34700","ffffff","ffffff","ffffff","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","b34700","b34700","ffffff","ffffff","ffffff","b34700","545454","b34700","ffffff","ffffff","ffffff","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","b34700","b34700","ffffff","ffffff","ffffff","b34700","545454","b34700","ffffff","ffffff","ffffff","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","b34700","b34700","ffffff","ffffff","ffffff","b34700","545454","b34700","ffffff","ffffff","ffffff","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","b34700","b34700","ffffff","ffffff","ffffff","b34700","545454","b34700","ffffff","ffffff","ffffff","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffffff","ffffff","ff6c0a","b34700","b34700","ff6c0a","ffffff","ff6c0a","b34700","545454","b34700","ff6c0a","ffffff","ff6c0a","b34700","b34700","ff6c0a","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffffff","ffffff","ff6c0a","b34700","b34700","ff6c0a","ffffff","ff6c0a","b34700","545454","b34700","ff6c0a","ffffff","ff6c0a","b34700","b34700","ff6c0a","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffffff","ffffff","ff6c0a","b34700","b34700","ff6c0a","ffffff","ff6c0a","b34700","545454","b34700","ff6c0a","ffffff","ff6c0a","b34700","b34700","ff6c0a","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffffff","ffffff","ff6c0a","b34700","b34700","ff6c0a","ffffff","ff6c0a","b34700","545454","b34700","ff6c0a","ffffff","ff6c0a","b34700","b34700","ff6c0a","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffffff","ffffff","ff6c0a","b34700","b34700","ff6c0a","ffffff","ff6c0a","b34700","545454","b34700","ff6c0a","ffffff","ff6c0a","b34700","b34700","ff6c0a","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffffff","ffffff","ff6c0a","b34700","b34700","ff6c0a","ffffff","ff6c0a","b34700","545454","b34700","ff6c0a","ffffff","ff6c0a","b34700","b34700","ff6c0a","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffffff","ffffff","ff6c0a","b34700","b34700","ff6c0a","ffffff","ff6c0a","b34700","545454","b34700","ff6c0a","ffffff","ff6c0a","b34700","b34700","ff6c0a","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffb98a","ffb98a","ffffff","ffb98a","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffb98a","ff6c0a","b34700","545454","b34700","ff6c0a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffb98a","ffb98a","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffb98a","ffb98a","ffffff","ffb98a","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffb98a","ff6c0a","b34700","545454","b34700","ff6c0a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffb98a","ffb98a","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffb98a","ffb98a","ffffff","ffb98a","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffb98a","ff6c0a","b34700","545454","b34700","ff6c0a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffb98a","ffb98a","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffb98a","ffb98a","ffffff","ffb98a","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffb98a","ff6c0a","b34700","545454","b34700","ff6c0a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffb98a","ffb98a","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffb98a","ffb98a","ffffff","ffb98a","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffb98a","ff6c0a","b34700","545454","b34700","ff6c0a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffb98a","ffb98a","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffffff","ff6c0a","b34700","545454","b34700","ff6c0a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffffff","ff6c0a","b34700","545454","b34700","ff6c0a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffffff","ff6c0a","b34700","545454","b34700","ff6c0a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffffff","ff6c0a","b34700","545454","b34700","ff6c0a","ffb98a","ff6c0a","b34700","b34700","ff6c0a","ffffff","ffffff","ff6c0a","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ff8b3d","b34700","545454","b34700","ffffff","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ff8b3d","b34700","545454","b34700","ffffff","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ff8b3d","b34700","545454","b34700","ffffff","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ff8b3d","b34700","545454","b34700","ffffff","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ff8b3d","b34700","545454","b34700","ffffff","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ff0000","b34700","545454","b34700","ffffff","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ff0000","b34700","545454","b34700","ffffff","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ff0000","b34700","545454","b34700","ffffff","ffb98a","ff6c0a","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ffb98a","ffffff","ffb98a","ffb98a","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff0000","ff0000","ff6c0a","b34700","b34700","ffffff","ffffff","ff0000","b34700","545454","b34700","ffffff","ff0000","ff6c0a","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff0000","ff0000","ff6c0a","b34700","b34700","ffffff","ffffff","ff0000","b34700","545454","b34700","ffffff","ff0000","ff6c0a","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff0000","ff0000","ff6c0a","b34700","b34700","ffffff","ffffff","ff0000","b34700","545454","b34700","ffffff","ff0000","ff6c0a","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff0000","ff0000","ff6c0a","b34700","b34700","ffffff","ffffff","ff0000","b34700","545454","b34700","ffffff","ff0000","ff6c0a","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff6c0a","ff6c0a","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ff0000","ff0000","b34700","b34700","ffffff","ffffff","ff0000","b34700","545454","b34700","ffffff","ff0000","ff0000","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ff0000","ff0000","b34700","b34700","ffffff","ffffff","ff0000","b34700","545454","b34700","ffffff","ff0000","ff0000","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ff0000","ff0000","b34700","b34700","ffffff","ffffff","ff0000","b34700","545454","b34700","ffffff","ff0000","ff0000","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ff0000","ff0000","b34700","b34700","ffffff","ffffff","ff0000","b34700","545454","b34700","ffffff","ff0000","ff0000","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ff0000","ff0000","b34700","b34700","ffffff","ffffff","ff0000","b34700","545454","b34700","ffffff","ff0000","ff0000","b34700","b34700","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ff0000","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ff0000","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ff0000","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ff0000","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ff0000","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ff0000","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ff0000","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ff0000","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ff0000","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ff0000","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ff0000","ff0000","545454","ff0000","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ff0000","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","ff0000","545454","ff0000","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff"],["0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","ff0000","545454","ff0000","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff"],["0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","ff0000","545454","ff0000","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff"],["0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","ff0000","545454","ff0000","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff"],["0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","ff0000","545454","ff0000","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff"],["0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","ff0000","545454","ff0000","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","ff0000","545454","ff0000","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff"],["0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","ff0000","545454","ff0000","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff"],["0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","ff0000","545454","ff0000","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff"],["0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","ff0000","545454","ff0000","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff"],["0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","ff0000","545454","ff0000","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff"],["0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","ff0000","545454","ff0000","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff"],["0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","ff0000","545454","ff0000","0000ff","0000ff","0000ff","ff0000","ff0000","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff","0000ff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ff0000","545454","ff0000","ffffff","ffffff","ffffff","ff0000","ff0000","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"]];
 var CELL_OFFSETS = [
-    [0, 0],
-    [0, -1],
-    [0, -1],
-    [1, -1],
-    [0, 1],
-    [0, 1],
-    [0, 1],
-    [1, 0],
-    [0, -1],
-    [0, -1],
-    [0, -1],
-    [0, -1],
-    [1, -1],
-    [0, 1],
-    [0, 1],
-    [0, 1],
-    [0, 1],
-    [0, 1],
-    [1, -1],
-    [0, -1],
-    [0, -1],
-    [0, -1],
-    [0, -1],
-    [1, -1],
-    [0, 1],
-    [0, 1],
-    [0, 1],
-    [0, 1],
-    [0, 1],
-    [1, -1],
-    [0, -1],
-    [0, -1],
-    [0, -1],
-    [0, -1],
-    [1, -1],
-    [0, 1],
-    [0, 1],
-    [0, 1],
-    [0, 1],
-    [0, 1],
-    [1, -1],
-    [0, -1],
-    [0, -1],
-    [0, -1],
-    [0, -1],
-    [1, -1],
-    [0, 1],
-    [0, 1],
-    [0, 1],
-    [0, 1],
-    [0, 1],
-    [1, -1],
-    [0, -1],
-    [0, -1],
-    [0, -1],
-    [0, -1],
-    [1, 0],
-    [0, 1],
-    [0, 1],
-    [0, 1],
-    [1, -1],
-    [0, -1],
-    [0, -1],
+    [0, 0], [0, -1], [0, -1], [1, -1], [0, 1], [0, 1], [0, 1], [1, 0],
+    [0, -1], [0, -1], [0, -1], [0, -1], [1, -1], [0, 1], [0, 1], [0, 1],
+    [0, 1], [0, 1], [1, -1], [0, -1], [0, -1], [0, -1], [0, -1], [1, -1],
+    [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [1, -1], [0, -1], [0, -1],
+    [0, -1], [0, -1], [1, -1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1],
+    [1, -1], [0, -1], [0, -1], [0, -1], [0, -1], [1, -1], [0, 1], [0, 1],
+    [0, 1], [0, 1], [0, 1], [1, -1], [0, -1], [0, -1], [0, -1], [0, -1],
+    [1, 0], [0, 1], [0, 1], [0, 1], [1, -1], [0, -1], [0, -1]
 ];
 
+var canvas = document.getElementById("canvas");
+var context = canvas.getContext('2d');
 var eyes = [];
+var frame = 0;
 
-function createEye(x, y, radius, border) {
-    var leds = [];
+var ws = new WebSocket('ws://localhost:8081/ws');
+ws.binaryType = 'arraybuffer';
 
-    for (var i=0; i<CELL_OFFSETS.length; ++i) {
+ws.onopen = function(evt) {
+    console.log("open");
+};
+ws.onclose = function(evt) {
+    console.log("close");
+};
+ws.onmessage = function(evt) {
+    var data = new Uint8Array(evt.data);
+    var max;
+    var index = 0;
+    var r, g, b;
+    var i, j;
+    var palette;
+
+    console.log("---");
+    for (i=0; i<16; ++i) {
+        max = data[index];
+        palette = [];
+        index += 1;
+
+        for (j=0; j<max; ++j) {
+            r = data[index];
+            g = data[index + 1];
+            b = data[index + 2];
+            index += 3;
+            palette[j] = "#" + Number(0x1000000 + r*0x10000 + g*0x100 + b).toString(16).substring(1);
+        }
+
+        for (j=0; j<63; ++j) {
+            eyes[i].leds[j] = palette[data[index]];
+            ++index;
+        }
+    }
+};
+ws.onerror = function(evt) {
+    console.log("error");
+};
+
+var Eye = function() {
+    this.x = 0;
+    this.y = 0;
+    this.radius = 5;
+    this.border = 1;
+    this.leds = [];
+};
+
+Eye.prototype.draw = function() {
+    var x = this.x;
+    var y = this.y;
+    for (var i=0; i<this.leds.length; ++i) {
         offset = CELL_OFFSETS[i];
 
-        if (CELL_OFFSETS[i][0] == 1) {
-            x += (radius * 2) + border;
-            y += radius + border/2;
+        if (offset[0] == 1) {
+            x += (this.radius * 2) + this.border;
+            y += this.radius + this.border/2;
         }
-        y += CELL_OFFSETS[i][1] * ((radius * 2) + border);
+        y += offset[1] * ((this.radius * 2) + this.border);
 
-        led = new Path.Circle(new Point(x, y), radius);
-        led.fillColor = "red";
-        leds[i] = led;
+        context.beginPath();
+        context.fillStyle = this.leds[i];
+        context.arc(x, y, this.radius, 0, Math.PI * 2);
+        context.fill();
+    }
+};
+
+eyes[0] = new Eye();
+eyes[0].x = 10;
+eyes[0].y = 50;
+
+eyes[1] = new Eye();
+eyes[1].x = 10;
+eyes[1].y = 130;
+
+eyes[2] = new Eye();
+eyes[2].x = 10;
+eyes[2].y = 210;
+
+eyes[3] = new Eye();
+eyes[3].x = 10;
+eyes[3].y = 290;
+
+eyes[4] = new Eye();
+eyes[4].x = 10;
+eyes[4].y = 370;
+
+eyes[5] = new Eye();
+eyes[5].x = 10;
+eyes[5].y = 450;
+
+eyes[6] = new Eye();
+eyes[6].x = 10;
+eyes[6].y = 530;
+
+eyes[7] = new Eye();
+eyes[7].x = 10;
+eyes[7].y = 610;
+
+eyes[8] = new Eye();
+eyes[8].x = 170;
+eyes[8].y = 80;
+eyes[8].radius = 8;
+eyes[8].border = 2;
+
+eyes[9] = new Eye();
+eyes[9].x = 170;
+eyes[9].y = 200;
+eyes[9].radius = 8;
+eyes[9].border = 2;
+
+eyes[10] = new Eye();
+eyes[10].x = 170;
+eyes[10].y = 320;
+eyes[10].radius = 8;
+eyes[10].border = 2;
+
+eyes[11] = new Eye();
+eyes[11].x = 170;
+eyes[11].y = 440;
+eyes[11].radius = 8;
+eyes[11].border = 2;
+
+eyes[12] = new Eye();
+eyes[12].x = 420;
+eyes[12].y = 80;
+eyes[12].radius = 8;
+eyes[12].border = 2;
+
+eyes[13] = new Eye();
+eyes[13].x = 420;
+eyes[13].y = 200;
+eyes[13].radius = 8;
+eyes[13].border = 2;
+
+eyes[14] = new Eye();
+eyes[14].x = 420;
+eyes[14].y = 320;
+eyes[14].radius = 8;
+eyes[14].border = 2;
+
+eyes[15] = new Eye();
+eyes[15].x = 420;
+eyes[15].y = 440;
+eyes[15].radius = 8;
+eyes[15].border = 2;
+
+
+function update() {
+    var i;
+    context.clearRect(0, 0, 1024, 768);
+
+    // for (i=0; i<animation[frame].length; ++i) {
+    //     pixel = "#" + animation[frame][i];
+
+    //     for (var j=0; j<eyes.length; ++j) {
+    //         eyes[j].leds[i] = pixel;
+    //     }
+    // }
+
+    for (i=0; i<eyes.length; ++i) {
+        eyes[i].draw();
     }
 
-    return leds;
+    ++frame;
+
+    if (frame == animation.length) {
+        frame = 0;
+    }
+
+    window.requestAnimationFrame(update);
 }
 
-eyes[0] = createEye(10, 50, 5, 1);
-eyes[1] = createEye(10, 130, 5, 1);
-eyes[2] = createEye(10, 210, 5, 1);
-eyes[3] = createEye(10, 290, 5, 1);
-eyes[4] = createEye(10, 370, 5, 1);
-eyes[5] = createEye(10, 450, 5, 1);
-eyes[6] = createEye(10, 530, 5, 1);
-eyes[7] = createEye(10, 610, 5, 1);
+update();
 
-eyes[8] = createEye(170, 80, 8, 2);
-eyes[9] = createEye(170, 200, 8, 2);
-eyes[10] = createEye(170, 320, 8, 2);
-eyes[11] = createEye(170, 440, 8, 2);
-
-eyes[12] = createEye(420, 80, 8, 2);
-eyes[13] = createEye(420, 200, 8, 2);
-eyes[14] = createEye(420, 320, 8, 2);
-eyes[15] = createEye(420, 440, 8, 2);
-
-var frame = 0;
-var pixel = "";
-
-function onFrame() {
-    pixel = "#" + animation[frame][i];
-
-
-}
-
-}();
+})();

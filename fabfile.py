@@ -28,7 +28,7 @@ def local():
 
 
 @task
-def production():
+def cortex():
     env.run = run
     env.cd = cd
     env.user = 'theeyes'
@@ -42,10 +42,44 @@ def production():
     env.python = 'source {0}venv/bin/activate && python'.format(env.path)
     env.pip = 'source {0}venv/bin/activate && pip'.format(env.path)
     env.manage = MANAGE.format(env.python)
-    env.restart = ('sudo /usr/sbin/service uwsgi stop',
-                   'sudo /usr/sbin/service nginx stop',
-                   'sudo /usr/sbin/service uwsgi start',
-                   'sudo /usr/sbin/service nginx start',)
+    env.restart = ('sudo /usr/sbin/service uwsgi restart',
+                   'sudo /usr/sbin/service uwsgi restart',)
+
+
+@task
+def brainstem():
+    env.run = run
+    env.cd = cd
+    env.user = 'pi'
+    env.name = 'brainstem'
+    env.hosts = ['theey.es:6789']
+    env.path = '/srv/theeyes/brainstem/'
+    env.project = 'theeyes'
+    env.virtualenv = 'virtualenv -p python'
+    env.environment = env.path + 'venv'
+    env.warn_only = True
+    env.python = 'source {0}venv/bin/activate && python'.format(env.path)
+    env.pip = 'source {0}venv/bin/activate && pip'.format(env.path)
+    env.manage = MANAGE.format(env.python)
+    env.restart = ('',)
+
+
+@task
+def brainstem_dev():
+    env.run = run
+    env.cd = cd
+    env.user = 'pi'
+    env.name = 'brainstem'
+    env.hosts = ['brainstem.local']
+    env.path = '/srv/theeyes/brainstem/'
+    env.project = 'theeyes'
+    env.virtualenv = 'virtualenv -p python'
+    env.environment = env.path + 'venv'
+    env.warn_only = True
+    env.python = 'source {0}venv/bin/activate && python'.format(env.path)
+    env.pip = 'source {0}venv/bin/activate && pip'.format(env.path)
+    env.manage = MANAGE.format(env.python)
+    env.restart = ('',)
 
 
 @task
@@ -61,36 +95,45 @@ def bootstrap():
 
 @task
 def upload():
-    if not 'localhost' in env.hosts:
+    if 'localhost' not in env.hosts:
         extra_opts = '--omit-dir-times'
         put('requirements', env.path)
-        rsync_project(remote_dir=env.path,
-                      local_dir=env.project,
-                      delete=True,
-                      extra_opts=extra_opts,
-                      exclude=('{0}/static/'.format(env.project),
-                               '{0}/media/'.format(env.project),
-                               '{0}/logs/'.format(env.project),
-                               '*.pyc',
-                               '*.pyo'))
 
-        rsync_project(remote_dir=env.path,
-                      local_dir='brainstem',
-                      delete=True,
-                      extra_opts=extra_opts,
-                      exclude=('brainstem/logs/',
-                               '__pycache__',
-                               '*.pyc',
-                               '*.pyo'))
+        if env.name != 'brainstem':
+            rsync_project(remote_dir=env.path,
+                          local_dir=env.project,
+                          delete=True,
+                          extra_opts=extra_opts,
+                          exclude=('{0}/static/'.format(env.project),
+                                   '{0}/media/'.format(env.project),
+                                   '{0}/logs/'.format(env.project),
+                                   '*.pyc',
+                                   '*.pyo'))
 
-        rsync_project(remote_dir=env.path,
-                      local_dir='webroot',
-                      delete=True,
-                      extra_opts=extra_opts,
-                      exclude=('conductor/logs/',
-                               '__pycache__',
-                               '*.pyc',
-                               '*.pyo'))
+            rsync_project(remote_dir=env.path,
+                          local_dir='cortex',
+                          delete=True,
+                          extra_opts=extra_opts,
+                          exclude=('cortex/logs/',
+                                   '__pycache__',
+                                   '*.pyc',
+                                   '*.pyo'))
+
+            rsync_project(remote_dir=env.path,
+                          local_dir='webroot',
+                          delete=True,
+                          extra_opts=extra_opts)
+
+        else:
+            rsync_project(remote_dir=env.path + '../',
+                          local_dir='brainstem',
+                          delete=True,
+                          extra_opts=extra_opts,
+                          exclude=('brainstem/logs/',
+                                   'brainstem/venv/',
+                                   '__pycache__',
+                                   '*.pyc',
+                                   '*.pyo'))
 
 
 @task
@@ -136,7 +179,8 @@ def restart_conductor():
 @task
 def deploy():
     upload()
-    collectstatic()
-    syncdb()
-    migrate()
-    restart()
+    if env.name != 'brainstem':
+        collectstatic()
+        syncdb()
+        migrate()
+        restart()

@@ -1,5 +1,11 @@
 HTTP_PORT = 8080
 
+DEBUG = False
+WEBROOT = '../webroot'
+BRAINSTEM_PORT = 10000
+
+EYE_COUNT = 16
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,

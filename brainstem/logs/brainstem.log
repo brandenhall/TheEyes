@@ -1,309 +1,1441 @@
-2014-10-01 23:16:49.458 INFO [brainstem:31] Starting Brainstem...
-2014-10-01 23:16:52.350 WARNING [brainstem:35] Caught signal: 2
-2014-10-01 23:16:52.351 INFO [brainstem:39] Stopping Conductor...
-2014-10-01 23:16:52.351 INFO [brainstem:48] Shutdown
-2014-10-06 21:36:28.653 INFO [brainstem:42] Starting Brainstem...
-2014-10-06 21:36:45.302 WARNING [web:1811] 403 GET /?encoding=text (::1) 0.87ms
-2014-10-06 21:36:59.598 WARNING [web:1811] 403 GET /?encoding=text (::1) 0.41ms
-2014-10-06 21:37:08.123 WARNING [brainstem:56] Caught signal: 2
-2014-10-06 21:37:08.124 INFO [brainstem:60] Stopping Brainstem...
-2014-10-06 21:37:08.124 INFO [brainstem:69] Shutdown
-2014-10-06 21:41:38.760 INFO [brainstem:42] Starting Brainstem...
-2014-10-06 21:41:45.286 INFO [brainstem:48] Websocket client connected
-2014-10-06 21:41:48.476 INFO [brainstem:52] Websocket client disconnected
-2014-10-06 21:41:48.476 ERROR [web:1407] Uncaught exception GET /?encoding=text (::1)
-HTTPServerRequest(protocol='http', host='localhost:8080', method='GET', uri='/?encoding=text', version='HTTP/1.1', remote_ip='::1', headers={'Pragma': 'no-cache', 'Cookie': 'sessionid=ssvz44wovt1mywy88y70o9vcxvrnst2j; csrftoken=xr1VBNATmGuY0TyZAbU0SOD8QpOvGJ1g', 'Connection': 'Upgrade', 'Origin': 'http://www.websocket.org', 'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits, x-webkit-deflate-frame', 'Cache-Control': 'no-cache', 'Sec-Websocket-Key': 'd00G97+FKKez5/zYsH4acQ==', 'Host': 'localhost:8080', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36', 'Sec-Websocket-Version': '13', 'Upgrade': 'websocket'})
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/web.py", line 1288, in _stack_context_handle_exception
-    raise_exc_info((type, value, traceback))
-  File "<string>", line 3, in raise_exc_info
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 314, in wrapped
-    ret = fn(*args, **kwargs)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 337, in on_connection_close
-    self.on_close()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/handlers.py", line 20, in on_close
-    Brainstem.instance().remove_websocket_client(self)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 53, in remove_websocket_client
-    self.add_websocket_client.remove(client)
-AttributeError: 'function' object has no attribute 'remove'
-2014-10-06 21:41:48.485 ERROR [iostream:511] Uncaught exception, closing connection.
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/web.py", line 1288, in _stack_context_handle_exception
-    raise_exc_info((type, value, traceback))
-  File "<string>", line 3, in raise_exc_info
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 314, in wrapped
-    ret = fn(*args, **kwargs)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 337, in on_connection_close
-    self.on_close()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/handlers.py", line 20, in on_close
-    Brainstem.instance().remove_websocket_client(self)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 53, in remove_websocket_client
-    self.add_websocket_client.remove(client)
-AttributeError: 'function' object has no attribute 'remove'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/iostream.py", line 508, in wrapper
-    return callback(*args)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 343, in wrapped
-    raise_exc_info(exc)
-  File "<string>", line 3, in raise_exc_info
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 355, in _handle_exception
-    if tail.exit(*exc):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 186, in exit
-    return self.exception_handler(type, value, traceback)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/web.py", line 1290, in _stack_context_handle_exception
-    self._handle_request_exception(value)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/web.py", line 1387, in _handle_request_exception
-    self.send_error(500, exc_info=sys.exc_info())
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 345, in _disallow_for_websocket
-    raise RuntimeError("Method not supported for Web Sockets")
-RuntimeError: Method not supported for Web Sockets
-2014-10-06 21:41:48.487 ERROR [ioloop:585] Exception in callback functools.partial(<function wrap.<locals>.null_wrapper at 0x106ee88c8>)
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/web.py", line 1288, in _stack_context_handle_exception
-    raise_exc_info((type, value, traceback))
-  File "<string>", line 3, in raise_exc_info
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 314, in wrapped
-    ret = fn(*args, **kwargs)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 337, in on_connection_close
-    self.on_close()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/handlers.py", line 20, in on_close
-    Brainstem.instance().remove_websocket_client(self)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 53, in remove_websocket_client
-    self.add_websocket_client.remove(client)
-AttributeError: 'function' object has no attribute 'remove'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 565, in _run_callback
-    ret = callback()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 275, in null_wrapper
-    return fn(*args, **kwargs)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/iostream.py", line 508, in wrapper
-    return callback(*args)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 343, in wrapped
-    raise_exc_info(exc)
-  File "<string>", line 3, in raise_exc_info
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 355, in _handle_exception
-    if tail.exit(*exc):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/stack_context.py", line 186, in exit
-    return self.exception_handler(type, value, traceback)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/web.py", line 1290, in _stack_context_handle_exception
-    self._handle_request_exception(value)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/web.py", line 1387, in _handle_request_exception
-    self.send_error(500, exc_info=sys.exc_info())
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 345, in _disallow_for_websocket
-    raise RuntimeError("Method not supported for Web Sockets")
-RuntimeError: Method not supported for Web Sockets
-2014-10-06 21:42:19.779 WARNING [brainstem:56] Caught signal: 2
-2014-10-06 21:42:19.779 INFO [brainstem:60] Stopping Brainstem...
-2014-10-06 21:42:19.779 INFO [brainstem:69] Shutdown
-2014-10-06 21:42:20.552 INFO [brainstem:42] Starting Brainstem...
-2014-10-06 21:42:23.145 INFO [brainstem:48] Websocket client connected
-2014-10-06 21:42:24.616 INFO [brainstem:52] Websocket client disconnected
-2014-10-06 21:42:27.994 INFO [brainstem:48] Websocket client connected
-2014-10-06 21:42:29.062 INFO [brainstem:52] Websocket client disconnected
-2014-10-06 21:42:32.234 WARNING [brainstem:56] Caught signal: 2
-2014-10-06 21:42:32.235 INFO [brainstem:60] Stopping Brainstem...
-2014-10-06 21:42:32.235 INFO [brainstem:69] Shutdown
-2014-10-06 21:51:46.418 INFO [brainstem:46] Starting Brainstem...
-2014-10-06 21:52:12.902 INFO [brainstem:58] Websocket client connected
-2014-10-06 21:52:16.932 INFO [brainstem:62] Websocket client disconnected
-2014-10-06 21:52:26.310 WARNING [brainstem:66] Caught signal: 2
-2014-10-06 21:52:26.311 INFO [brainstem:70] Stopping Brainstem...
-2014-10-06 21:52:26.311 INFO [brainstem:79] Shutdown
-2014-10-06 21:52:27.213 INFO [brainstem:47] Starting Brainstem...
-2014-10-06 21:52:31.151 INFO [brainstem:59] Websocket client connected
-2014-10-06 21:52:33.152 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x10e2a8390>>
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
-    return self.callback()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 54, in send_preview
-    data = self.eye.encode()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/eye.py", line 96, in encode
-    output.append(pixel[0], pixel[1], pixel[2])
-TypeError: append() takes exactly one argument (3 given)
-2014-10-06 21:52:35.153 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x10e2a8390>>
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
-    return self.callback()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 54, in send_preview
-    data = self.eye.encode()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/eye.py", line 96, in encode
-    output.append(pixel[0], pixel[1], pixel[2])
-TypeError: append() takes exactly one argument (3 given)
-2014-10-06 21:52:37.152 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x10e2a8390>>
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
-    return self.callback()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 54, in send_preview
-    data = self.eye.encode()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/eye.py", line 96, in encode
-    output.append(pixel[0], pixel[1], pixel[2])
-TypeError: append() takes exactly one argument (3 given)
-2014-10-06 21:52:37.718 WARNING [brainstem:67] Caught signal: 2
-2014-10-06 21:52:37.718 INFO [brainstem:71] Stopping Brainstem...
-2014-10-06 21:52:37.718 INFO [brainstem:80] Shutdown
-2014-10-06 21:53:29.281 INFO [brainstem:47] Starting Brainstem...
-2014-10-06 21:53:33.169 INFO [brainstem:59] Websocket client connected
-2014-10-06 21:53:35.170 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x106331320>>
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
-    return self.callback()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 54, in send_preview
-    data = self.eye.encode()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/eye.py", line 96, in encode
-    output.append(pixel)
-TypeError: an integer is required
-2014-10-06 21:53:37.169 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x106331320>>
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
-    return self.callback()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 54, in send_preview
-    data = self.eye.encode()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/eye.py", line 96, in encode
-    output.append(pixel)
-TypeError: an integer is required
-2014-10-06 21:53:38.570 WARNING [brainstem:67] Caught signal: 2
-2014-10-06 21:53:38.571 INFO [brainstem:71] Stopping Brainstem...
-2014-10-06 21:53:38.571 INFO [brainstem:80] Shutdown
-2014-10-06 21:53:51.468 INFO [brainstem:47] Starting Brainstem...
-2014-10-06 21:53:56.360 INFO [brainstem:59] Websocket client connected
-2014-10-06 21:53:58.361 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x1071f5320>>
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
-    return self.callback()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
-    client.send(data, True)
-AttributeError: 'SimulatorHandler' object has no attribute 'send'
-2014-10-06 21:54:00.361 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x1071f5320>>
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
-    return self.callback()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
-    client.send(data, True)
-AttributeError: 'SimulatorHandler' object has no attribute 'send'
-2014-10-06 21:54:02.361 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x1071f5320>>
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
-    return self.callback()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
-    client.send(data, True)
-AttributeError: 'SimulatorHandler' object has no attribute 'send'
-2014-10-06 21:54:04.361 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x1071f5320>>
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
-    return self.callback()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
-    client.send(data, True)
-AttributeError: 'SimulatorHandler' object has no attribute 'send'
-2014-10-06 21:54:04.995 WARNING [brainstem:67] Caught signal: 2
-2014-10-06 21:54:04.995 INFO [brainstem:71] Stopping Brainstem...
-2014-10-06 21:54:04.995 INFO [brainstem:80] Shutdown
-2014-10-06 21:54:26.335 INFO [brainstem:47] Starting Brainstem...
-2014-10-06 21:54:30.617 INFO [brainstem:59] Websocket client connected
-2014-10-06 21:54:32.617 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x10f8ea390>>
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
-    return self.callback()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
-    client.write_message(data, True)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 201, in write_message
-    self.ws_connection.write_message(message, binary=binary)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 488, in write_message
-    message = tornado.escape.utf8(message)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/escape.py", line 203, in utf8
-    "Expected bytes, unicode, or None; got %r" % type(value)
-TypeError: Expected bytes, unicode, or None; got <class 'bytearray'>
-2014-10-06 21:54:34.618 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x10f8ea390>>
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
-    return self.callback()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
-    client.write_message(data, True)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 201, in write_message
-    self.ws_connection.write_message(message, binary=binary)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 488, in write_message
-    message = tornado.escape.utf8(message)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/escape.py", line 203, in utf8
-    "Expected bytes, unicode, or None; got %r" % type(value)
-TypeError: Expected bytes, unicode, or None; got <class 'bytearray'>
-2014-10-06 21:54:36.617 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x10f8ea390>>
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
-    return self.callback()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
-    client.write_message(data, True)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 201, in write_message
-    self.ws_connection.write_message(message, binary=binary)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 488, in write_message
-    message = tornado.escape.utf8(message)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/escape.py", line 203, in utf8
-    "Expected bytes, unicode, or None; got %r" % type(value)
-TypeError: Expected bytes, unicode, or None; got <class 'bytearray'>
-2014-10-06 21:54:38.617 ERROR [ioloop:585] Exception in callback <bound method Brainstem.send_preview of <brainstem.brainstem.Brainstem object at 0x10f8ea390>>
-Traceback (most recent call last):
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/ioloop.py", line 976, in _run
-    return self.callback()
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/brainstem/brainstem.py", line 56, in send_preview
-    client.write_message(data, True)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 201, in write_message
-    self.ws_connection.write_message(message, binary=binary)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/websocket.py", line 488, in write_message
-    message = tornado.escape.utf8(message)
-  File "/Users/bhall/Documents/Lab/TheEyes/brainstem/venv/lib/python3.4/site-packages/tornado/escape.py", line 203, in utf8
-    "Expected bytes, unicode, or None; got %r" % type(value)
-TypeError: Expected bytes, unicode, or None; got <class 'bytearray'>
-2014-10-06 21:54:39.305 WARNING [brainstem:67] Caught signal: 2
-2014-10-06 21:54:39.306 INFO [brainstem:71] Stopping Brainstem...
-2014-10-06 21:54:39.306 INFO [brainstem:80] Shutdown
-2014-10-06 21:55:43.230 INFO [brainstem:47] Starting Brainstem...
-2014-10-06 21:55:47.217 INFO [brainstem:59] Websocket client connected
-2014-10-06 21:56:05.469 INFO [brainstem:63] Websocket client disconnected
-2014-10-06 22:25:21.856 WARNING [brainstem:67] Caught signal: 2
-2014-10-06 22:25:21.865 INFO [brainstem:71] Stopping Brainstem...
-2014-10-06 22:25:21.865 INFO [brainstem:80] Shutdown
-2014-10-06 22:47:33.211 INFO [brainstem:48] Starting Brainstem...
-2014-10-06 22:47:40.845 WARNING [web:1404] 403 GET / (::1):  is not a file
-2014-10-06 22:47:40.846 WARNING [web:1811] 403 GET / (::1) 1.26ms
-2014-10-06 22:47:41.014 WARNING [web:1811] 404 GET /favicon.ico (::1) 0.56ms
-2014-10-06 22:47:46.404 INFO [web:1811] 200 GET /index.html (::1) 9.74ms
-2014-10-06 22:51:26.477 WARNING [brainstem:68] Caught signal: 2
-2014-10-06 22:51:26.478 INFO [brainstem:72] Stopping Brainstem...
-2014-10-06 22:51:26.478 INFO [brainstem:81] Shutdown
-2014-10-06 22:51:27.187 INFO [brainstem:48] Starting Brainstem...
-2014-10-06 22:51:32.992 INFO [web:1811] 200 GET / (::1) 8.29ms
-2014-10-06 22:51:34.076 INFO [web:1811] 304 GET / (::1) 0.70ms
-2014-10-06 22:51:34.558 INFO [web:1811] 304 GET / (::1) 0.67ms
-2014-10-06 22:51:43.691 INFO [web:1811] 304 GET / (::1) 0.71ms
-2014-10-06 22:56:17.014 INFO [web:1811] 304 GET / (::1) 0.56ms
-2014-10-06 22:56:18.026 INFO [web:1811] 304 GET / (::1) 0.68ms
-2014-10-06 22:56:18.698 INFO [web:1811] 304 GET / (::1) 0.67ms
-2014-10-06 22:56:19.104 INFO [web:1811] 304 GET / (::1) 0.59ms
-2014-10-06 22:56:19.379 INFO [web:1811] 304 GET / (::1) 0.69ms
-2014-10-06 22:56:19.593 INFO [web:1811] 304 GET / (::1) 0.94ms
-2014-10-06 22:56:29.785 INFO [web:1811] 304 GET / (::1) 0.68ms
-2014-10-06 22:56:30.274 INFO [web:1811] 304 GET / (::1) 0.68ms
-2014-10-06 22:56:30.657 INFO [web:1811] 304 GET / (::1) 0.66ms
-2014-10-06 22:56:32.320 WARNING [brainstem:68] Caught signal: 2
-2014-10-06 22:56:32.321 INFO [brainstem:72] Stopping Brainstem...
-2014-10-06 22:56:32.321 INFO [brainstem:81] Shutdown
-2014-10-06 22:56:33.062 INFO [brainstem:48] Starting Brainstem...
-2014-10-06 22:56:34.665 INFO [web:1811] 200 GET / (::1) 8.02ms
-2014-10-06 22:56:34.690 INFO [web:1811] 200 GET /css/style.css (::1) 0.74ms
-2014-10-06 22:56:34.692 WARNING [web:1811] 404 GET /js/paper-full.js (::1) 0.45ms
-2014-10-06 22:56:34.693 INFO [web:1811] 200 GET /js/simulator.js (::1) 0.54ms
-2014-10-06 22:56:35.625 INFO [web:1811] 304 GET / (::1) 0.66ms
-2014-10-06 22:56:35.651 INFO [web:1811] 304 GET /css/style.css (::1) 0.58ms
-2014-10-06 22:56:35.652 WARNING [web:1811] 404 GET /js/paper-full.js (::1) 0.41ms
-2014-10-06 22:56:35.653 INFO [web:1811] 304 GET /js/simulator.js (::1) 0.44ms
-2014-10-06 22:56:35.987 INFO [web:1811] 304 GET / (::1) 0.69ms
-2014-10-06 22:56:36.020 INFO [web:1811] 304 GET /css/style.css (::1) 0.93ms
-2014-10-06 22:56:36.022 WARNING [web:1811] 404 GET /js/paper-full.js (::1) 0.76ms
-2014-10-06 22:56:36.023 INFO [web:1811] 304 GET /js/simulator.js (::1) 0.99ms
-2014-10-07 11:06:32.679 WARNING [brainstem:68] Caught signal: 2
-2014-10-07 11:06:32.689 INFO [brainstem:72] Stopping Brainstem...
-2014-10-07 11:06:32.690 INFO [brainstem:81] Shutdown
+2014-10-19 22:41:38.172 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.186 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.202 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.217 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.232 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.247 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.262 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.277 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.292 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.307 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.321 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.337 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.351 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.366 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.381 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.397 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.411 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.427 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.441 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.456 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.471 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.487 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.501 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.516 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.532 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.547 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.562 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.576 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.592 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.607 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.621 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.637 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.651 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.666 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.682 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.697 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.711 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.727 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.741 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.756 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.771 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.787 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.801 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.817 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.831 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.846 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.861 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.877 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.891 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.906 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.921 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.936 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.952 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.966 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.981 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:38.996 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.011 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.027 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.041 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.056 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.071 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.086 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.101 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.116 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.131 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.147 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.162 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.177 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.191 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.206 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.221 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.236 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.251 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.267 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.281 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.297 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.312 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.327 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.341 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.356 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.371 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.387 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.401 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.416 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.431 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.447 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.461 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.477 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.491 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.506 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.521 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.536 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.551 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.566 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.581 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.597 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.611 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.626 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.642 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.656 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.672 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.686 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.701 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.716 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.731 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.746 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.761 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.776 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.791 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.806 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.822 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.837 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.851 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.867 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.881 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.896 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.911 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.927 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.941 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.957 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.972 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:39.987 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.002 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.016 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.032 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.046 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.061 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.077 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.092 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.106 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.121 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.137 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.152 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.167 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.182 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.197 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.212 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.227 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.242 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.257 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.272 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.287 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.301 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.317 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.332 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.346 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.361 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.377 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.391 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.407 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.422 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.437 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.451 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.467 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.482 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.497 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.512 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.527 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.541 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.557 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.572 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.587 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.602 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.617 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.632 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.647 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.662 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.677 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.691 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.707 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.722 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.737 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.752 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.767 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.782 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.796 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.812 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.826 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.842 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.856 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.872 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.887 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.901 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.917 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.932 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.946 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.962 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.976 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:40.991 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.007 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.022 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.036 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.051 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.067 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.082 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.096 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.112 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.126 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.142 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.156 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.171 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.187 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.201 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.216 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.231 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.246 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.262 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.277 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.292 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.307 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.322 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.337 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.351 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.367 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.382 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.396 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.411 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.427 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.442 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.457 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.471 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.486 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.502 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.517 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.532 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.546 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.562 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.577 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.592 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.607 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.621 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.637 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.651 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.666 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.682 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.697 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.711 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.726 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.742 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.757 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.772 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.786 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.802 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.816 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.831 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.847 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.861 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.877 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.891 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.907 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.922 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.937 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.952 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.967 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.981 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:41.996 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.012 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.027 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.042 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.056 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.072 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.087 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.102 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.116 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.132 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.146 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.162 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.176 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.192 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.207 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.222 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.236 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.252 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.267 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.281 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.296 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.312 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.327 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.341 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.357 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.372 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.386 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.401 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.417 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.432 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.446 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.461 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.477 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.491 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.507 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.521 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.537 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.552 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.566 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.581 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.596 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.612 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.627 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.641 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.657 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.671 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.686 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.701 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.716 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.731 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.747 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.761 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.777 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.791 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.806 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.821 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.837 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.852 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.867 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.881 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.897 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.912 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.927 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.941 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.957 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.971 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:42.987 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.002 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.016 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.032 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.047 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.061 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.076 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.092 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.107 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.122 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.136 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.151 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.166 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.182 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.196 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.212 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.227 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.242 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.257 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.272 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.286 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.301 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.317 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.332 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.346 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.361 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.376 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.391 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.406 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.422 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.436 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.451 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.466 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.481 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.496 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.512 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.527 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.542 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.556 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.572 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.587 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.601 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.617 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.632 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.646 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.661 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:43.668 INFO [handlers:69] {"color": [255, 0, 0], "type": "set_color"}
+2014-10-19 22:41:43.677 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.692 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.706 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.722 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.737 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.752 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.767 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.782 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.797 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.811 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.827 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.842 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.857 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.871 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.887 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.901 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.916 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.931 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.946 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.961 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.977 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:43.991 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.007 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.022 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.037 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.052 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.067 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.082 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.096 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.112 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.126 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.142 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.157 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.171 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.186 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.202 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.217 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.232 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.246 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.262 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.276 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.292 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.307 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.321 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.336 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.351 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.366 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.382 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.396 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.412 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.427 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.441 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.456 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.472 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.486 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.501 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.516 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.532 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.547 INFO [brainstem:67] Send pixels [[255, 0, 0], [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.562 INFO [brainstem:67] Send pixels [(0, 0, 0), [255, 0, 0], [255, 0, 0]]
+2014-10-19 22:41:44.577 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), [255, 0, 0]]
+2014-10-19 22:41:44.591 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.606 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.621 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.636 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.651 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.667 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.681 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.697 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.712 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.727 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.742 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.757 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.772 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.786 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.802 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.817 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.832 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.846 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.861 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.876 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.892 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.906 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.921 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.936 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.951 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.966 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.981 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:44.996 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.012 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.027 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.041 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.057 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.072 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.086 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.102 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.116 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.132 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.146 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.162 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.176 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.192 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.206 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.222 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.237 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.252 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.266 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.282 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.297 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.311 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.326 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.342 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.356 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.372 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.387 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.402 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.417 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.431 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.447 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.462 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.476 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.491 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.507 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.522 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.537 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.552 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.566 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.581 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.596 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.612 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.626 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.642 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.656 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.671 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.687 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.701 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.717 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.731 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.747 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.761 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.777 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.792 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.806 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.822 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.837 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.851 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.867 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.881 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.897 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.911 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.927 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.942 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.957 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.972 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:45.987 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.002 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.017 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.031 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.046 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.062 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.076 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.092 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.107 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.122 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.137 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.151 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.167 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.181 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.197 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.212 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.226 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.242 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.257 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.271 INFO [brainstem:67] Send pixels [(0, 0, 0), (0, 0, 0), (0, 0, 0)]
+2014-10-19 22:41:46.273 WARNING [brainstem:93] Caught signal: 2
+2014-10-19 22:41:46.273 INFO [brainstem:97] Stopping Brainstem...
+2014-10-19 22:41:46.273 INFO [brainstem:106] Shutdown
+2014-10-22 21:10:25.616 INFO [brainstem:29] Starting Brainstem...
+2014-10-22 21:10:25.627 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 21:10:25.665 WARNING [iostream:1094] Connect error on fd 12: ECONNREFUSED
+2014-10-22 21:10:25.665 WARNING [clients:63] Cannot connect, host theey.es:10000 is unreachable
+2014-10-22 21:10:31.695 WARNING [brainstem:92] Caught signal: 2
+2014-10-22 21:10:31.695 INFO [brainstem:96] Stopping Brainstem...
+2014-10-22 21:10:31.696 INFO [brainstem:105] Shutdown
+2014-10-22 21:10:41.824 INFO [brainstem:29] Starting Brainstem...
+2014-10-22 21:10:41.824 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 21:10:41.865 WARNING [iostream:1094] Connect error on fd 9: ECONNREFUSED
+2014-10-22 21:10:41.865 WARNING [clients:63] Cannot connect, host theey.es:10000 is unreachable
+2014-10-22 21:10:43.286 WARNING [brainstem:92] Caught signal: 2
+2014-10-22 21:10:43.287 INFO [brainstem:96] Stopping Brainstem...
+2014-10-22 21:10:43.287 INFO [brainstem:105] Shutdown
+2014-10-22 21:12:28.128 INFO [brainstem:29] Starting Brainstem...
+2014-10-22 21:12:28.133 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 21:18:53.920 WARNING [brainstem:92] Caught signal: 2
+2014-10-22 21:18:53.920 INFO [brainstem:96] Stopping Brainstem...
+2014-10-22 21:18:53.920 INFO [brainstem:105] Shutdown
+2014-10-22 21:18:54.700 INFO [brainstem:29] Starting Brainstem...
+2014-10-22 21:18:54.713 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 21:19:05.021 INFO [brainstem:29] Starting Brainstem...
+2014-10-22 21:19:05.033 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 21:19:05.382 INFO [brainstem:71] Eye data loaded from CMS.
+2014-10-22 21:19:05.382 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:10:12.761 WARNING [brainstem:110] Caught signal: 2
+2014-10-22 23:10:12.770 INFO [brainstem:114] Stopping Brainstem...
+2014-10-22 23:10:12.771 INFO [brainstem:123] Shutdown
+2014-10-22 23:10:14.545 INFO [brainstem:30] Starting Brainstem...
+2014-10-22 23:10:14.760 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:10:15.726 INFO [brainstem:74] Eye data loaded from CMS.
+2014-10-22 23:10:15.729 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:10:54.463 INFO [brainstem:30] Starting Brainstem...
+2014-10-22 23:10:54.481 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:10:55.047 INFO [brainstem:74] Eye data loaded from CMS.
+2014-10-22 23:10:55.049 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:11:54.648 INFO [brainstem:30] Starting Brainstem...
+2014-10-22 23:11:54.666 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:11:55.258 INFO [brainstem:74] Eye data loaded from CMS.
+2014-10-22 23:11:55.260 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:11:55.593 INFO [brainstem:109] Added eye for creature "Baby"
+2014-10-22 23:11:55.600 INFO [brainstem:120] Added animated response for creature "Baby" with 71 frames
+2014-10-22 23:11:55.602 INFO [brainstem:120] Added animated response for creature "Baby" with 22 frames
+2014-10-22 23:11:55.603 INFO [brainstem:122] Finished adding creature "Baby"
+2014-10-22 23:11:55.603 INFO [brainstem:109] Added eye for creature "Flirt"
+2014-10-22 23:11:55.608 INFO [brainstem:120] Added animated response for creature "Flirt" with 63 frames
+2014-10-22 23:11:55.611 INFO [brainstem:120] Added animated response for creature "Flirt" with 33 frames
+2014-10-22 23:11:55.617 INFO [brainstem:120] Added animated response for creature "Flirt" with 63 frames
+2014-10-22 23:11:55.620 INFO [brainstem:120] Added animated response for creature "Flirt" with 35 frames
+2014-10-22 23:11:55.629 INFO [brainstem:120] Added animated response for creature "Flirt" with 100 frames
+2014-10-22 23:11:55.632 INFO [brainstem:120] Added animated response for creature "Flirt" with 23 frames
+2014-10-22 23:11:55.635 INFO [brainstem:120] Added animated response for creature "Flirt" with 35 frames
+2014-10-22 23:11:55.637 INFO [brainstem:120] Added animated response for creature "Flirt" with 23 frames
+2014-10-22 23:11:55.643 INFO [brainstem:120] Added animated response for creature "Flirt" with 63 frames
+2014-10-22 23:11:55.650 INFO [brainstem:120] Added animated response for creature "Flirt" with 75 frames
+2014-10-22 23:11:55.653 INFO [brainstem:120] Added animated response for creature "Flirt" with 33 frames
+2014-10-22 23:11:55.660 INFO [brainstem:120] Added animated response for creature "Flirt" with 75 frames
+2014-10-22 23:11:55.663 INFO [brainstem:120] Added animated response for creature "Flirt" with 33 frames
+2014-10-22 23:11:55.669 INFO [brainstem:120] Added animated response for creature "Flirt" with 63 frames
+2014-10-22 23:11:55.679 INFO [brainstem:120] Added animated response for creature "Flirt" with 100 frames
+2014-10-22 23:11:55.681 INFO [brainstem:120] Added animated response for creature "Flirt" with 23 frames
+2014-10-22 23:11:55.684 INFO [brainstem:120] Added animated response for creature "Flirt" with 33 frames
+2014-10-22 23:11:55.693 INFO [brainstem:120] Added animated response for creature "Flirt" with 33 frames
+2014-10-22 23:11:55.700 INFO [brainstem:120] Added animated response for creature "Flirt" with 75 frames
+2014-10-22 23:11:55.702 INFO [brainstem:120] Added animated response for creature "Flirt" with 23 frames
+2014-10-22 23:11:55.712 INFO [brainstem:120] Added animated response for creature "Flirt" with 100 frames
+2014-10-22 23:11:55.715 INFO [brainstem:120] Added animated response for creature "Flirt" with 35 frames
+2014-10-22 23:11:55.715 INFO [brainstem:122] Finished adding creature "Flirt"
+2014-10-22 23:11:55.715 INFO [brainstem:109] Added eye for creature "Grump"
+2014-10-22 23:11:55.715 INFO [brainstem:122] Finished adding creature "Grump"
+2014-10-22 23:11:55.716 INFO [brainstem:109] Added eye for creature "Grannie"
+2014-10-22 23:11:55.719 INFO [brainstem:120] Added animated response for creature "Grannie" with 37 frames
+2014-10-22 23:11:55.722 INFO [brainstem:120] Added animated response for creature "Grannie" with 30 frames
+2014-10-22 23:11:55.726 INFO [brainstem:120] Added animated response for creature "Grannie" with 37 frames
+2014-10-22 23:11:55.729 INFO [brainstem:120] Added animated response for creature "Grannie" with 30 frames
+2014-10-22 23:11:55.729 INFO [brainstem:122] Finished adding creature "Grannie"
+2014-10-22 23:11:55.729 INFO [brainstem:109] Added eye for creature "Raver"
+2014-10-22 23:11:55.729 INFO [brainstem:122] Finished adding creature "Raver"
+2014-10-22 23:11:55.731 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:12:57.341 WARNING [brainstem:167] Caught signal: 2
+2014-10-22 23:12:57.341 INFO [brainstem:171] Stopping Brainstem...
+2014-10-22 23:12:57.342 INFO [brainstem:180] Shutdown
+2014-10-22 23:12:58.176 INFO [brainstem:30] Starting Brainstem...
+2014-10-22 23:12:58.189 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:12:58.506 INFO [brainstem:74] Eye data loaded from CMS.
+2014-10-22 23:12:58.509 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:12:58.853 INFO [brainstem:119] Loaded "Baby" animation with 71 frames
+2014-10-22 23:12:58.855 INFO [brainstem:119] Loaded "Baby" animation with 22 frames
+2014-10-22 23:12:58.855 INFO [brainstem:121] Finished adding creature "Baby"
+2014-10-22 23:12:58.861 INFO [brainstem:119] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:12:58.864 INFO [brainstem:119] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:12:58.871 INFO [brainstem:119] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:12:58.874 INFO [brainstem:119] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:12:58.883 INFO [brainstem:119] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:12:58.886 INFO [brainstem:119] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:12:58.889 INFO [brainstem:119] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:12:58.892 INFO [brainstem:119] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:12:58.899 INFO [brainstem:119] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:12:58.907 INFO [brainstem:119] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:12:58.911 INFO [brainstem:119] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:12:58.918 INFO [brainstem:119] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:12:58.921 INFO [brainstem:119] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:12:58.927 INFO [brainstem:119] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:12:58.937 INFO [brainstem:119] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:12:58.939 INFO [brainstem:119] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:12:58.943 INFO [brainstem:119] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:12:58.953 INFO [brainstem:119] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:12:58.960 INFO [brainstem:119] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:12:58.962 INFO [brainstem:119] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:12:58.972 INFO [brainstem:119] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:12:58.976 INFO [brainstem:119] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:12:58.976 INFO [brainstem:121] Finished adding creature "Flirt"
+2014-10-22 23:12:58.976 INFO [brainstem:121] Finished adding creature "Grump"
+2014-10-22 23:12:58.980 INFO [brainstem:119] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:12:58.983 INFO [brainstem:119] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:12:58.987 INFO [brainstem:119] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:12:58.990 INFO [brainstem:119] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:12:58.990 INFO [brainstem:121] Finished adding creature "Grannie"
+2014-10-22 23:12:58.990 INFO [brainstem:121] Finished adding creature "Raver"
+2014-10-22 23:12:58.992 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:17:38.765 WARNING [brainstem:166] Caught signal: 2
+2014-10-22 23:17:38.766 INFO [brainstem:170] Stopping Brainstem...
+2014-10-22 23:17:38.766 INFO [brainstem:179] Shutdown
+2014-10-22 23:17:41.118 INFO [brainstem:30] Starting Brainstem...
+2014-10-22 23:17:41.133 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:17:41.711 INFO [brainstem:74] Eye data loaded from CMS.
+2014-10-22 23:17:41.715 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:17:42.116 INFO [brainstem:119] Loaded "Baby" animation with 71 frames
+2014-10-22 23:17:42.118 INFO [brainstem:119] Loaded "Baby" animation with 22 frames
+2014-10-22 23:17:42.118 INFO [brainstem:121] Finished adding creature "Baby"
+2014-10-22 23:17:42.124 INFO [brainstem:119] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:17:42.127 INFO [brainstem:119] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:17:42.133 INFO [brainstem:119] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:17:42.137 INFO [brainstem:119] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:17:42.146 INFO [brainstem:119] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:17:42.148 INFO [brainstem:119] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:17:42.151 INFO [brainstem:119] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:17:42.154 INFO [brainstem:119] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:17:42.160 INFO [brainstem:119] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:17:42.167 INFO [brainstem:119] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:17:42.171 INFO [brainstem:119] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:17:42.178 INFO [brainstem:119] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:17:42.182 INFO [brainstem:119] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:17:42.188 INFO [brainstem:119] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:17:42.197 INFO [brainstem:119] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:17:42.199 INFO [brainstem:119] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:17:42.202 INFO [brainstem:119] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:17:42.212 INFO [brainstem:119] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:17:42.219 INFO [brainstem:119] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:17:42.222 INFO [brainstem:119] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:17:42.231 INFO [brainstem:119] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:17:42.235 INFO [brainstem:119] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:17:42.235 INFO [brainstem:121] Finished adding creature "Flirt"
+2014-10-22 23:17:42.235 INFO [brainstem:121] Finished adding creature "Grump"
+2014-10-22 23:17:42.239 INFO [brainstem:119] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:17:42.242 INFO [brainstem:119] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:17:42.245 INFO [brainstem:119] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:17:42.248 INFO [brainstem:119] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:17:42.249 INFO [brainstem:121] Finished adding creature "Grannie"
+2014-10-22 23:17:42.249 INFO [brainstem:121] Finished adding creature "Raver"
+2014-10-22 23:17:42.251 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:17:49.298 INFO [web:1811] 200 GET /simulator/ (::1) 10.68ms
+2014-10-22 23:17:49.349 INFO [web:1811] 200 GET /simulator/css/style.css (::1) 1.12ms
+2014-10-22 23:17:49.351 INFO [web:1811] 200 GET /simulator/js/simulator.js (::1) 1.19ms
+2014-10-22 23:17:49.406 INFO [brainstem:144] Simulation client connected
+2014-10-22 23:17:49.567 WARNING [web:1811] 404 GET /favicon.ico (::1) 0.50ms
+2014-10-22 23:17:56.428 WARNING [brainstem:166] Caught signal: 2
+2014-10-22 23:17:56.428 INFO [brainstem:170] Stopping Brainstem...
+2014-10-22 23:17:56.428 INFO [brainstem:179] Shutdown
+2014-10-22 23:19:41.911 INFO [brainstem:31] Starting Brainstem...
+2014-10-22 23:19:41.925 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:19:42.497 INFO [brainstem:75] Eye data loaded from CMS.
+2014-10-22 23:19:42.500 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:19:42.841 INFO [brainstem:120] Loaded "Baby" animation with 71 frames
+2014-10-22 23:19:42.843 INFO [brainstem:120] Loaded "Baby" animation with 22 frames
+2014-10-22 23:19:42.843 INFO [brainstem:122] Finished adding creature "Baby"
+2014-10-22 23:19:42.849 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:19:42.851 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:19:42.857 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:19:42.860 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:19:42.876 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:19:42.878 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:19:42.881 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:19:42.884 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:19:42.890 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:19:42.897 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:19:42.900 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:19:42.908 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:19:42.911 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:19:42.917 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:19:42.927 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:19:42.929 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:19:42.932 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:19:42.941 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:19:42.948 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:19:42.951 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:19:42.959 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:19:42.963 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:19:42.963 INFO [brainstem:122] Finished adding creature "Flirt"
+2014-10-22 23:19:42.963 INFO [brainstem:122] Finished adding creature "Grump"
+2014-10-22 23:19:42.967 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:19:42.970 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:19:42.973 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:19:42.976 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:19:42.976 INFO [brainstem:122] Finished adding creature "Grannie"
+2014-10-22 23:19:42.976 INFO [brainstem:122] Finished adding creature "Raver"
+2014-10-22 23:19:42.976 INFO [brainstem:130] Creature data loaded from CMS
+2014-10-22 23:19:42.979 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:19:44.537 INFO [web:1811] 304 GET /simulator/ (::1) 7.59ms
+2014-10-22 23:19:44.581 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.59ms
+2014-10-22 23:19:44.582 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.56ms
+2014-10-22 23:19:44.605 INFO [brainstem:150] Simulation client connected
+2014-10-22 23:19:45.799 INFO [web:1811] 304 GET /simulator/ (::1) 0.54ms
+2014-10-22 23:19:45.815 INFO [brainstem:154] Simulation client disconnected
+2014-10-22 23:19:45.840 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 1.08ms
+2014-10-22 23:19:45.842 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.78ms
+2014-10-22 23:19:45.855 INFO [brainstem:150] Simulation client connected
+2014-10-22 23:19:46.335 INFO [web:1811] 304 GET /simulator/ (::1) 0.72ms
+2014-10-22 23:19:46.350 INFO [brainstem:154] Simulation client disconnected
+2014-10-22 23:19:46.373 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.76ms
+2014-10-22 23:19:46.375 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.85ms
+2014-10-22 23:19:46.389 INFO [brainstem:150] Simulation client connected
+2014-10-22 23:19:46.791 INFO [web:1811] 304 GET /simulator/ (::1) 0.64ms
+2014-10-22 23:19:46.800 INFO [brainstem:154] Simulation client disconnected
+2014-10-22 23:19:46.824 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.54ms
+2014-10-22 23:19:46.825 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.56ms
+2014-10-22 23:19:46.840 INFO [brainstem:150] Simulation client connected
+2014-10-22 23:20:47.960 WARNING [brainstem:172] Caught signal: 2
+2014-10-22 23:20:47.960 INFO [brainstem:176] Stopping Brainstem...
+2014-10-22 23:20:47.960 INFO [brainstem:185] Shutdown
+2014-10-22 23:20:48.655 INFO [brainstem:31] Starting Brainstem...
+2014-10-22 23:20:48.672 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:20:49.157 INFO [brainstem:75] Eye data loaded from CMS.
+2014-10-22 23:20:49.160 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:20:49.523 INFO [brainstem:120] Loaded "Baby" animation with 71 frames
+2014-10-22 23:20:49.525 INFO [brainstem:120] Loaded "Baby" animation with 22 frames
+2014-10-22 23:20:49.525 INFO [brainstem:122] Finished adding creature "Baby"
+2014-10-22 23:20:49.531 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:20:49.535 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:20:49.540 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:20:49.544 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:20:49.553 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:20:49.556 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:20:49.559 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:20:49.563 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:20:49.569 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:20:49.576 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:20:49.579 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:20:49.587 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:20:49.591 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:20:49.597 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:20:49.607 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:20:49.609 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:20:49.612 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:20:49.624 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:20:49.631 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:20:49.634 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:20:49.644 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:20:49.648 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:20:49.648 INFO [brainstem:122] Finished adding creature "Flirt"
+2014-10-22 23:20:49.648 INFO [brainstem:122] Finished adding creature "Grump"
+2014-10-22 23:20:49.652 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:20:49.655 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:20:49.659 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:20:49.662 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:20:49.662 INFO [brainstem:122] Finished adding creature "Grannie"
+2014-10-22 23:20:49.662 INFO [brainstem:122] Finished adding creature "Raver"
+2014-10-22 23:20:49.662 INFO [brainstem:130] Creature data loaded from CMS
+2014-10-22 23:20:49.668 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:20:50.755 INFO [web:1811] 304 GET /simulator/ (::1) 10.99ms
+2014-10-22 23:20:50.807 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.95ms
+2014-10-22 23:20:50.809 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.78ms
+2014-10-22 23:20:50.825 INFO [brainstem:154] Simulation client connected
+2014-10-22 23:20:51.880 INFO [web:1811] 304 GET /simulator/ (::1) 0.55ms
+2014-10-22 23:20:51.891 INFO [brainstem:158] Simulation client disconnected
+2014-10-22 23:20:51.915 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.63ms
+2014-10-22 23:20:51.918 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.84ms
+2014-10-22 23:20:51.932 INFO [brainstem:154] Simulation client connected
+2014-10-22 23:20:52.347 INFO [web:1811] 304 GET /simulator/ (::1) 0.57ms
+2014-10-22 23:20:52.361 INFO [brainstem:158] Simulation client disconnected
+2014-10-22 23:20:52.382 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.76ms
+2014-10-22 23:20:52.383 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.48ms
+2014-10-22 23:20:52.398 INFO [brainstem:154] Simulation client connected
+2014-10-22 23:20:52.813 INFO [web:1811] 304 GET /simulator/ (::1) 0.75ms
+2014-10-22 23:20:52.825 INFO [brainstem:158] Simulation client disconnected
+2014-10-22 23:20:52.851 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.62ms
+2014-10-22 23:20:52.853 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.52ms
+2014-10-22 23:20:52.867 INFO [brainstem:154] Simulation client connected
+2014-10-22 23:25:30.616 WARNING [brainstem:176] Caught signal: 2
+2014-10-22 23:25:30.616 INFO [brainstem:180] Stopping Brainstem...
+2014-10-22 23:25:30.616 INFO [brainstem:189] Shutdown
+2014-10-22 23:25:31.458 INFO [brainstem:31] Starting Brainstem...
+2014-10-22 23:25:31.475 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:25:31.798 INFO [brainstem:75] Eye data loaded from CMS.
+2014-10-22 23:25:31.801 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:25:32.173 INFO [brainstem:120] Loaded "Baby" animation with 71 frames
+2014-10-22 23:25:32.175 INFO [brainstem:120] Loaded "Baby" animation with 22 frames
+2014-10-22 23:25:32.175 INFO [brainstem:122] Finished adding creature "Baby"
+2014-10-22 23:25:32.181 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:25:32.184 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:25:32.190 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:25:32.193 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:25:32.203 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:25:32.206 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:25:32.209 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:25:32.211 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:25:32.218 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:25:32.225 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:25:32.228 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:25:32.235 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:25:32.239 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:25:32.245 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:25:32.255 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:25:32.257 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:25:32.260 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:25:32.275 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:25:32.282 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:25:32.285 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:25:32.294 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:25:32.301 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:25:32.301 INFO [brainstem:122] Finished adding creature "Flirt"
+2014-10-22 23:25:32.302 INFO [brainstem:122] Finished adding creature "Grump"
+2014-10-22 23:25:32.306 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:25:32.309 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:25:32.312 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:25:32.316 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:25:32.316 INFO [brainstem:122] Finished adding creature "Grannie"
+2014-10-22 23:25:32.316 INFO [brainstem:122] Finished adding creature "Raver"
+2014-10-22 23:25:32.317 INFO [brainstem:130] Creature data loaded from CMS
+2014-10-22 23:25:32.320 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:25:33.952 INFO [web:1811] 304 GET /simulator/ (::1) 6.58ms
+2014-10-22 23:25:33.995 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.60ms
+2014-10-22 23:25:33.996 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.57ms
+2014-10-22 23:25:34.014 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:25:34.784 INFO [web:1811] 304 GET /simulator/ (::1) 0.54ms
+2014-10-22 23:25:34.795 INFO [brainstem:184] Simulation client disconnected
+2014-10-22 23:25:34.821 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 1.45ms
+2014-10-22 23:25:34.823 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.79ms
+2014-10-22 23:25:34.836 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:25:35.433 INFO [web:1811] 304 GET /simulator/ (::1) 0.53ms
+2014-10-22 23:25:35.448 INFO [brainstem:184] Simulation client disconnected
+2014-10-22 23:25:35.470 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.65ms
+2014-10-22 23:25:35.472 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 1.10ms
+2014-10-22 23:25:35.488 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:25:35.903 INFO [web:1811] 304 GET /simulator/ (::1) 0.53ms
+2014-10-22 23:25:35.907 INFO [brainstem:184] Simulation client disconnected
+2014-10-22 23:25:35.929 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.69ms
+2014-10-22 23:25:35.931 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.55ms
+2014-10-22 23:25:35.948 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:25:36.287 INFO [web:1811] 304 GET /simulator/ (::1) 0.52ms
+2014-10-22 23:25:36.299 INFO [brainstem:184] Simulation client disconnected
+2014-10-22 23:25:36.321 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.53ms
+2014-10-22 23:25:36.323 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.79ms
+2014-10-22 23:25:36.337 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:25:36.671 INFO [web:1811] 304 GET /simulator/ (::1) 0.76ms
+2014-10-22 23:25:36.682 INFO [brainstem:184] Simulation client disconnected
+2014-10-22 23:25:36.704 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.61ms
+2014-10-22 23:25:36.705 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.54ms
+2014-10-22 23:25:36.721 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:25:37.092 INFO [web:1811] 304 GET /simulator/ (::1) 0.98ms
+2014-10-22 23:25:37.107 INFO [brainstem:184] Simulation client disconnected
+2014-10-22 23:25:37.131 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.88ms
+2014-10-22 23:25:37.133 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.72ms
+2014-10-22 23:25:37.148 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:25:37.494 INFO [web:1811] 304 GET /simulator/ (::1) 0.69ms
+2014-10-22 23:25:37.504 INFO [brainstem:184] Simulation client disconnected
+2014-10-22 23:25:37.527 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.81ms
+2014-10-22 23:25:37.528 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.57ms
+2014-10-22 23:25:37.543 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:27:23.851 WARNING [brainstem:202] Caught signal: 2
+2014-10-22 23:27:23.852 INFO [brainstem:206] Stopping Brainstem...
+2014-10-22 23:27:23.852 INFO [brainstem:215] Shutdown
+2014-10-22 23:27:24.903 INFO [brainstem:31] Starting Brainstem...
+2014-10-22 23:27:24.921 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:27:25.437 INFO [brainstem:75] Eye data loaded from CMS.
+2014-10-22 23:27:25.440 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:27:25.832 INFO [brainstem:120] Loaded "Baby" animation with 71 frames
+2014-10-22 23:27:25.835 INFO [brainstem:120] Loaded "Baby" animation with 22 frames
+2014-10-22 23:27:25.835 INFO [brainstem:122] Finished adding creature "Baby"
+2014-10-22 23:27:25.841 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:27:25.845 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:27:25.851 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:27:25.855 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:27:25.865 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:27:25.867 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:27:25.870 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:27:25.873 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:27:25.881 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:27:25.888 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:27:25.892 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:27:25.900 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:27:25.903 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:27:25.909 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:27:25.920 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:27:25.923 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:27:25.929 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:27:25.945 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:27:25.952 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:27:25.954 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:27:25.965 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:27:25.968 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:27:25.969 INFO [brainstem:122] Finished adding creature "Flirt"
+2014-10-22 23:27:25.969 INFO [brainstem:122] Finished adding creature "Grump"
+2014-10-22 23:27:25.973 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:27:25.976 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:27:25.980 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:27:25.983 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:27:25.984 INFO [brainstem:122] Finished adding creature "Grannie"
+2014-10-22 23:27:25.984 INFO [brainstem:122] Finished adding creature "Raver"
+2014-10-22 23:27:25.984 INFO [brainstem:130] Creature data loaded from CMS
+2014-10-22 23:27:25.987 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:27:28.020 INFO [web:1811] 304 GET /simulator/ (::1) 9.89ms
+2014-10-22 23:27:28.062 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.61ms
+2014-10-22 23:27:28.064 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.85ms
+2014-10-22 23:27:28.086 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:27:29.282 INFO [web:1811] 304 GET /simulator/ (::1) 0.57ms
+2014-10-22 23:27:29.293 INFO [brainstem:184] Simulation client disconnected
+2014-10-22 23:27:29.318 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.63ms
+2014-10-22 23:27:29.320 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 1.23ms
+2014-10-22 23:27:29.334 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:27:29.766 INFO [web:1811] 304 GET /simulator/ (::1) 0.51ms
+2014-10-22 23:27:29.775 INFO [brainstem:184] Simulation client disconnected
+2014-10-22 23:27:29.799 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.53ms
+2014-10-22 23:27:29.800 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.41ms
+2014-10-22 23:27:29.815 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:27:30.103 INFO [web:1811] 304 GET /simulator/ (::1) 0.52ms
+2014-10-22 23:27:30.114 INFO [brainstem:184] Simulation client disconnected
+2014-10-22 23:27:30.140 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 1.07ms
+2014-10-22 23:27:30.141 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.65ms
+2014-10-22 23:27:30.156 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:27:30.517 INFO [web:1811] 304 GET /simulator/ (::1) 0.88ms
+2014-10-22 23:27:30.531 INFO [brainstem:184] Simulation client disconnected
+2014-10-22 23:27:30.560 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.81ms
+2014-10-22 23:27:30.561 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.42ms
+2014-10-22 23:27:30.575 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:27:30.819 INFO [web:1811] 304 GET /simulator/ (::1) 0.53ms
+2014-10-22 23:27:30.834 INFO [brainstem:184] Simulation client disconnected
+2014-10-22 23:27:30.860 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 1.13ms
+2014-10-22 23:27:30.860 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.49ms
+2014-10-22 23:27:30.873 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:27:55.968 WARNING [brainstem:202] Caught signal: 2
+2014-10-22 23:27:55.968 INFO [brainstem:206] Stopping Brainstem...
+2014-10-22 23:27:55.968 INFO [brainstem:215] Shutdown
+2014-10-22 23:27:56.696 INFO [brainstem:31] Starting Brainstem...
+2014-10-22 23:27:56.712 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:27:57.078 INFO [brainstem:75] Eye data loaded from CMS.
+2014-10-22 23:27:57.081 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:27:57.439 INFO [brainstem:120] Loaded "Baby" animation with 71 frames
+2014-10-22 23:27:57.441 INFO [brainstem:120] Loaded "Baby" animation with 22 frames
+2014-10-22 23:27:57.441 INFO [brainstem:122] Finished adding creature "Baby"
+2014-10-22 23:27:57.447 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:27:57.450 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:27:57.457 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:27:57.460 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:27:57.470 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:27:57.472 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:27:57.476 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:27:57.479 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:27:57.486 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:27:57.493 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:27:57.496 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:27:57.504 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:27:57.508 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:27:57.514 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:27:57.525 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:27:57.528 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:27:57.532 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:27:57.542 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:27:57.549 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:27:57.552 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:27:57.562 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:27:57.566 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:27:57.566 INFO [brainstem:122] Finished adding creature "Flirt"
+2014-10-22 23:27:57.566 INFO [brainstem:122] Finished adding creature "Grump"
+2014-10-22 23:27:57.570 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:27:57.572 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:27:57.576 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:27:57.579 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:27:57.579 INFO [brainstem:122] Finished adding creature "Grannie"
+2014-10-22 23:27:57.580 INFO [brainstem:122] Finished adding creature "Raver"
+2014-10-22 23:27:57.580 INFO [brainstem:130] Creature data loaded from CMS
+2014-10-22 23:27:57.584 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:27:57.601 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.616 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.633 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.649 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.665 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.681 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.696 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.713 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.728 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.744 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.760 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.777 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.792 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.809 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.826 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.841 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.857 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.872 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.888 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.904 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.920 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.937 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.952 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.968 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:57.985 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.001 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.016 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.033 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.049 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.065 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.081 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.097 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.112 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.129 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.145 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.160 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.176 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.193 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.209 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.225 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.240 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.256 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.272 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.289 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.305 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.321 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.337 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.352 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.369 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.385 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.401 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.417 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.432 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.449 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.464 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.481 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.496 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.512 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.528 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.545 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.560 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.577 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.593 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.609 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.624 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.640 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.657 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.672 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.688 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.704 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.720 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.737 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.752 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.769 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.784 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.800 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.817 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.833 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.848 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.865 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.881 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.896 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.912 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.929 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.945 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.961 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.977 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:58.993 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.008 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.025 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.041 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.057 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.073 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.089 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.104 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.121 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.136 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.153 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.169 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.184 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.200 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.217 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.233 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.249 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.265 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.280 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.296 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.313 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.329 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.345 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.361 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.376 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.393 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.409 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.424 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.441 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.457 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.472 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.489 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.504 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.520 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.537 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.552 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.568 WARNING [brainstem:203] Caught signal: 2
+2014-10-22 23:27:59.568 INFO [brainstem:151] (255, 0, 0)
+2014-10-22 23:27:59.570 INFO [brainstem:207] Stopping Brainstem...
+2014-10-22 23:27:59.570 INFO [brainstem:216] Shutdown
+2014-10-22 23:29:21.336 INFO [brainstem:31] Starting Brainstem...
+2014-10-22 23:29:21.349 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:29:21.745 INFO [brainstem:75] Eye data loaded from CMS.
+2014-10-22 23:29:21.747 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:29:22.093 INFO [brainstem:120] Loaded "Baby" animation with 71 frames
+2014-10-22 23:29:22.095 INFO [brainstem:120] Loaded "Baby" animation with 22 frames
+2014-10-22 23:29:22.095 INFO [brainstem:122] Finished adding creature "Baby"
+2014-10-22 23:29:22.101 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:29:22.104 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:29:22.110 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:29:22.113 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:29:22.122 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:29:22.124 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:29:22.127 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:29:22.129 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:29:22.135 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:29:22.142 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:29:22.145 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:29:22.152 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:29:22.155 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:29:22.161 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:29:22.170 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:29:22.173 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:29:22.177 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:29:22.188 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:29:22.195 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:29:22.197 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:29:22.206 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:29:22.210 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:29:22.210 INFO [brainstem:122] Finished adding creature "Flirt"
+2014-10-22 23:29:22.210 INFO [brainstem:122] Finished adding creature "Grump"
+2014-10-22 23:29:22.214 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:29:22.217 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:29:22.221 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:29:22.224 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:29:22.224 INFO [brainstem:122] Finished adding creature "Grannie"
+2014-10-22 23:29:22.224 INFO [brainstem:122] Finished adding creature "Raver"
+2014-10-22 23:29:22.224 INFO [brainstem:130] Creature data loaded from CMS
+2014-10-22 23:29:22.226 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:29:23.414 INFO [web:1811] 304 GET /simulator/ (::1) 6.09ms
+2014-10-22 23:29:23.456 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 1.40ms
+2014-10-22 23:29:23.459 INFO [web:1811] 200 GET /simulator/js/simulator.js (::1) 1.73ms
+2014-10-22 23:29:23.477 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:29:24.936 INFO [web:1811] 304 GET /simulator/ (::1) 1.18ms
+2014-10-22 23:29:24.952 INFO [brainstem:184] Simulation client disconnected
+2014-10-22 23:29:25.008 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.92ms
+2014-10-22 23:29:25.009 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.98ms
+2014-10-22 23:29:25.031 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:34:16.402 INFO [web:1811] 304 GET /simulator/ (::1) 0.98ms
+2014-10-22 23:34:16.414 INFO [brainstem:184] Simulation client disconnected
+2014-10-22 23:34:16.601 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.77ms
+2014-10-22 23:34:16.602 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.78ms
+2014-10-22 23:34:16.620 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:34:20.863 WARNING [brainstem:202] Caught signal: 2
+2014-10-22 23:34:20.863 INFO [brainstem:206] Stopping Brainstem...
+2014-10-22 23:34:20.864 INFO [brainstem:215] Shutdown
+2014-10-22 23:34:21.628 INFO [brainstem:31] Starting Brainstem...
+2014-10-22 23:34:21.649 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:34:21.976 INFO [brainstem:75] Eye data loaded from CMS.
+2014-10-22 23:34:21.978 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:34:22.343 INFO [brainstem:120] Loaded "Baby" animation with 71 frames
+2014-10-22 23:34:22.346 INFO [brainstem:120] Loaded "Baby" animation with 22 frames
+2014-10-22 23:34:22.346 INFO [brainstem:122] Finished adding creature "Baby"
+2014-10-22 23:34:22.351 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:34:22.355 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:34:22.361 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:34:22.364 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:34:22.373 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:34:22.376 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:34:22.379 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:34:22.381 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:34:22.387 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:34:22.395 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:34:22.398 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:34:22.405 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:34:22.409 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:34:22.415 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:34:22.424 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:34:22.427 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:34:22.430 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:34:22.441 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:34:22.450 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:34:22.455 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:34:22.464 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:34:22.468 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:34:22.468 INFO [brainstem:122] Finished adding creature "Flirt"
+2014-10-22 23:34:22.468 INFO [brainstem:122] Finished adding creature "Grump"
+2014-10-22 23:34:22.472 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:34:22.475 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:34:22.478 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:34:22.481 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:34:22.481 INFO [brainstem:122] Finished adding creature "Grannie"
+2014-10-22 23:34:22.481 INFO [brainstem:122] Finished adding creature "Raver"
+2014-10-22 23:34:22.482 INFO [brainstem:130] Creature data loaded from CMS
+2014-10-22 23:34:22.484 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:34:24.116 INFO [web:1811] 304 GET /simulator/ (::1) 11.19ms
+2014-10-22 23:34:24.162 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.73ms
+2014-10-22 23:34:24.163 INFO [web:1811] 200 GET /simulator/js/simulator.js (::1) 0.83ms
+2014-10-22 23:34:24.182 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:36:04.711 WARNING [brainstem:202] Caught signal: 2
+2014-10-22 23:36:04.712 INFO [brainstem:206] Stopping Brainstem...
+2014-10-22 23:36:04.712 INFO [brainstem:215] Shutdown
+2014-10-22 23:36:05.439 INFO [brainstem:31] Starting Brainstem...
+2014-10-22 23:36:05.454 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:36:05.782 INFO [brainstem:75] Eye data loaded from CMS.
+2014-10-22 23:36:05.785 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:36:06.166 INFO [brainstem:120] Loaded "Baby" animation with 71 frames
+2014-10-22 23:36:06.168 INFO [brainstem:120] Loaded "Baby" animation with 22 frames
+2014-10-22 23:36:06.168 INFO [brainstem:122] Finished adding creature "Baby"
+2014-10-22 23:36:06.174 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:36:06.177 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:36:06.183 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:36:06.186 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:36:06.196 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:36:06.198 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:36:06.202 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:36:06.204 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:36:06.215 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:36:06.226 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:36:06.230 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:36:06.238 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:36:06.241 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:36:06.247 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:36:06.257 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:36:06.259 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:36:06.262 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:36:06.274 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:36:06.281 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:36:06.283 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:36:06.292 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:36:06.295 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:36:06.296 INFO [brainstem:122] Finished adding creature "Flirt"
+2014-10-22 23:36:06.296 INFO [brainstem:122] Finished adding creature "Grump"
+2014-10-22 23:36:06.299 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:36:06.302 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:36:06.306 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:36:06.309 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:36:06.310 INFO [brainstem:122] Finished adding creature "Grannie"
+2014-10-22 23:36:06.310 INFO [brainstem:122] Finished adding creature "Raver"
+2014-10-22 23:36:06.310 INFO [brainstem:130] Creature data loaded from CMS
+2014-10-22 23:36:06.312 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:36:09.428 INFO [web:1811] 304 GET /simulator/ (::1) 6.25ms
+2014-10-22 23:36:09.519 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 1.18ms
+2014-10-22 23:36:09.520 INFO [web:1811] 200 GET /simulator/js/simulator.js (::1) 0.90ms
+2014-10-22 23:36:09.534 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:38:12.171 WARNING [brainstem:202] Caught signal: 2
+2014-10-22 23:38:12.172 INFO [brainstem:206] Stopping Brainstem...
+2014-10-22 23:38:12.172 INFO [brainstem:215] Shutdown
+2014-10-22 23:38:13.220 INFO [brainstem:31] Starting Brainstem...
+2014-10-22 23:38:13.240 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:38:13.594 INFO [brainstem:75] Eye data loaded from CMS.
+2014-10-22 23:38:13.597 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:38:13.962 INFO [brainstem:120] Loaded "Baby" animation with 71 frames
+2014-10-22 23:38:13.965 INFO [brainstem:120] Loaded "Baby" animation with 22 frames
+2014-10-22 23:38:13.965 INFO [brainstem:122] Finished adding creature "Baby"
+2014-10-22 23:38:13.971 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:38:13.978 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:38:13.985 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:38:13.989 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:38:13.998 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:38:14.000 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:38:14.004 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:38:14.006 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:38:14.013 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:38:14.020 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:38:14.023 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:38:14.031 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:38:14.034 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:38:14.039 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:38:14.049 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:38:14.051 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:38:14.054 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:38:14.067 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:38:14.074 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:38:14.076 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:38:14.086 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:38:14.089 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:38:14.089 INFO [brainstem:122] Finished adding creature "Flirt"
+2014-10-22 23:38:14.090 INFO [brainstem:122] Finished adding creature "Grump"
+2014-10-22 23:38:14.093 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:38:14.096 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:38:14.100 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:38:14.103 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:38:14.103 INFO [brainstem:122] Finished adding creature "Grannie"
+2014-10-22 23:38:14.103 INFO [brainstem:122] Finished adding creature "Raver"
+2014-10-22 23:38:14.103 INFO [brainstem:130] Creature data loaded from CMS
+2014-10-22 23:38:14.106 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:38:16.003 INFO [web:1811] 304 GET /simulator/ (::1) 6.52ms
+2014-10-22 23:38:16.106 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 1.10ms
+2014-10-22 23:38:16.109 INFO [web:1811] 200 GET /simulator/js/simulator.js (::1) 1.48ms
+2014-10-22 23:38:16.122 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:42:32.566 WARNING [brainstem:202] Caught signal: 2
+2014-10-22 23:42:32.567 INFO [brainstem:206] Stopping Brainstem...
+2014-10-22 23:42:32.567 INFO [brainstem:215] Shutdown
+2014-10-22 23:42:33.213 INFO [brainstem:31] Starting Brainstem...
+2014-10-22 23:42:33.227 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:42:33.804 INFO [brainstem:75] Eye data loaded from CMS.
+2014-10-22 23:42:33.807 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:42:34.163 INFO [brainstem:120] Loaded "Baby" animation with 71 frames
+2014-10-22 23:42:34.165 INFO [brainstem:120] Loaded "Baby" animation with 22 frames
+2014-10-22 23:42:34.165 INFO [brainstem:122] Finished adding creature "Baby"
+2014-10-22 23:42:34.171 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:42:34.174 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:42:34.179 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:42:34.182 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:42:34.191 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:42:34.194 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:42:34.197 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:42:34.199 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:42:34.205 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:42:34.211 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:42:34.214 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:42:34.221 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:42:34.224 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:42:34.230 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:42:34.238 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:42:34.241 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:42:34.244 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:42:34.253 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:42:34.259 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:42:34.261 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:42:34.270 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:42:34.273 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:42:34.274 INFO [brainstem:122] Finished adding creature "Flirt"
+2014-10-22 23:42:34.274 INFO [brainstem:122] Finished adding creature "Grump"
+2014-10-22 23:42:34.277 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:42:34.280 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:42:34.283 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:42:34.286 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:42:34.286 INFO [brainstem:122] Finished adding creature "Grannie"
+2014-10-22 23:42:34.286 INFO [brainstem:122] Finished adding creature "Raver"
+2014-10-22 23:42:34.286 INFO [brainstem:130] Creature data loaded from CMS
+2014-10-22 23:42:34.288 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:42:36.426 INFO [web:1811] 304 GET /simulator/ (::1) 7.77ms
+2014-10-22 23:42:36.474 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.57ms
+2014-10-22 23:42:36.475 INFO [web:1811] 200 GET /simulator/js/simulator.js (::1) 0.75ms
+2014-10-22 23:42:36.489 INFO [brainstem:180] Simulation client connected
+2014-10-22 23:43:15.303 WARNING [brainstem:202] Caught signal: 2
+2014-10-22 23:43:15.303 INFO [brainstem:206] Stopping Brainstem...
+2014-10-22 23:43:15.303 INFO [brainstem:215] Shutdown
+2014-10-22 23:43:16.207 INFO [brainstem:31] Starting Brainstem...
+2014-10-22 23:43:16.221 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:43:16.811 INFO [brainstem:75] Eye data loaded from CMS.
+2014-10-22 23:43:16.813 INFO [connectionpool:188] Starting new HTTP connection (1): theey.es
+2014-10-22 23:43:17.148 INFO [brainstem:120] Loaded "Baby" animation with 71 frames
+2014-10-22 23:43:17.150 INFO [brainstem:120] Loaded "Baby" animation with 22 frames
+2014-10-22 23:43:17.150 INFO [brainstem:122] Finished adding creature "Baby"
+2014-10-22 23:43:17.156 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:43:17.159 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:43:17.165 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:43:17.168 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:43:17.177 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:43:17.180 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:43:17.183 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:43:17.187 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:43:17.193 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:43:17.203 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:43:17.207 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:43:17.215 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:43:17.218 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:43:17.223 INFO [brainstem:120] Loaded "Flirt" animation with 63 frames
+2014-10-22 23:43:17.232 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:43:17.234 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:43:17.237 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:43:17.249 INFO [brainstem:120] Loaded "Flirt" animation with 33 frames
+2014-10-22 23:43:17.257 INFO [brainstem:120] Loaded "Flirt" animation with 75 frames
+2014-10-22 23:43:17.259 INFO [brainstem:120] Loaded "Flirt" animation with 23 frames
+2014-10-22 23:43:17.268 INFO [brainstem:120] Loaded "Flirt" animation with 100 frames
+2014-10-22 23:43:17.271 INFO [brainstem:120] Loaded "Flirt" animation with 35 frames
+2014-10-22 23:43:17.271 INFO [brainstem:122] Finished adding creature "Flirt"
+2014-10-22 23:43:17.271 INFO [brainstem:122] Finished adding creature "Grump"
+2014-10-22 23:43:17.275 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:43:17.278 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:43:17.281 INFO [brainstem:120] Loaded "Grannie" animation with 37 frames
+2014-10-22 23:43:17.284 INFO [brainstem:120] Loaded "Grannie" animation with 30 frames
+2014-10-22 23:43:17.284 INFO [brainstem:122] Finished adding creature "Grannie"
+2014-10-22 23:43:17.285 INFO [brainstem:122] Finished adding creature "Raver"
+2014-10-22 23:43:17.285 INFO [brainstem:130] Creature data loaded from CMS
+2014-10-22 23:43:17.287 INFO [clients:35] Brainstem trying to connect...
+2014-10-22 23:43:19.841 INFO [web:1811] 304 GET /simulator/ (::1) 6.16ms
+2014-10-22 23:43:19.881 INFO [web:1811] 304 GET /simulator/css/style.css (::1) 0.55ms
+2014-10-22 23:43:19.882 INFO [web:1811] 304 GET /simulator/js/simulator.js (::1) 0.54ms
+2014-10-22 23:43:19.897 INFO [brainstem:178] Simulation client connected
+2014-10-22 23:45:40.122 INFO [brainstem:182] Simulation client disconnected
+2014-10-23 09:47:29.707 WARNING [brainstem:200] Caught signal: 2
+2014-10-23 09:47:29.712 INFO [brainstem:204] Stopping Brainstem...
+2014-10-23 09:47:29.713 INFO [brainstem:213] Shutdown

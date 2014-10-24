@@ -11,4 +11,4 @@ then
                             # Note: dash (-) necessary
 fi
 
-source venv/bin/activate && python brainstem.py --settings=settings.$1
+source ../venv/bin/activate && python -m cortex.cortex --settings=cortex.settings.$1

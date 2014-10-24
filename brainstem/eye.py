@@ -1,3 +1,4 @@
+import logging
 
 class Eye():
     cell_offsets = (
@@ -77,30 +78,16 @@ class Eye():
         (None, None, None, 61, 57, 56),
     )
 
-    def __init__(self):
-        self.pixels = [[0, 0, 0], ] * 64
+    def __init__(self, pixels, index):
+        self.id = 0
+        self.preferences = []
+        self.start_index = index
+        self.end_index = index + 63
+        self.pixels = pixels
+        self.frame = 0
 
-    def encode(self):
-        count = 0
-        palette = {}
-        pbn = []
-        output = bytearray()
-        output.append(0)
+    def update(self):
+        pass
 
-        # simple palette based compression
-        for pixel in self.pixels:
-            color = pixel[0] << 16 & pixel[1] << 8 & pixel[2]
-            if color not in palette:
-                palette[color] = count
-                pbn.append(count)
-                output.extend(pixel)
-                count += 1
-            else:
-                pbn.append(palette[color])
-
-        output[0] = len(palette)
-
-        for p in pbn:
-            output.append(p)
-
-        return bytes(output)
+    def set_pixels(self, data):
+        self.pixels[self.start_index:self.end_index] = data
