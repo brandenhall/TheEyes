@@ -45,7 +45,7 @@ class CreatureQuestionSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = CreatureQuestion
-        fields = ('question', 'responses')
+        fields = ('question', 'responses', 'enabled')
 
 
 class CreatureSerializer(serializers.ModelSerializer):
@@ -64,6 +64,8 @@ class CreatureSerializer(serializers.ModelSerializer):
             'restlessness',
             'minimum_speed',
             'maximum_speed',
+            'minimum_blink',
+            'maximum_blink',
             'questions'
         )
 

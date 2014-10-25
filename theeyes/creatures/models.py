@@ -16,7 +16,7 @@ class Creature(models.Model):
     lid_color = models.CharField(max_length=6, default='000000', help_text="Color of the creature's eyelid")
     circadian_offset = models.FloatField(
         default=0,
-        help_text="Start of wake/sleep cycle (minutes)")
+        help_text="Offset from equal wake-to-sleep")
     circadian_period = models.FloatField(
         default=20,
         help_text="Period of wake/sleep cycle (minutes)")
@@ -29,6 +29,12 @@ class Creature(models.Model):
     minimum_speed = models.FloatField(
         default=0.0,
         help_text="Minimum speed of the creature (percent)")
+    maximum_blink = models.IntegerField(
+        default=150,
+        help_text="Maximum frames between blinks @ 30fps")
+    minimum_blink = models.IntegerField(
+        default=60,
+        help_text="Minimum frames between blinks @ 30fps")
 
     def __str__(self):
         return self.name
@@ -44,6 +50,7 @@ class HeroAnimation(models.Model):
 
 class CreatureQuestion(models.Model):
     creature = models.ForeignKey(Creature, related_name="questions")
+    enabled = models.BooleanField(default=True)
     question = models.TextField(help_text="Question the creature is asking")
 
     def __str__(self):

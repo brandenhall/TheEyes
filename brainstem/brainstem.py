@@ -3,7 +3,6 @@ import logging.config
 import signal
 import handlers
 import requests
-import random
 import time
 import opc
 
@@ -12,9 +11,12 @@ from eye import Eye
 from creature import Creature
 from clients import ReconnectingTCPClient
 
+from multiprocessing.pool import ThreadPool
+
 from tornado.httpserver import HTTPServer
 from tornado.ioloop import IOLoop, PeriodicCallback
 from tornado.web import Application
+from tornado import gen
 
 logger = logging.getLogger(__name__)
 
@@ -27,6 +29,7 @@ class Brainstem():
         signal.signal(signal.SIGINT, self.sig_handler)
         handlers.CortexHandler.brainstem = self
         handlers.SimulatorHandler.brainstem = self
+        self.workers = ThreadPool(10)
 
     def start(self):
         logger.info("Starting Brainstem...")
@@ -36,15 +39,18 @@ class Brainstem():
         self.cortex_client.handler = handlers.CortexHandler
 
         self.simulation_clients = []
+        self.creatures = []
 
         if settings.DEBUG:
             apps = [(r'/ws', handlers.SimulatorHandler), ]
-            apps.append((r'/(.*)', handlers.IndexStaticFileHandler, {'path': settings.WEBROOT}))
+            apps.append((r'/(.*)',
+                        handlers.IndexStaticFileHandler,
+                        {'path': settings.WEBROOT}))
             application = Application(apps)
             self.http_server = HTTPServer(application)
             self.http_server.listen(settings.HTTP_PORT)
 
-        self.blitter = PeriodicCallback(self.blit, 1000/settings.FRAMERATE)
+        self.updater = PeriodicCallback(self.update, 1000/settings.FRAMERATE)
         self.load_content()
 
         self.cortex_client.connect(settings.CORTEX_HOST, settings.CORTEX_PORT)
@@ -53,7 +59,7 @@ class Brainstem():
 
     def load_content(self):
         # first, load the eye data
-        self.blitter.stop()
+        self.updater.stop()
         self.clear()
         self.eyes = []
         for i in range(settings.EYE_COUNT):
@@ -92,12 +98,15 @@ class Brainstem():
                 data = r.json()
                 for row in data:
                     creature = Creature()
+                    creature.eyes = self.eyes
                     creature.name = row['name']
                     creature.circadian_offset = row['circadian_offset']
                     creature.circadian_period = row['circadian_period']
                     creature.restlessness = row['restlessness']
                     creature.minimum_speed = row['minimum_speed']
                     creature.maximum_speed = row['maximum_speed']
+                    creature.minimum_blink = row['minimum_blink']
+                    creature.maximum_blink = row['maximum_blink']
                     creature.sclera_color = (
                         int(row['sclera_color'][0:2], 16),
                         int(row['sclera_color'][2:4], 16),
@@ -110,7 +119,7 @@ class Brainstem():
                     )
 
                     # list comprehensions - WHAT MOTHERFUCKER!?!
-                    creature.pixels = [
+                    creature.default = [
                         (int(x[0:2], 16),
                          int(x[2:4], 16),
                          int(x[4:6], 16)) for x in row['eye'][0]
@@ -138,8 +147,8 @@ class Brainstem():
         logger.info('Creature data loaded from CMS')
 
         self.test_pattern()
-        self.blitter.start()
 
+    @gen.engine
     def test_pattern(self):
         colors = ((255, 0, 0),
                   (0, 255, 0),
@@ -156,15 +165,22 @@ class Brainstem():
             # two blits to prevent interpolation
             self.blit()
             self.blit()
-            time.sleep(1)
+            yield gen.Task(IOLoop.instance().add_timeout, time.time() + 1)
 
-        index = 0
-        for eye in self.eyes:
-            eye.set_pixels(self.creatures[index].pixels)
-            index += 1
-            index %= len(self.creatures)
+        self.updater.start()
+
+    def update(self):
+        t = time.time() / 60
+        for creature in self.creatures:
+            creature.update(t)
+        self.blit()
 
     def blit(self):
+        self.workers.apply_async(self.blit_async)
+
+    def blit_async(self):
+        """Draw and update all creatures"""
+
         if len(self.simulation_clients) > 0:
             data = bytes()
 
@@ -236,7 +252,7 @@ class Brainstem():
     def shutdown(self):
         logger.info('Stopping Brainstem...')
         try:
-            self.blitter.stop()
+            self.updater.stop()
             self.clear()
 
         except Exception as err:

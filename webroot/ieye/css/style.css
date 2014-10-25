@@ -1,0 +1,70 @@
+body {
+    background-color: #fff;
+}
+
+.editor {
+    margin-top: 50px;
+}
+
+#frames {
+    width: 80px;
+    font-size: 14px;
+}
+
+#frame-list {
+    display: block;
+    float: left;
+}
+
+#frame-buttons {
+    display:block;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.frame-button {
+    width: 100px;
+}
+
+#up-frame {
+    width: 48px;
+}
+
+#down-frame {
+    width: 48px;
+}
+
+#play-toggle {
+    margin-top: 40px;
+    width: 220px;
+}
+
+#mode {
+    margin-bottom: 20px;
+}
+
+#hex-color {
+    width: 160px;
+}
+
+.btn.active, .btn:active {
+    background-color: #acf;
+}
+
+#color-all {
+    margin-top: 10px;
+    width: 190px;
+}
+
+#loader {
+    display: none;
+}
+
+.shift {
+    width: 60px;
+}
+
+#delete-frame {
+    margin-top: 30px;
+}

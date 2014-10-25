@@ -9,6 +9,9 @@ class Eye(models.Model):
     def __str__(self):
         return str(self.number)
 
+    class Meta:
+        ordering = ['number']
+
 
 class EyeRelationship(models.Model):
     eye = models.ForeignKey(Eye, related_name="preferences")

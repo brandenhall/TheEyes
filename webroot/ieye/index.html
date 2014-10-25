@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Branden Hall bhall@automatastudios.com">
+        <title>iEye</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap theme -->
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="css/pick-a-color-1.2.0.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body role="document">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">iEye</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-left">
+                <li><a href="#" id="save">Save</a></li>
+                <li><a href="#" id="load">Load</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        <div class="container editor" role="main">
+            <div class="row">
+                <div class="col-md-5">
+                    <h4>Mode</h4>
+                    <div id="mode" class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-default active">
+                        <input id="set-color" type="radio" name="mode" value="SET" checked>Set Color</label>
+                        <label class="btn btn-default">
+                        <input type="radio" name="mode" value="GET">Get Color</label>
+                        <label class="btn btn-default">
+                        <input type="radio" name="mode" value="FILL">Flood Fill</label>
+                        <label class="btn btn-default">
+                        <input type="radio" name="mode" value="ALL">Color All</label>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>Color</h4>
+                    <input type="text" value="000000" id="hex-color" name="hex-color" class="pick-a-color form-control">
+                </div>
+                <div class="col-md-3">
+                    <button id="play-toggle" type="button" class="btn btn-success">Play Animation</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <canvas id="canvas" width="565" height="280"></canvas>
+                    <h4>Shift</h4>
+                    <p>
+                        <button id="shift-nw" type="button" class="btn btn-warning shift">NW</button>
+                        <button id="shift-n" type="button" class="btn btn-warning shift">N</button>
+                        <button id="shift-ne" type="button" class="btn btn-warning shift">NE</button>
+                    </p>
+                    <p>
+                        <button id="shift-sw" type="button" class="btn btn-warning shift">SW</button>
+                        <button id="shift-s" type="button" class="btn btn-warning shift">S</button>
+                        <button id="shift-se" type="button" class="btn btn-warning shift">SE</button>
+                    </p>
+                </div>
+                <div class="col-md-4" style="width:260px">
+                    <div id="frame-list">
+                        <h4>Frames</h4>
+                        <select id="frames" class="form-control" size="20" multiple="true">
+                            <option value="1" selected>1</option>
+                        </select>
+                    </div>
+                    <div id="frame-buttons">
+                        <p><button id="new-frame" type="button" class="btn btn-success frame-button">New</button></p>
+                        <p><button id="duplicate-frame"type="button" class="btn btn-primary frame-button">Duplicate</button></p>
+                        <p><button id="reverse-frames"type="button" class="btn btn-warning frame-button">Reverse</button></p>
+                        <p>
+                            <button id="down-frame" type="button" class="btn btn-warning"><span class="glyphicon glyphicon-chevron-down"></span></button>
+
+                            <button id="up-frame" type="button" class="btn btn-warning"><span class="glyphicon glyphicon-chevron-up"></span></button>
+                        </p>
+                        <p></p>
+                        <p><button id="delete-frame" type="button" class="btn btn-danger frame-button">Delete</button></p>
+                    </div>
+                    <div class="clearfix">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="file" id="loader" name="files" />
+        <script type="text/javascript" src="js/createjs-2013.12.12.min.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/tinycolor-0.9.15.min.js"></script>
+        <script type="text/javascript" src="js/pick-a-color-1.2.2.min.js"></script>
+        <script type="text/javascript" src="js/ieye.js"></script>
+    </body>
+</html>

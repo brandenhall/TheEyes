@@ -39,7 +39,7 @@ class CreatureAdmin(admin.ModelAdmin):
 class CreatureQuestionAdmin(admin.ModelAdmin):
     model = CreatureQuestion
     inlines = [CreatureQuestionResponseInline]
-    list_display = ('creature', 'question')
+    list_display = ('creature', 'enabled', 'question',)
 
 admin.site.register(Creature, CreatureAdmin)
 admin.site.register(CreatureQuestion, CreatureQuestionAdmin)
