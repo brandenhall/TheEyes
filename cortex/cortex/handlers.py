@@ -11,24 +11,35 @@ class InteractionHandler(WebSocketHandler):
     def open(self):
         Cortex.instance().add_interaction_client(self)
         self.send_status()
+        self.last_request_id = None
 
     def check_origin(self, origin):
         return True
 
     def on_message(self, message):
         try:
-            data = json.loads(message)
-            Cortex.instance().on_interaction_command(data)
-        except:
+            data = json.loads(message.strip())
+            Cortex.instance().on_interaction_command(self, data)
+        except ValueError:
             logging.warning("Could not parse message {}".format(message))
 
     def send_status(self):
         message = {
             'type': 'status',
-            'has_brainstem': (Cortex.instance().brainstem is not None)
+            'has_brainstem': (Cortex.instance().brainstem is not None),
+            'geolocation_required': settings.GEOLOCATION_REQUIRED,
         }
 
         self.write_message(json.dumps(message))
+
+    def send(self, message):
+        try:
+            data = json.dumps(message)
+            logging.info('Send to interaction: {}'.format(data))
+            self.write_message(data)
+        except StreamClosedError:
+            logging.info('Could not send, stream closed')
+            self.on_close()
 
     def on_close(self):
         Cortex.instance().remove_interaction_client(self)
@@ -51,6 +62,7 @@ class BrainstemHandler():
     def send(self, message):
         try:
             data = json.dumps(message)
+            logging.info('Send to brainstem: {}'.format(data))
             self.stream.write(str.encode(data) + self.delimiter)
         except StreamClosedError:
             logging.info('Could not send, stream closed')
@@ -63,12 +75,10 @@ class BrainstemHandler():
     def on_close(self):
         Cortex.instance().remove_brainstem_client(self)
 
-    def on_line_received(self, line):
-        logging.info(line)
-
+    def on_line_received(self, message):
         try:
-            data = json.loads(line)
-            self.brainstem.on_cortex_command(data)
+            data = json.loads(message.strip())
+            Cortex.instance().on_brainstem_command(data)
 
         except ValueError as err:
             logging.error("Problem parsing from client {}".format(err))

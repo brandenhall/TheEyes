@@ -34,12 +34,11 @@ class ReconnectingTCPClient(object):
             if first_time:
                 logging.info("{} trying to connect...".format(self.name))
             else:
-                logging.info("{} trying to reconnect, attempt {}...".format(self.name, self.attempts))
+                logging.info("{} trying to reconnect...".format(self.name))
 
             self.sock = socket.socket(socket.AF_INET, self.Connection, 0)
             self.stream = iostream.IOStream(self.sock)
             self.stream.connect((self.HOST, self.PORT,), self.on_connect)
-            self.stream.set_close_callback(self.on_close)
             self.scheduler.stop()
         else:
             try:
@@ -50,6 +49,7 @@ class ReconnectingTCPClient(object):
 
     def on_connect(self):
         self.attempts = 0
+        self.stream.set_close_callback(self.on_close)
         self.client = self.handler(self.stream, self.HOST+':'+str(self.PORT))
 
     def stop(self):

@@ -12,6 +12,9 @@ INTERACTION_CHOICES = (
 class Creature(models.Model):
     name = models.CharField(max_length=255, help_text="Name of this creature")
     eye = models.FileField(help_text="Static image of the eye (JSON)")
+    overlay = models.FileField(help_text="Any overay for the eye (JSON)", blank=True, null=True)
+    pupil_mask = models.FileField(help_text="Mask showing valid pupil positions", blank=True, null=True)
+    image = models.ImageField(blank=True, help_text="Image of the eye", null=True, default=None)
     sclera_color = models.CharField(max_length=6, default='ffffff', help_text="Color of the creature's scelere")
     lid_color = models.CharField(max_length=6, default='000000', help_text="Color of the creature's eyelid")
     circadian_offset = models.FloatField(
@@ -43,6 +46,7 @@ class Creature(models.Model):
 class HeroAnimation(models.Model):
     name = models.CharField(max_length=255, help_text="Name of this animation")
     animation = models.FileField(help_text="Animation (JSON)")
+    loops = models.PositiveIntegerField(default=1)
     weight = models.FloatField(
         default=1.0,
         help_text="Weight for this animation")
@@ -61,6 +65,7 @@ class CreatureQuestionResponse(models.Model):
     question = models.ForeignKey(CreatureQuestion, related_name="responses")
     response = models.CharField(max_length=100, help_text="Reponse")
     animation = models.FileField(help_text="Animation (JSON)")
+    loops = models.PositiveIntegerField(default=1)
     result = models.IntegerField(choices=INTERACTION_CHOICES, default=0)
 
     def __str__(self):

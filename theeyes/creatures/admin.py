@@ -18,7 +18,7 @@ class CreatureQuestionResponseInline(admin.TabularInline):
 
 class HeroAnimationAdmin(admin.ModelAdmin):
     model = HeroAnimation
-    list_display = ('name',)
+    list_display = ('name', 'loops')
 
 
 class InteractionAdmin(admin.ModelAdmin):

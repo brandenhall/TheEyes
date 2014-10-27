@@ -37,7 +37,7 @@ class CreatureQuestionResponseSerializer(serializers.ModelSerializer):
     animation = JSONFileField()
     class Meta:
         model = CreatureQuestionResponse
-        fields = ('id', 'response', 'animation', 'result')
+        fields = ('id', 'response', 'animation', 'loops', 'result')
 
 
 class CreatureQuestionSerializer(serializers.ModelSerializer):
@@ -50,13 +50,19 @@ class CreatureQuestionSerializer(serializers.ModelSerializer):
 
 class CreatureSerializer(serializers.ModelSerializer):
     eye = JSONFileField()
+    overlay = JSONFileField()
+    pupil_mask = JSONFileField()
     questions = CreatureQuestionSerializer(many=True)
 
     class Meta:
         model = Creature
         fields = (
+            'id',
             'name',
             'eye',
+            'overlay',
+            'pupil_mask',
+            'image',
             'circadian_offset',
             'circadian_period',
             'sclera_color',
@@ -75,7 +81,7 @@ class HeroAnimationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = HeroAnimation
-        fields = ('name', 'animation', 'weight')
+        fields = ('name', 'animation', 'weight', "loops")
 
 
 class InteractionSerializer(serializers.ModelSerializer):

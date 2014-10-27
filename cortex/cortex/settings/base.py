@@ -4,6 +4,14 @@ DEBUG = False
 WEBROOT = '../webroot'
 BRAINSTEM_PORT = 10000
 
+GEOLOCATION_REQUIRED = True
+GEOLOCATION_MAX_DISTANCE = 0.5
+# Welburn Square
+GEOLOCATION_POSITION = (38.881245, -77.11202)
+
+# Automata Studios
+#GEOLOCATION_POSITION = (38.9741419, -77.0143224)
+
 EYE_COUNT = 16
 
 LOGGING = {
@@ -19,7 +27,7 @@ LOGGING = {
         'logfile': {
             'level': 'INFO',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': "logs/brainstem.log",
+            'filename': "logs/cortex.log",
             'maxBytes': 1000000,
             'backupCount': 4,
             'formatter': 'standard',
