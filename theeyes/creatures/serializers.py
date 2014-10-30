@@ -61,6 +61,7 @@ class CreatureSerializer(serializers.ModelSerializer):
             'name',
             'eye',
             'overlay',
+            'is_overlay',
             'pupil_mask',
             'image',
             'circadian_offset',

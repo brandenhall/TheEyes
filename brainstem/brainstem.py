@@ -126,17 +126,17 @@ class Brainstem():
                         int(row['lid_color'][4:6], 16)
                     )
 
-                    # list comprehensions - WHAT MOTHERFUCKER!?!
                     creature.default = [
                         (int(x[0:2], 16),
                          int(x[2:4], 16),
                          int(x[4:6], 16)) for x in row['eye'][0]
                     ]
-                    creature.overlay = [
+                    creature.layer = [
                         (int(x[0:2], 16),
                          int(x[2:4], 16),
                          int(x[4:6], 16)) for x in row['overlay'][0]
                     ]
+                    creature.is_overlay = row['is_overlay']
                     creature.pupil_mask = [x == "000000" for x in row['pupil_mask'][0]]
 
                     for question in row['questions']:

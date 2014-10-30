@@ -27,3 +27,6 @@ class Eye():
         except TypeError:
             logging.error("Can not get {}".format(key))
             return None
+
+    def __str__(self):
+        return self.id

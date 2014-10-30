@@ -12,7 +12,8 @@ INTERACTION_CHOICES = (
 class Creature(models.Model):
     name = models.CharField(max_length=255, help_text="Name of this creature")
     eye = models.FileField(help_text="Static image of the eye (JSON)")
-    overlay = models.FileField(help_text="Any overay for the eye (JSON)", blank=True, null=True)
+    overlay = models.FileField(help_text="Extra layer for the eye (JSON)", blank=True, null=True, verbose_name='Layer')
+    is_overlay = models.BooleanField(default=True, verbose_name='Layer is an overlay')
     pupil_mask = models.FileField(help_text="Mask showing valid pupil positions", blank=True, null=True)
     image = models.ImageField(blank=True, help_text="Image of the eye", null=True, default=None)
     sclera_color = models.CharField(max_length=6, default='ffffff', help_text="Color of the creature's scelere")

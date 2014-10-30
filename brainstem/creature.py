@@ -3,6 +3,7 @@ import math
 import random
 
 from conf import settings
+from utils import weighted_choice
 
 
 class CreatureResponse(object):
@@ -35,7 +36,8 @@ class Creature(object):
         self.sclera_color = (0, 0, 0)
         self.lid_color = (0, 0, 0)
         self.default = []
-        self.overlay = []
+        self.layer = []
+        self.is_overlay = False
         self.pupil_mask = []
         self.current = []
         self.questions = []
@@ -54,8 +56,7 @@ class Creature(object):
         self.next_move = 0
         self.position = 31
 
-        self.eye_alpha = None
-        self.eye_beta = None
+        self.current_eyes = []
 
         self.blink_toggle = False
         self.blink_index = 0
@@ -66,6 +67,9 @@ class Creature(object):
         self.response_index = 0
         self.response_queue = []
         self.response_loops = 0
+        self.is_flashing = False
+        self.flash_frame = 0
+        self.flash_count = 0
 
         self.listening_frame = 0
 
@@ -75,6 +79,9 @@ class Creature(object):
                 self.is_responding = True
                 self.response_index = 0
                 self.response_frame = 0
+                self.is_flashing = True
+                self.flash_frame = 0
+                self.flash_count = 0
                 self.response_loops = self.responses[response].loops
                 self.response_animation = self.responses[response].animation
             else:
@@ -92,24 +99,41 @@ class Creature(object):
             if self.response_frame <= 0:
                 self.response_frame = 3
 
-                pixels = self.response_animation[self.response_index]
-                self.eye_alpha.set_pixels(pixels)
-                self.eye_beta.set_pixels(pixels)
-                self.response_index += 1
-
-                if self.response_index == len(self.response_animation):
-                    self.response_loops -= 1
-
-                    if self.response_loops == 0:
-                        self.is_responding = False
-                        self.response_frame = 0
-                        self.response_index = 0
-                        self.response_animation = None
-
-                        if len(self.response_queue) > 0:
-                            self.respond(self.response_queue.pop(0))
+                if self.is_flashing:
+                    if self.flash_frame <= 0:
+                        self.flash_frame = 3
+                        self.flash_count += 1
+                        if self.flash_count == settings.FLASH_COUNT:
+                            self.is_flashing = False
+                        pixels = [settings.FLASH_COLOR] * settings.PIXELS_PER_EYE
+                        for e in self.current_eyes:
+                            e.set_pixels(pixels)
                     else:
+                        self.current = self.default[:]
+                        self.draw_eyes()
+
+                    self.flash_frame -= 1
+
+                else:
+                    pixels = self.response_animation[self.response_index]
+
+                    for e in self.current_eyes:
+                        e.set_pixels(pixels)
+
+                    self.response_index += 1
+
+                    if self.response_index == len(self.response_animation):
+                        self.response_loops -= 1
                         self.response_index = 0
+
+                        if self.response_loops == 0:
+                            self.is_responding = False
+                            self.response_frame = 0
+                            self.response_index = 0
+                            self.response_animation = None
+
+                            if len(self.response_queue) > 0:
+                                self.respond(self.response_queue.pop(0))
 
             else:
                 self.response_frame -= 1
@@ -121,41 +145,56 @@ class Creature(object):
 
             # wake up!
             if circ > 0 and not self.is_awake and Creature.wakeup_exclude_frames == 0:
-                # go find eyes!
-                tries = 0
-                while self.eye_alpha is None and tries < settings.EYE_COUNT * 2:
-                    tries += 1
-                    self.eye_alpha = random.choice(self.eyes)
-                    if not self.eye_alpha.available:
-                        self.eye_alpha = None
 
-                # if we have one eye, go get another
-                if self.eye_alpha is not None:
-                    eye_index = 0
+                num_eyes = weighted_choice(settings.CREATURE_EYE_WEIGHTS)
+
+                self.current_eyes = [None] * num_eyes
+                eye_index = 1
+                tries = 0
+                first_eye = None
+                while first_eye is None and tries < settings.EYE_COUNT * 2:
+                    tries += 1
+                    first_eye = random.choice(self.eyes)
+                    if not first_eye.available:
+                        first_eye = None
+
+                if first_eye is None:
+                    self.current_eyes = []
+                    return
+
+                self.current_eyes[0] = first_eye
+
+                for i in range(1, num_eyes):
+                    next_eye = None
                     tries = 0
-                    while self.eye_beta is None and tries < settings.EYE_COUNT * 2:
-                        tries += 1
-                        pref_index = self.eye_alpha.preferences[eye_index] - 1
-                        if self.eyes[pref_index].available:
-                            self.eye_beta = self.eyes[pref_index]
-                        else:
+                    eye_index = 0
+                    while next_eye is None and tries < settings.EYE_COUNT * 2 and eye_index < len(first_eye.preferences):
+                        pref_index = first_eye.preferences[eye_index] - 1
+                        next_eye = self.eyes[pref_index]
+                        if not next_eye.available or next_eye in self.current_eyes:
+                            next_eye = None
                             eye_index += 1
 
-                    if self.eye_beta is not None:
-                        self.eye_alpha.available = False
-                        self.eye_beta.available = False
-                        self.position = 31
-                        self.blink_index = settings.BLINK_CLOSED_INDEX
-                        self.is_awake = True
-                        self.is_transitioning = True
-                        self.is_blinking = True
-                        self.current = self.default[:]
+                    self.current_eyes[i] = next_eye
+                    if next_eye is None:
+                        self.current_eyes = []
+                        return
 
-                        Creature.wakeup_exclude_frames = random.randint(
-                            settings.WAKEUP_EXCLUDE_MIN_FRAMES,
-                            settings.WAKEUP_EXCLUDE_MAX_FRAMES)
+                for e in self.current_eyes:
+                    e.available = False
 
-                        logging.info("{} wakes up, selects eyes {} and {}".format(self.name, self.eye_alpha.id, self.eye_beta.id))
+                self.position = 31
+                self.blink_index = settings.BLINK_CLOSED_INDEX
+                self.is_awake = True
+                self.is_transitioning = True
+                self.is_blinking = True
+                self.current = self.default[:]
+
+                Creature.wakeup_exclude_frames = random.randint(
+                    settings.WAKEUP_EXCLUDE_MIN_FRAMES,
+                    settings.WAKEUP_EXCLUDE_MAX_FRAMES)
+
+#                logging.info("{} wakes up, selects {} eyes".format(self.name, len(self.current_eyes)))
 
             if self.is_awake:
 
@@ -168,7 +207,6 @@ class Creature(object):
                     self.frame = 0
 
                 self.draw_eyes()
-                self.draw_overlay()
                 self.draw_lids()
 
                 self.blink_toggle = not self.blink_toggle
@@ -191,7 +229,7 @@ class Creature(object):
                 next_pos = random.choice(settings.CELL_NEIGHBORS[self.position])
 
                 # apply pupil mask
-                if next_pos is not None and not self.pupil_mask[next_pos]:
+                if next_pos is None or not self.pupil_mask[next_pos]:
                     next_pos = None
 
             self.position = next_pos
@@ -216,7 +254,7 @@ class Creature(object):
             for move in moves:
                 next_pixels = [None] * settings.PIXELS_PER_EYE
                 for index in range(settings.PIXELS_PER_EYE):
-                    neighbor = settings.CELL_NEIGHBORS[index][move]
+                    neighbor = settings.CELL_NEIGHBORS[index][(move + 3) % 6]
                     if neighbor is None:
                         next_pixels[index] = self.sclera_color
                     else:
@@ -224,13 +262,24 @@ class Creature(object):
                 self.current = next_pixels
 
     def draw_eyes(self):
-        self.eye_alpha.set_pixels(self.current)
-        self.eye_beta.set_pixels(self.current)
+        if self.is_overlay:
+            for e in self.current_eyes:
+                e.set_pixels(self.current)
 
-    def draw_overlay(self):
-        for i in range(settings.PIXELS_PER_EYE):
-            if self.overlay[i] != (255, 255, 255):
-                self.eye_alpha[i] = self.eye_beta[i] = self.overlay[i]
+            for i in range(settings.PIXELS_PER_EYE):
+                if self.layer[i] != (255, 255, 255):
+                    pixel = self.layer[i]
+                    for e in self.current_eyes:
+                        e[i] = pixel
+        else:
+            for e in self.current_eyes:
+                e.set_pixels(self.layer)
+
+            for i in range(settings.PIXELS_PER_EYE):
+                if self.current[i] != (255, 255, 255):
+                    pixel = self.current[i]
+                    for e in self.current_eyes:
+                        e[i] = pixel
 
     def draw_lids(self):
         blink_pixels = settings.BLINK[self.blink_index]
@@ -239,9 +288,10 @@ class Creature(object):
             blink_color = self.lid_color
 
         for i in range(settings.PIXELS_PER_EYE):
-            self.eye_alpha[i] = self.eye_beta[i] = (
-                (blink_color if blink_pixels[i] else None) or
-                self.eye_alpha[i])
+            pixel = ((blink_color if blink_pixels[i] else None) or self.current_eyes[0][i])
+
+            for e in self.current_eyes:
+                e[i] = pixel
 
     def step_blink(self):
         self.blink_index += 1
@@ -251,11 +301,11 @@ class Creature(object):
             self.is_awake = False
             self.is_blinking = False
             self.is_transitioning = False
-            self.eye_alpha.available = True
-            self.eye_beta.available = True
-            self.eye_alpha = None
-            self.eye_beta = None
-            logging.info("{} goes to sleep".format(self.name))
+            for e in self.current_eyes:
+                e.available = True
+            self.current_eyes = []
+
+#            logging.info("{} goes to sleep".format(self.name))
 
         if self.blink_index == len(settings.BLINK):
             self.blink_index = 0

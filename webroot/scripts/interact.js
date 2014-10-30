@@ -1,10 +1,16 @@
 (function($) {
+    var ANSWER_ANOTHER_DELAY = 12000;
+    var MAX_ATTEMPTS = 3;
+    var MAX_TIME = 10000;
+
     var lat = NaN;
     var lon = NaN;
     var requiresGeo = false;
     var lastCommand = null;
     var currentQuestion = null;
     var makerProbability = 0.5;
+    var attempts = 0;
+    var questionTimeout;
 
     var templates = {
         "Human": ["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","5c5c5c","2e2e2e","2e2e2e","5c5c5c","ffffff","2e2e2e","5c5c5c","2e2e2e","5c5c5c","2e2e2e","2e2e2e","2e2e2e","000000","000000","2e2e2e","2e2e2e","5c5c5c","000000","000000","000000","5c5c5c","2e2e2e","2e2e2e","000000","000000","2e2e2e","2e2e2e","2e2e2e","5c5c5c","2e2e2e","5c5c5c","2e2e2e","ffffff","5c5c5c","2e2e2e","2e2e2e","5c5c5c","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"],
@@ -34,8 +40,13 @@
     }
 
     function onWebsocketClose(evt) {
-        $("#stage").empty();
-        $("#stage").append('<h3 class="center-text">Sorry.</h3><p class="center-text">The Eyes are unavailable right now. Please try again later.</p>');
+        if (attempts < MAX_ATTEMPTS) {
+            showConnecting();
+            connect();
+        } else {
+            showUnavailable();
+        }
+        ++attempts;
     }
 
     function onWebsocketError(evt) {
@@ -50,14 +61,13 @@
 
         $("#stage").empty();
         $("#stage").append('<img src="' + currentQuestion.image + '" class="eye">');
-        $("#stage").append('<h3 class="center-text">Now look for ' + currentQuestion.creature + ' to see how the reaction!</h3>');
+        $("#stage").append('<h3 class="center-text">Now watch ' + currentQuestion.creature + ' react to your answer!</h3><p class="center-text"><strong>Tip:</strong> Look for the eyes that are rapidly blinking.</p>');
 
-        setTimeout(sendResponse, 4000, creatureId, responseId);
+        websocket.send(prepareMessage({"type":"respond", "creature_id":creatureId, "response_id":responseId}));
+        setTimeout(answerAnother, ANSWER_ANOTHER_DELAY, creatureId, responseId);
     }
 
-    function sendResponse(creatureId, responseId){
-        websocket.send(prepareMessage({"type":"respond", "creature_id":creatureId, "response_id":responseId}));
-
+    function answerAnother(creatureId, responseId){
         $("#stage").empty();
         $("#stage").append('<h3 class="center-text">The Eyes thank you!</h3>');
         var talkButton = $('<p class="center-text"><a href="#" class="button button-blue">Answer another question</a></p>');
@@ -85,6 +95,8 @@
             }
         } else if (data.type == "question") {
             currentQuestion = data;
+
+            clearTimeout(questionTimeout);
 
             $("#stage").empty();
             $("#stage").append('<img src="' + data.image + '" class="eye">');
@@ -158,10 +170,23 @@
             requestLocation();
             $("#stage").append('<h3 class="center-text">Just a second.</h3><p class="center-text">We\'re looking up your location.</p>');
         } else{
+            questionTimeout = setTimeout(resetConnection, MAX_TIME);
             $("#stage").append('<h3 class="center-text">Please wait.</h3><p class="center-text">The Eyes are deciding who wants to talk to you.</p>');
             var message = {"type": "get_question"};
             websocket.send(prepareMessage(message));
         }
+    }
+
+    function resetConnection() {
+        clearTimeout(questionTimeout);
+        websocket.close();
+        showConnecting();
+        connect();
+    }
+
+    function showConnecting() {
+        $("#stage").empty();
+        $("#stage").append('<h3 class="center-text">Please wait.</h3><p class="center-text">Trying to connect to the Eyes.</p>');
     }
 
     function showAsleep() {
@@ -169,11 +194,17 @@
         $("#stage").append('<h3 class="center-text">The Eyes are nocturnal.</h3><p class="center-text">Please come back after 5pm.</p>');
     }
 
-    console.log($);
-    websocket = new WebSocket("ws://theey.es:8080/");
-    websocket.onopen = onWebsocketOpen;
-    websocket.onclose = onWebsocketClose;
-    websocket.onerror = onWebsocketError;
-    websocket.onmessage = onWebsocketMessage;
+    function showUnavailable() {
+        $("#stage").empty();
+        $("#stage").append('<h3 class="center-text">Sorry.</h3><p class="center-text">The Eyes are unavailable right now. Please try again later.</p>');
+    }
+
+    function connect() {
+        websocket = new WebSocket("ws://theey.es:8080/");
+        websocket.onopen = onWebsocketOpen;
+        websocket.onclose = onWebsocketClose;
+        websocket.onerror = onWebsocketError;
+        websocket.onmessage = onWebsocketMessage;
+    }
 
 })(jQuery);

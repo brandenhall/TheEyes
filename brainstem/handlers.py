@@ -54,7 +54,7 @@ class CortexHandler():
     def send(self, message):
         try:
             data = json.dumps(message)
-            logging.info("Sending to Cortex: {}".format(data))
+            logging.debug("Sending to Cortex: {}".format(data))
             self.stream.write(str.encode(data) + self.delimiter)
         except StreamClosedError:
             logging.warning("Could not send to Cortex, stream is closed!")
@@ -69,7 +69,7 @@ class CortexHandler():
         self.brainstem.remove_cortex_client(self)
 
     def on_line_received(self, line):
-        logging.info('Received from Cortex: {}'.format(line))
+        logging.debug('Received from Cortex: {}'.format(line))
 
         try:
             data = json.loads(line)
