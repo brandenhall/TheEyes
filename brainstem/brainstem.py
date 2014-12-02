@@ -59,6 +59,7 @@ class Brainstem():
         self.load_content()
 
         if settings.CORTEX_ENABLED:
+            self.heartbeat = PeriodicCallback(self.send_heartbeat, settings.CORTEX_HEARTBEAT)
             self.cortex_client.connect(settings.CORTEX_HOST, settings.CORTEX_PORT)
 
         IOLoop.instance().start()
@@ -276,10 +277,16 @@ class Brainstem():
 
     def add_cortex_client(self, client):
         self.cortex = client
+        self.heartbeat.start()
 
     def remove_cortex_client(self, client):
         if self.cortex == client:
             self.cortex = None
+            self.heartbeat.stop()
+
+    def send_heartbeat(self):
+        if self.cortex is not None:
+            self.cortex.send({'type': 'heartbeat', 'time': time.time()})
 
     def clear(self):
         self.pixels = [(0, 0, 0)] * settings.PIXEL_COUNT
@@ -337,6 +344,8 @@ class Brainstem():
                         result['request_id'] = command['request_id']
                         self.cortex.send(result)
 
+            elif command['type'] == 'heartbeat':
+                pass
     def sig_handler(self, sig, frame):
         logger.warning('Caught signal: %s', sig)
         IOLoop.instance().add_callback(self.shutdown)
@@ -345,6 +354,7 @@ class Brainstem():
         logger.info('Stopping Brainstem...')
         try:
             self.updater.stop()
+            self.heartbeat.stop()
             self.clear()
 
         except Exception as err:

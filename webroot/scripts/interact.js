@@ -184,6 +184,12 @@
         connect();
     }
 
+    function showUnsupported() {
+        $("#stage").empty();
+        $("#stage").append('<h3 class="center-text">Sorry.</h3><p class="center-text">Your web browser is not modern enough to support talking to the Eyes.</p>');
+        $("#stage").append('<p class="center-text">Your browser needs to support WebSockets and the Geolocation API. Most smartphones produced in the last two years will qualify.</p>');
+    }
+
     function showConnecting() {
         $("#stage").empty();
         $("#stage").append('<h3 class="center-text">Please wait.</h3><p class="center-text">Trying to connect to the Eyes.</p>');
@@ -191,7 +197,7 @@
 
     function showAsleep() {
         $("#stage").empty();
-        $("#stage").append('<h3 class="center-text">The Eyes are nocturnal.</h3><p class="center-text">Please come back after 5pm.</p>');
+        $("#stage").append('<h3 class="center-text">The Eyes are nocturnal.</h3><p class="center-text">They are awake from dusk until 10pm.</p>');
     }
 
     function showUnavailable() {
@@ -205,6 +211,14 @@
         websocket.onclose = onWebsocketClose;
         websocket.onerror = onWebsocketError;
         websocket.onmessage = onWebsocketMessage;
+    }
+
+
+    if (typeof(WebSocket) == "object" || typeof(WebSocket) == "function") {
+        showConnecting();
+        connect();
+    } else {
+        showUnsupported();
     }
 
 })(jQuery);

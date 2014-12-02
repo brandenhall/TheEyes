@@ -3,6 +3,7 @@ import logging.config
 import math
 import signal
 import threading
+import time
 import uuid
 
 from .conf import settings
@@ -174,6 +175,10 @@ class Cortex():
                         result = {}
                         result['type'] = 'none_awake'
                         client.send(result)
+
+            if command['type'] == 'heartbeat':
+                logging.info("Received heartbeat from Brainstem...")
+                self.brainstem.send({'type': 'heartbeat', 'time': time.time()})
 
     def add_brainstem_client(self, client):
         logger.info('Brainstem client connected')
