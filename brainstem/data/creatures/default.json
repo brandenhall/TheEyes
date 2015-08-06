@@ -1,0 +1,16 @@
+{
+    "id": 1,
+    "name": "Default",
+    "eye": [["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","c7c7ff","a3a3ff","a3a3ff","c7c7ff","ffffff","a3a3ff","0000eb","2e2eff","0000eb","a3a3ff","a3a3ff","2e2eff","030303","030303","2e2eff","a3a3ff","0000eb","030303","030303","030303","0000eb","a3a3ff","2e2eff","030303","030303","2e2eff","a3a3ff","a3a3ff","0000eb","2e2eff","0000eb","a3a3ff","ffffff","c7c7ff","a3a3ff","a3a3ff","c7c7ff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"]],
+    "overlay": [["ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff","ffffff"]],
+    "is_overlay": true,
+    "pupil_mask": [["ffffff","ffffff","ffffff","ffffff","000000","000000","ffffff","ffffff","000000","000000","000000","ffffff","ffffff","000000","000000","000000","000000","ffffff","ffffff","000000","000000","000000","ffffff","ffffff","000000","000000","000000","000000","ffffff","ffffff","000000","000000","000000","ffffff","ffffff","000000","000000","000000","000000","ffffff","ffffff","000000","000000","000000","ffffff","ffffff","000000","000000","000000","000000","ffffff","ffffff","000000","000000","000000","ffffff","ffffff","000000","000000","ffffff","ffffff","ffffff","ffffff"]],
+    "circadian_offset": 0.8,
+    "circadian_period": 3,
+    "sclera_color": "cccccc",
+    "lid_color": "000000",
+    "restlessness": 0.05,
+    "minimum_blink": 80,
+    "maximum_blink": 300,
+    "lifespan": 40
+}

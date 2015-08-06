@@ -8567,3 +8567,2784 @@ KeyError: 15
 2014-10-29 14:30:35.011 WARNING [brainstem:341] Caught signal: 2
 2014-10-29 14:30:35.024 INFO [brainstem:345] Stopping Brainstem...
 2014-10-29 14:30:35.025 INFO [brainstem:355] Shutdown
+2015-04-02 16:56:33.187 INFO [brainstem:36] Starting Brainstem...
+2015-04-02 16:56:46.615 INFO [brainstem:36] Starting Brainstem...
+2015-04-02 16:56:46.619 INFO [brainstem:113] Creature data loaded from CMS
+2015-04-02 16:57:05.354 WARNING [brainstem:195] Caught signal: 2
+2015-04-02 16:57:05.355 INFO [brainstem:199] Stopping Brainstem...
+2015-04-02 16:57:05.356 INFO [brainstem:208] Shutdown
+2015-04-02 17:02:19.955 INFO [brainstem:36] Starting Brainstem...
+2015-04-02 17:02:19.958 INFO [brainstem:113] Creature data loaded from filesystem
+2015-04-02 17:02:19.958 INFO [brainstem:119] Showing test pattern
+2015-04-02 17:02:19.958 INFO [brainstem:132] Now showing red...
+2015-04-02 17:02:20.964 INFO [brainstem:132] Now showing green...
+2015-04-02 17:02:21.969 INFO [brainstem:132] Now showing blue...
+2015-04-02 17:02:22.971 INFO [brainstem:132] Now showing yellow...
+2015-04-02 17:02:23.976 INFO [brainstem:132] Now showing magenta...
+2015-04-02 17:02:24.981 INFO [brainstem:132] Now showing cyan...
+2015-04-02 17:02:25.985 INFO [brainstem:132] Now showing white...
+2015-04-02 17:02:26.990 INFO [brainstem:132] Now showing black...
+2015-04-02 17:05:09.788 WARNING [brainstem:199] Caught signal: 2
+2015-04-02 17:05:09.788 INFO [brainstem:203] Stopping Brainstem...
+2015-04-02 17:05:09.789 INFO [brainstem:212] Shutdown
+2015-04-02 17:05:11.484 INFO [brainstem:36] Starting Brainstem...
+2015-04-02 17:05:11.487 INFO [brainstem:113] Creature data loaded from filesystem
+2015-04-02 17:05:11.487 INFO [brainstem:119] Showing test pattern
+2015-04-02 17:05:11.487 INFO [brainstem:132] Now showing red...
+2015-04-02 17:05:12.492 INFO [brainstem:132] Now showing green...
+2015-04-02 17:05:13.496 INFO [brainstem:132] Now showing blue...
+2015-04-02 17:05:14.502 INFO [brainstem:132] Now showing yellow...
+2015-04-02 17:05:15.508 INFO [brainstem:132] Now showing magenta...
+2015-04-02 17:05:16.510 INFO [brainstem:132] Now showing cyan...
+2015-04-02 17:05:17.517 INFO [brainstem:132] Now showing white...
+2015-04-02 17:05:18.521 INFO [brainstem:132] Now showing black...
+2015-04-02 17:05:32.444 WARNING [brainstem:205] Caught signal: 2
+2015-04-02 17:05:32.444 INFO [brainstem:209] Stopping Brainstem...
+2015-04-02 17:05:32.446 INFO [brainstem:218] Shutdown
+2015-04-02 17:06:02.064 INFO [brainstem:36] Starting Brainstem...
+2015-04-02 17:06:02.067 INFO [brainstem:113] Creature data loaded from filesystem
+2015-04-02 17:06:02.067 INFO [brainstem:119] Showing test pattern
+2015-04-02 17:06:02.067 INFO [brainstem:132] Now showing red...
+2015-04-02 17:06:03.071 INFO [brainstem:132] Now showing green...
+2015-04-02 17:06:04.077 INFO [brainstem:132] Now showing blue...
+2015-04-02 17:06:05.082 INFO [brainstem:132] Now showing yellow...
+2015-04-02 17:06:06.087 INFO [brainstem:132] Now showing magenta...
+2015-04-02 17:06:07.091 INFO [brainstem:132] Now showing cyan...
+2015-04-02 17:06:08.097 INFO [brainstem:132] Now showing white...
+2015-04-02 17:06:09.102 INFO [brainstem:132] Now showing black...
+2015-04-02 17:06:10.128 INFO [brainstem:146] update!
+2015-04-02 17:06:10.144 INFO [brainstem:146] update!
+2015-04-02 17:06:10.161 INFO [brainstem:146] update!
+2015-04-02 17:06:10.175 INFO [brainstem:146] update!
+2015-04-02 17:06:10.191 INFO [brainstem:146] update!
+2015-04-02 17:06:10.206 INFO [brainstem:146] update!
+2015-04-02 17:06:10.223 INFO [brainstem:146] update!
+2015-04-02 17:06:10.238 INFO [brainstem:146] update!
+2015-04-02 17:06:10.257 INFO [brainstem:146] update!
+2015-04-02 17:06:10.270 INFO [brainstem:146] update!
+2015-04-02 17:06:10.289 INFO [brainstem:146] update!
+2015-04-02 17:06:10.305 INFO [brainstem:146] update!
+2015-04-02 17:06:10.317 INFO [brainstem:146] update!
+2015-04-02 17:06:10.337 INFO [brainstem:146] update!
+2015-04-02 17:06:10.353 INFO [brainstem:146] update!
+2015-04-02 17:06:10.368 INFO [brainstem:146] update!
+2015-04-02 17:06:10.382 INFO [brainstem:146] update!
+2015-04-02 17:06:10.401 INFO [brainstem:146] update!
+2015-04-02 17:06:10.414 INFO [brainstem:146] update!
+2015-04-02 17:06:10.433 INFO [brainstem:146] update!
+2015-04-02 17:06:10.448 INFO [brainstem:146] update!
+2015-04-02 17:06:10.463 INFO [brainstem:146] update!
+2015-04-02 17:06:10.478 INFO [brainstem:146] update!
+2015-04-02 17:06:10.497 INFO [brainstem:146] update!
+2015-04-02 17:06:10.509 INFO [brainstem:146] update!
+2015-04-02 17:06:10.527 INFO [brainstem:146] update!
+2015-04-02 17:06:10.543 INFO [brainstem:146] update!
+2015-04-02 17:06:10.558 INFO [brainstem:146] update!
+2015-04-02 17:06:10.573 INFO [brainstem:146] update!
+2015-04-02 17:06:10.593 INFO [brainstem:146] update!
+2015-04-02 17:06:10.607 INFO [brainstem:146] update!
+2015-04-02 17:06:10.625 INFO [brainstem:146] update!
+2015-04-02 17:06:10.638 INFO [brainstem:146] update!
+2015-04-02 17:06:10.657 INFO [brainstem:146] update!
+2015-04-02 17:06:10.669 INFO [brainstem:146] update!
+2015-04-02 17:06:10.687 INFO [brainstem:146] update!
+2015-04-02 17:06:10.704 INFO [brainstem:146] update!
+2015-04-02 17:06:10.721 INFO [brainstem:146] update!
+2015-04-02 17:06:10.737 INFO [brainstem:146] update!
+2015-04-02 17:06:10.753 INFO [brainstem:146] update!
+2015-04-02 17:06:10.768 INFO [brainstem:146] update!
+2015-04-02 17:06:10.785 INFO [brainstem:146] update!
+2015-04-02 17:06:10.797 INFO [brainstem:146] update!
+2015-04-02 17:06:10.817 INFO [brainstem:146] update!
+2015-04-02 17:06:10.833 INFO [brainstem:146] update!
+2015-04-02 17:06:10.847 INFO [brainstem:146] update!
+2015-04-02 17:06:10.862 INFO [brainstem:146] update!
+2015-04-02 17:06:10.877 INFO [brainstem:146] update!
+2015-04-02 17:06:10.897 INFO [brainstem:146] update!
+2015-04-02 17:06:10.912 INFO [brainstem:146] update!
+2015-04-02 17:06:10.927 INFO [brainstem:146] update!
+2015-04-02 17:06:10.943 INFO [brainstem:146] update!
+2015-04-02 17:06:10.958 INFO [brainstem:146] update!
+2015-04-02 17:06:10.976 INFO [brainstem:146] update!
+2015-04-02 17:06:10.991 INFO [brainstem:146] update!
+2015-04-02 17:06:11.008 INFO [brainstem:146] update!
+2015-04-02 17:06:11.025 INFO [brainstem:146] update!
+2015-04-02 17:06:11.037 INFO [brainstem:146] update!
+2015-04-02 17:06:11.057 INFO [brainstem:146] update!
+2015-04-02 17:06:11.070 INFO [brainstem:146] update!
+2015-04-02 17:06:11.088 INFO [brainstem:146] update!
+2015-04-02 17:06:11.103 INFO [brainstem:146] update!
+2015-04-02 17:06:11.117 INFO [brainstem:146] update!
+2015-04-02 17:06:11.137 INFO [brainstem:146] update!
+2015-04-02 17:06:11.150 INFO [brainstem:146] update!
+2015-04-02 17:06:11.167 INFO [brainstem:146] update!
+2015-04-02 17:06:11.184 INFO [brainstem:146] update!
+2015-04-02 17:06:11.184 WARNING [brainstem:207] Caught signal: 2
+2015-04-02 17:06:11.184 INFO [brainstem:211] Stopping Brainstem...
+2015-04-02 17:06:11.185 INFO [brainstem:220] Shutdown
+2015-04-02 17:08:44.370 INFO [brainstem:36] Starting Brainstem...
+2015-04-02 17:08:44.373 INFO [brainstem:112] Loaded info for creature "Baby"
+2015-04-02 17:08:44.373 INFO [brainstem:117] Creature data loaded from filesystem
+2015-04-02 17:08:44.373 INFO [brainstem:123] Showing test pattern
+2015-04-02 17:08:44.374 INFO [brainstem:136] Now showing red...
+2015-04-02 17:08:45.380 INFO [brainstem:136] Now showing green...
+2015-04-02 17:08:46.386 INFO [brainstem:136] Now showing blue...
+2015-04-02 17:08:47.392 INFO [brainstem:136] Now showing yellow...
+2015-04-02 17:08:48.397 INFO [brainstem:136] Now showing magenta...
+2015-04-02 17:08:49.403 INFO [brainstem:136] Now showing cyan...
+2015-04-02 17:08:50.405 INFO [brainstem:136] Now showing white...
+2015-04-02 17:08:51.410 INFO [brainstem:136] Now showing black...
+2015-04-02 17:09:01.138 WARNING [brainstem:215] Caught signal: 2
+2015-04-02 17:09:01.138 INFO [brainstem:219] Stopping Brainstem...
+2015-04-02 17:09:01.139 INFO [brainstem:228] Shutdown
+2015-04-02 17:09:34.209 INFO [brainstem:36] Starting Brainstem...
+2015-04-02 17:09:34.211 INFO [brainstem:112] Loaded info for creature "Baby"
+2015-04-02 17:09:34.212 INFO [brainstem:117] Creature data loaded from filesystem
+2015-04-02 17:09:34.212 INFO [brainstem:123] Showing test pattern
+2015-04-02 17:09:34.212 INFO [brainstem:136] Now showing red...
+2015-04-02 17:09:35.216 INFO [brainstem:136] Now showing green...
+2015-04-02 17:09:36.221 INFO [brainstem:136] Now showing blue...
+2015-04-02 17:09:37.227 INFO [brainstem:136] Now showing yellow...
+2015-04-02 17:09:38.230 INFO [brainstem:136] Now showing magenta...
+2015-04-02 17:09:39.236 INFO [brainstem:136] Now showing cyan...
+2015-04-02 17:09:40.241 INFO [brainstem:136] Now showing white...
+2015-04-02 17:09:41.247 INFO [brainstem:136] Now showing black...
+2015-04-02 17:09:42.267 INFO [brainstem:161] False
+2015-04-02 17:09:42.283 INFO [brainstem:161] False
+2015-04-02 17:09:42.302 INFO [brainstem:161] False
+2015-04-02 17:09:42.316 INFO [brainstem:161] False
+2015-04-02 17:09:42.331 INFO [brainstem:161] False
+2015-04-02 17:09:42.349 INFO [brainstem:161] False
+2015-04-02 17:09:42.364 INFO [brainstem:161] False
+2015-04-02 17:09:42.381 INFO [brainstem:161] False
+2015-04-02 17:09:42.397 INFO [brainstem:161] False
+2015-04-02 17:09:42.413 INFO [brainstem:161] False
+2015-04-02 17:09:42.430 INFO [brainstem:161] False
+2015-04-02 17:09:42.446 INFO [brainstem:161] False
+2015-04-02 17:09:42.461 INFO [brainstem:161] False
+2015-04-02 17:09:42.476 INFO [brainstem:161] False
+2015-04-02 17:09:42.493 INFO [brainstem:161] False
+2015-04-02 17:09:42.510 INFO [brainstem:161] False
+2015-04-02 17:09:42.526 INFO [brainstem:161] False
+2015-04-02 17:09:42.540 INFO [brainstem:161] False
+2015-04-02 17:09:42.556 INFO [brainstem:161] False
+2015-04-02 17:09:42.574 INFO [brainstem:161] False
+2015-04-02 17:09:42.587 INFO [brainstem:161] False
+2015-04-02 17:09:42.606 INFO [brainstem:161] False
+2015-04-02 17:09:42.622 INFO [brainstem:161] False
+2015-04-02 17:09:42.637 INFO [brainstem:161] False
+2015-04-02 17:09:42.651 INFO [brainstem:161] False
+2015-04-02 17:09:42.667 INFO [brainstem:161] False
+2015-04-02 17:09:42.686 INFO [brainstem:161] False
+2015-04-02 17:09:42.701 INFO [brainstem:161] False
+2015-04-02 17:09:42.716 INFO [brainstem:161] False
+2015-04-02 17:09:42.731 INFO [brainstem:161] False
+2015-04-02 17:09:42.747 INFO [brainstem:161] False
+2015-04-02 17:09:42.766 INFO [brainstem:161] False
+2015-04-02 17:09:42.780 INFO [brainstem:161] False
+2015-04-02 17:09:42.797 INFO [brainstem:161] False
+2015-04-02 17:09:42.812 INFO [brainstem:161] False
+2015-04-02 17:09:42.827 INFO [brainstem:161] False
+2015-04-02 17:09:42.846 INFO [brainstem:161] False
+2015-04-02 17:09:42.861 INFO [brainstem:161] False
+2015-04-02 17:09:42.877 INFO [brainstem:161] False
+2015-04-02 17:09:42.894 INFO [brainstem:161] False
+2015-04-02 17:09:42.909 INFO [brainstem:161] False
+2015-04-02 17:09:42.926 INFO [brainstem:161] False
+2015-04-02 17:09:42.940 INFO [brainstem:161] False
+2015-04-02 17:09:42.956 INFO [brainstem:161] False
+2015-04-02 17:09:42.972 INFO [brainstem:161] False
+2015-04-02 17:09:42.988 INFO [brainstem:161] False
+2015-04-02 17:09:43.005 INFO [brainstem:161] False
+2015-04-02 17:09:43.020 INFO [brainstem:161] False
+2015-04-02 17:09:43.036 INFO [brainstem:161] False
+2015-04-02 17:09:43.052 INFO [brainstem:161] False
+2015-04-02 17:09:43.068 INFO [brainstem:161] False
+2015-04-02 17:09:43.086 INFO [brainstem:161] False
+2015-04-02 17:09:43.099 INFO [brainstem:161] False
+2015-04-02 17:09:43.118 INFO [brainstem:161] False
+2015-04-02 17:09:43.131 INFO [brainstem:161] False
+2015-04-02 17:09:43.147 INFO [brainstem:161] False
+2015-04-02 17:09:43.166 INFO [brainstem:161] False
+2015-04-02 17:09:43.179 INFO [brainstem:161] False
+2015-04-02 17:09:43.197 INFO [brainstem:161] False
+2015-04-02 17:09:43.212 INFO [brainstem:161] False
+2015-04-02 17:09:43.227 INFO [brainstem:161] False
+2015-04-02 17:09:43.243 INFO [brainstem:161] False
+2015-04-02 17:09:43.260 INFO [brainstem:161] False
+2015-04-02 17:09:43.276 INFO [brainstem:161] False
+2015-04-02 17:09:43.293 INFO [brainstem:161] False
+2015-04-02 17:09:43.310 INFO [brainstem:161] False
+2015-04-02 17:09:43.323 INFO [brainstem:161] False
+2015-04-02 17:09:43.340 INFO [brainstem:161] False
+2015-04-02 17:09:43.356 INFO [brainstem:161] False
+2015-04-02 17:09:43.371 INFO [brainstem:161] False
+2015-04-02 17:09:43.388 INFO [brainstem:161] False
+2015-04-02 17:09:43.403 INFO [brainstem:161] False
+2015-04-02 17:09:43.421 INFO [brainstem:161] False
+2015-04-02 17:09:43.436 INFO [brainstem:161] False
+2015-04-02 17:09:43.452 INFO [brainstem:161] False
+2015-04-02 17:09:43.468 INFO [brainstem:161] False
+2015-04-02 17:09:43.485 INFO [brainstem:161] False
+2015-04-02 17:09:43.488 WARNING [brainstem:216] Caught signal: 2
+2015-04-02 17:09:43.489 INFO [brainstem:220] Stopping Brainstem...
+2015-04-02 17:09:43.490 INFO [brainstem:229] Shutdown
+2015-04-02 17:10:23.918 INFO [brainstem:36] Starting Brainstem...
+2015-04-02 17:10:23.921 INFO [brainstem:112] Loaded info for creature "Baby"
+2015-04-02 17:10:23.921 INFO [brainstem:117] Creature data loaded from filesystem
+2015-04-02 17:10:23.921 INFO [brainstem:123] Showing test pattern
+2015-04-02 17:10:23.921 INFO [brainstem:136] Now showing red...
+2015-04-02 17:10:24.927 INFO [brainstem:136] Now showing green...
+2015-04-02 17:10:25.933 INFO [brainstem:136] Now showing blue...
+2015-04-02 17:10:26.938 INFO [brainstem:136] Now showing yellow...
+2015-04-02 17:10:27.944 INFO [brainstem:136] Now showing magenta...
+2015-04-02 17:10:28.951 INFO [brainstem:136] Now showing cyan...
+2015-04-02 17:10:29.957 INFO [brainstem:136] Now showing white...
+2015-04-02 17:10:30.964 INFO [brainstem:136] Now showing black...
+2015-04-02 17:10:31.987 INFO [brainstem:164] False
+2015-04-02 17:10:31.999 INFO [brainstem:164] False
+2015-04-02 17:10:32.017 INFO [brainstem:164] False
+2015-04-02 17:10:32.034 INFO [brainstem:164] False
+2015-04-02 17:10:32.051 INFO [brainstem:164] False
+2015-04-02 17:10:32.065 INFO [brainstem:164] False
+2015-04-02 17:10:32.081 INFO [brainstem:164] False
+2015-04-02 17:10:32.097 INFO [brainstem:164] False
+2015-04-02 17:10:32.112 INFO [brainstem:164] False
+2015-04-02 17:10:32.130 INFO [brainstem:164] False
+2015-04-02 17:10:32.146 INFO [brainstem:164] False
+2015-04-02 17:10:32.163 INFO [brainstem:164] False
+2015-04-02 17:10:32.177 INFO [brainstem:164] False
+2015-04-02 17:10:32.195 INFO [brainstem:164] False
+2015-04-02 17:10:32.210 INFO [brainstem:164] False
+2015-04-02 17:10:32.227 INFO [brainstem:164] False
+2015-04-02 17:10:32.243 INFO [brainstem:164] False
+2015-04-02 17:10:32.257 INFO [brainstem:164] False
+2015-04-02 17:10:32.272 INFO [brainstem:164] False
+2015-04-02 17:10:32.291 INFO [brainstem:164] False
+2015-04-02 17:10:32.307 INFO [brainstem:164] False
+2015-04-02 17:10:32.322 INFO [brainstem:164] False
+2015-04-02 17:10:32.337 INFO [brainstem:164] False
+2015-04-02 17:10:32.355 INFO [brainstem:164] False
+2015-04-02 17:10:32.367 INFO [brainstem:164] False
+2015-04-02 17:10:32.386 INFO [brainstem:164] False
+2015-04-02 17:10:32.402 INFO [brainstem:164] False
+2015-04-02 17:10:32.417 INFO [brainstem:164] False
+2015-04-02 17:10:32.435 INFO [brainstem:164] False
+2015-04-02 17:10:32.449 INFO [brainstem:164] False
+2015-04-02 17:10:32.466 INFO [brainstem:164] False
+2015-04-02 17:10:32.481 INFO [brainstem:164] False
+2015-04-02 17:10:32.497 INFO [brainstem:164] False
+2015-04-02 17:10:32.514 INFO [brainstem:164] False
+2015-04-02 17:10:32.529 INFO [brainstem:164] False
+2015-04-02 17:10:32.546 INFO [brainstem:164] False
+2015-04-02 17:10:32.563 INFO [brainstem:164] False
+2015-04-02 17:10:32.579 INFO [brainstem:164] False
+2015-04-02 17:10:32.593 INFO [brainstem:164] False
+2015-04-02 17:10:32.607 INFO [brainstem:164] False
+2015-04-02 17:10:32.627 INFO [brainstem:164] False
+2015-04-02 17:10:32.642 INFO [brainstem:164] False
+2015-04-02 17:10:32.658 INFO [brainstem:164] False
+2015-04-02 17:10:32.675 INFO [brainstem:164] False
+2015-04-02 17:10:32.690 INFO [brainstem:164] False
+2015-04-02 17:10:32.704 WARNING [brainstem:216] Caught signal: 2
+2015-04-02 17:10:32.706 INFO [brainstem:220] Stopping Brainstem...
+2015-04-02 17:10:32.707 INFO [brainstem:229] Shutdown
+2015-04-02 17:10:48.790 INFO [brainstem:36] Starting Brainstem...
+2015-04-02 17:10:48.793 INFO [brainstem:112] Loaded info for creature "Baby"
+2015-04-02 17:10:48.793 INFO [brainstem:117] Creature data loaded from filesystem
+2015-04-02 17:10:48.793 INFO [brainstem:123] Showing test pattern
+2015-04-02 17:10:48.793 INFO [brainstem:136] Now showing red...
+2015-04-02 17:10:49.799 INFO [brainstem:136] Now showing green...
+2015-04-02 17:10:50.802 INFO [brainstem:136] Now showing blue...
+2015-04-02 17:10:51.808 INFO [brainstem:136] Now showing yellow...
+2015-04-02 17:10:52.810 INFO [brainstem:136] Now showing magenta...
+2015-04-02 17:10:53.814 INFO [brainstem:136] Now showing cyan...
+2015-04-02 17:10:54.820 INFO [brainstem:136] Now showing white...
+2015-04-02 17:10:55.825 INFO [brainstem:136] Now showing black...
+2015-04-02 17:10:56.850 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:56.863 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:56.881 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:56.896 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:56.913 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:56.929 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:56.942 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:56.961 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:56.978 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:56.991 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.010 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.023 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.039 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.057 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.070 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.089 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.105 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.119 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.137 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.153 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.166 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.183 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.200 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.216 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.234 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.246 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.265 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.280 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.298 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.310 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.330 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.343 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.360 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.378 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.391 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.410 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.425 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.441 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.458 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.472 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.490 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.504 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.521 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.537 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.552 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.570 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.585 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.600 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.616 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.634 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.649 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.666 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.680 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.694 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.714 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.727 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.744 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.760 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.778 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.792 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.809 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.825 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.840 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.858 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.871 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.889 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.905 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.920 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.937 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.954 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.969 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:57.986 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.000 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.016 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.032 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.050 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.065 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.080 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.094 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.114 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.126 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.143 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.159 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.176 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.192 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.208 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.223 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.239 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.255 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.270 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.290 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.303 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.321 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.337 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.353 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.369 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.385 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.400 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.415 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.431 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.449 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.462 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.480 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.494 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.510 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.530 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.543 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.561 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.578 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.593 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.607 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.625 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.640 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.658 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.672 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.690 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.703 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.721 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.737 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.753 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.769 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.783 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.800 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.816 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.834 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.847 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.866 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.881 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.894 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.910 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.929 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.945 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.960 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.975 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:58.992 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.009 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.025 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.040 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.057 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.072 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.087 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.106 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.120 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.137 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.153 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.166 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.186 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.199 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.218 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.231 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.250 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.265 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.280 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.294 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.312 INFO [brainstem:165] waking up first one
+2015-04-02 17:10:59.319 WARNING [brainstem:216] Caught signal: 2
+2015-04-02 17:10:59.320 INFO [brainstem:220] Stopping Brainstem...
+2015-04-02 17:10:59.321 INFO [brainstem:229] Shutdown
+2015-04-02 17:11:38.329 INFO [brainstem:36] Starting Brainstem...
+2015-04-02 17:11:38.332 INFO [brainstem:112] Loaded info for creature "Baby"
+2015-04-02 17:11:38.332 INFO [brainstem:117] Creature data loaded from filesystem
+2015-04-02 17:11:38.332 INFO [brainstem:123] Showing test pattern
+2015-04-02 17:11:38.332 INFO [brainstem:136] Now showing red...
+2015-04-02 17:11:39.336 INFO [brainstem:136] Now showing green...
+2015-04-02 17:11:40.342 INFO [brainstem:136] Now showing blue...
+2015-04-02 17:11:41.346 INFO [brainstem:136] Now showing yellow...
+2015-04-02 17:11:42.352 INFO [brainstem:136] Now showing magenta...
+2015-04-02 17:11:43.359 INFO [brainstem:136] Now showing cyan...
+2015-04-02 17:11:44.364 INFO [brainstem:136] Now showing white...
+2015-04-02 17:11:45.366 INFO [brainstem:136] Now showing black...
+2015-04-02 17:11:46.390 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.390 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.407 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.408 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.423 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.424 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.439 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.439 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.455 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.455 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.469 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.469 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.486 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.486 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.504 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.504 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.519 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.520 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.534 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.535 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.548 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.549 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.566 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.566 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.581 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.582 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.599 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.600 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.614 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.615 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.629 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.630 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.647 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.648 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.662 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.663 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.679 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.679 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.693 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.694 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.710 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.710 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.728 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.728 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.742 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.742 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.757 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.757 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.775 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.775 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.790 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.790 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.807 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.807 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.821 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.821 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.838 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.838 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.853 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.853 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.869 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.869 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.886 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.886 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.900 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.900 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.919 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.920 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.934 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.935 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.949 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.950 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.965 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.965 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.984 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.984 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:46.999 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:46.999 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.014 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.014 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.029 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.029 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.048 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.048 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.063 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.063 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.078 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.078 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.092 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.092 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.110 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.110 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.124 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.124 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.143 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.143 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.159 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.159 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.175 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.176 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.189 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.189 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.204 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.205 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.222 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.222 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.239 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.239 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.253 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.254 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.271 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.272 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.286 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.287 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.303 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.303 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.318 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.318 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.334 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.335 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.350 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.350 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.365 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.365 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.380 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.380 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.399 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.400 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.415 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.416 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.429 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.429 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.447 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.448 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.463 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.463 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.479 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.479 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.496 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.496 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.509 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.510 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.527 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.527 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.543 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.544 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.559 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.559 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.572 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.573 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.590 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.590 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.604 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.605 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.621 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.622 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.639 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.639 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.653 INFO [brainstem:166] <bound method Brainstem.wake_creature of <__main__.Brainstem instance at 0x10c23c8c0>>
+2015-04-02 17:11:47.653 INFO [brainstem:147] WHAT THE FUCK
+2015-04-02 17:11:47.655 WARNING [brainstem:217] Caught signal: 2
+2015-04-02 17:11:47.655 INFO [brainstem:221] Stopping Brainstem...
+2015-04-02 17:11:47.656 INFO [brainstem:230] Shutdown
+2015-04-02 17:12:47.508 INFO [brainstem:36] Starting Brainstem...
+2015-04-02 17:12:47.511 INFO [brainstem:112] Loaded info for creature "Baby"
+2015-04-02 17:12:47.511 INFO [brainstem:117] Creature data loaded from filesystem
+2015-04-02 17:12:47.511 INFO [brainstem:123] Showing test pattern
+2015-04-02 17:12:47.511 INFO [brainstem:136] Now showing red...
+2015-04-02 17:12:48.513 INFO [brainstem:136] Now showing green...
+2015-04-02 17:12:49.518 INFO [brainstem:136] Now showing blue...
+2015-04-02 17:12:50.521 INFO [brainstem:136] Now showing yellow...
+2015-04-02 17:12:51.528 INFO [brainstem:136] Now showing magenta...
+2015-04-02 17:12:52.535 INFO [brainstem:136] Now showing cyan...
+2015-04-02 17:12:53.539 INFO [brainstem:136] Now showing white...
+2015-04-02 17:12:54.546 INFO [brainstem:136] Now showing black...
+2015-04-02 17:12:55.569 INFO [brainstem:148] Now waking creature "Baby"
+2015-04-02 17:13:05.790 WARNING [brainstem:215] Caught signal: 2
+2015-04-02 17:13:05.790 INFO [brainstem:219] Stopping Brainstem...
+2015-04-02 17:13:05.791 INFO [brainstem:228] Shutdown
+2015-04-02 17:14:12.221 INFO [brainstem:113] Loaded info for creature "Baby"
+2015-04-02 17:14:12.221 INFO [brainstem:118] Creature data loaded from filesystem
+2015-04-02 17:14:12.221 INFO [brainstem:124] Showing test pattern
+2015-04-02 17:14:12.221 INFO [brainstem:137] Now showing red...
+2015-04-02 17:14:12.222 INFO [brainstem:45] Starting Brainstem...
+2015-04-02 17:14:13.224 INFO [brainstem:137] Now showing green...
+2015-04-02 17:14:13.621 WARNING [brainstem:216] Caught signal: 2
+2015-04-02 17:14:13.621 INFO [brainstem:220] Stopping Brainstem...
+2015-04-02 17:14:13.622 INFO [brainstem:229] Shutdown
+2015-04-02 17:14:31.907 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:14:31.909 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:14:31.912 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:14:31.912 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:14:31.912 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:14:31.912 INFO [brainstem:139] Now showing red...
+2015-04-02 17:14:32.918 INFO [brainstem:139] Now showing green...
+2015-04-02 17:14:33.924 INFO [brainstem:139] Now showing blue...
+2015-04-02 17:14:34.930 INFO [brainstem:139] Now showing yellow...
+2015-04-02 17:14:35.936 INFO [brainstem:139] Now showing magenta...
+2015-04-02 17:14:36.940 INFO [brainstem:139] Now showing cyan...
+2015-04-02 17:14:37.947 INFO [brainstem:139] Now showing white...
+2015-04-02 17:14:38.951 INFO [brainstem:139] Now showing black...
+2015-04-02 17:14:39.977 INFO [brainstem:151] Now waking creature "Baby"
+2015-04-02 17:15:44.459 WARNING [brainstem:218] Caught signal: 2
+2015-04-02 17:15:44.460 INFO [brainstem:222] Stopping Brainstem...
+2015-04-02 17:15:44.461 INFO [brainstem:231] Shutdown
+2015-04-02 17:15:45.122 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:15:45.125 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:15:45.128 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:15:45.128 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:15:45.128 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:15:45.128 INFO [brainstem:139] Now showing red...
+2015-04-02 17:15:46.133 INFO [brainstem:139] Now showing green...
+2015-04-02 17:15:47.138 INFO [brainstem:139] Now showing blue...
+2015-04-02 17:15:48.144 INFO [brainstem:139] Now showing yellow...
+2015-04-02 17:15:49.149 INFO [brainstem:139] Now showing magenta...
+2015-04-02 17:15:50.154 INFO [brainstem:139] Now showing cyan...
+2015-04-02 17:15:51.159 INFO [brainstem:139] Now showing white...
+2015-04-02 17:15:52.165 INFO [brainstem:139] Now showing black...
+2015-04-02 17:15:53.187 INFO [brainstem:151] Now waking creature "Baby"
+2015-04-02 17:20:02.512 WARNING [brainstem:218] Caught signal: 2
+2015-04-02 17:20:02.513 INFO [brainstem:222] Stopping Brainstem...
+2015-04-02 17:20:02.514 INFO [brainstem:231] Shutdown
+2015-04-02 17:20:03.363 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:20:03.366 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:20:03.369 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:20:03.369 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:20:03.369 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:20:03.369 INFO [brainstem:139] Now showing red...
+2015-04-02 17:20:04.372 INFO [brainstem:139] Now showing green...
+2015-04-02 17:20:05.378 INFO [brainstem:139] Now showing blue...
+2015-04-02 17:20:06.385 INFO [brainstem:139] Now showing yellow...
+2015-04-02 17:20:07.387 INFO [brainstem:139] Now showing magenta...
+2015-04-02 17:20:08.394 INFO [brainstem:139] Now showing cyan...
+2015-04-02 17:20:09.400 INFO [brainstem:139] Now showing white...
+2015-04-02 17:20:10.407 INFO [brainstem:139] Now showing black...
+2015-04-02 17:20:11.432 INFO [brainstem:151] Now waking creature "Baby"
+2015-04-02 17:20:11.432 INFO [creature:63] WAKING UP
+2015-04-02 17:20:11.446 INFO [creature:42] here
+2015-04-02 17:20:11.465 INFO [creature:42] here
+2015-04-02 17:20:11.479 INFO [creature:42] here
+2015-04-02 17:20:11.496 INFO [creature:42] here
+2015-04-02 17:20:11.512 INFO [creature:42] here
+2015-04-02 17:20:11.528 INFO [creature:42] here
+2015-04-02 17:20:11.542 INFO [creature:42] here
+2015-04-02 17:20:11.558 INFO [creature:42] here
+2015-04-02 17:20:11.575 INFO [creature:42] here
+2015-04-02 17:20:11.592 INFO [creature:42] here
+2015-04-02 17:20:11.608 INFO [creature:42] here
+2015-04-02 17:20:11.623 INFO [creature:42] here
+2015-04-02 17:20:11.641 INFO [creature:42] here
+2015-04-02 17:20:11.656 INFO [creature:42] here
+2015-04-02 17:20:11.671 INFO [creature:42] here
+2015-04-02 17:20:11.689 INFO [creature:42] here
+2015-04-02 17:20:11.702 INFO [creature:42] here
+2015-04-02 17:20:11.721 INFO [creature:42] here
+2015-04-02 17:20:11.736 INFO [creature:42] here
+2015-04-02 17:20:11.752 INFO [creature:42] here
+2015-04-02 17:20:11.768 INFO [creature:42] here
+2015-04-02 17:20:11.782 INFO [creature:42] here
+2015-04-02 17:20:11.801 INFO [creature:42] here
+2015-04-02 17:20:11.816 INFO [creature:42] here
+2015-04-02 17:20:11.832 INFO [creature:42] here
+2015-04-02 17:20:11.846 INFO [creature:42] here
+2015-04-02 17:20:11.861 INFO [creature:42] here
+2015-04-02 17:20:11.880 INFO [creature:42] here
+2015-04-02 17:20:11.897 INFO [creature:42] here
+2015-04-02 17:20:11.912 INFO [creature:42] here
+2015-04-02 17:20:11.925 INFO [creature:42] here
+2015-04-02 17:20:11.944 INFO [creature:42] here
+2015-04-02 17:20:11.958 INFO [creature:42] here
+2015-04-02 17:20:11.976 INFO [creature:42] here
+2015-04-02 17:20:11.991 INFO [creature:42] here
+2015-04-02 17:20:12.007 INFO [creature:42] here
+2015-04-02 17:20:12.022 INFO [creature:42] here
+2015-04-02 17:20:12.037 INFO [creature:42] here
+2015-04-02 17:20:12.057 INFO [creature:42] here
+2015-04-02 17:20:12.072 INFO [creature:42] here
+2015-04-02 17:20:12.088 INFO [creature:42] here
+2015-04-02 17:20:12.103 INFO [creature:42] here
+2015-04-02 17:20:12.119 INFO [creature:42] here
+2015-04-02 17:20:12.135 INFO [creature:42] here
+2015-04-02 17:20:12.152 INFO [creature:42] here
+2015-04-02 17:20:12.167 INFO [creature:42] here
+2015-04-02 17:20:12.182 INFO [creature:42] here
+2015-04-02 17:20:12.200 INFO [creature:42] here
+2015-04-02 17:20:12.214 INFO [creature:42] here
+2015-04-02 17:20:12.233 INFO [creature:42] here
+2015-04-02 17:20:12.245 INFO [creature:42] here
+2015-04-02 17:20:12.264 INFO [creature:42] here
+2015-04-02 17:20:12.280 INFO [creature:42] here
+2015-04-02 17:20:12.296 INFO [creature:42] here
+2015-04-02 17:20:12.312 INFO [creature:42] here
+2015-04-02 17:20:12.328 INFO [creature:42] here
+2015-04-02 17:20:12.342 INFO [creature:42] here
+2015-04-02 17:20:12.358 INFO [creature:42] here
+2015-04-02 17:20:12.377 INFO [creature:42] here
+2015-04-02 17:20:12.391 INFO [creature:42] here
+2015-04-02 17:20:12.407 INFO [creature:42] here
+2015-04-02 17:20:12.423 INFO [creature:42] here
+2015-04-02 17:20:12.439 INFO [creature:42] here
+2015-04-02 17:20:12.454 INFO [creature:42] here
+2015-04-02 17:20:12.472 INFO [creature:42] here
+2015-04-02 17:20:12.487 INFO [creature:42] here
+2015-04-02 17:20:12.501 INFO [creature:42] here
+2015-04-02 17:20:12.520 INFO [creature:42] here
+2015-04-02 17:20:12.536 INFO [creature:42] here
+2015-04-02 17:20:12.552 INFO [creature:42] here
+2015-04-02 17:20:12.568 INFO [creature:42] here
+2015-04-02 17:20:12.582 INFO [creature:42] here
+2015-04-02 17:20:12.601 INFO [creature:42] here
+2015-04-02 17:20:12.614 INFO [creature:42] here
+2015-04-02 17:20:12.632 INFO [creature:42] here
+2015-04-02 17:20:12.648 INFO [creature:42] here
+2015-04-02 17:20:12.662 INFO [creature:42] here
+2015-04-02 17:20:12.680 INFO [creature:42] here
+2015-04-02 17:20:12.696 INFO [creature:42] here
+2015-04-02 17:20:12.711 INFO [creature:42] here
+2015-04-02 17:20:12.728 INFO [creature:42] here
+2015-04-02 17:20:12.742 INFO [creature:42] here
+2015-04-02 17:20:12.758 INFO [creature:42] here
+2015-04-02 17:20:12.774 INFO [creature:42] here
+2015-04-02 17:20:12.792 INFO [creature:42] here
+2015-04-02 17:20:12.805 INFO [creature:42] here
+2015-04-02 17:20:12.824 INFO [creature:42] here
+2015-04-02 17:20:12.838 INFO [creature:42] here
+2015-04-02 17:20:12.856 INFO [creature:42] here
+2015-04-02 17:20:12.871 INFO [creature:42] here
+2015-04-02 17:20:12.887 INFO [creature:42] here
+2015-04-02 17:20:12.903 INFO [creature:42] here
+2015-04-02 17:20:12.921 INFO [creature:42] here
+2015-04-02 17:20:12.936 INFO [creature:42] here
+2015-04-02 17:20:12.951 INFO [creature:42] here
+2015-04-02 17:20:12.969 INFO [creature:42] here
+2015-04-02 17:20:12.982 INFO [creature:42] here
+2015-04-02 17:20:13.001 INFO [creature:42] here
+2015-04-02 17:20:13.013 INFO [creature:42] here
+2015-04-02 17:20:13.032 INFO [creature:42] here
+2015-04-02 17:20:13.047 INFO [creature:42] here
+2015-04-02 17:20:13.064 INFO [creature:42] here
+2015-04-02 17:20:13.080 INFO [creature:42] here
+2015-04-02 17:20:13.097 INFO [creature:42] here
+2015-04-02 17:20:13.111 INFO [creature:42] here
+2015-04-02 17:20:13.127 INFO [creature:42] here
+2015-04-02 17:20:13.142 INFO [creature:42] here
+2015-04-02 17:20:13.158 INFO [creature:42] here
+2015-04-02 17:20:13.174 INFO [creature:42] here
+2015-04-02 17:20:13.193 INFO [creature:42] here
+2015-04-02 17:20:13.207 INFO [creature:42] here
+2015-04-02 17:20:13.224 INFO [creature:42] here
+2015-04-02 17:20:13.238 INFO [creature:42] here
+2015-04-02 17:20:13.255 INFO [creature:42] here
+2015-04-02 17:20:13.272 INFO [creature:42] here
+2015-04-02 17:20:13.288 INFO [creature:42] here
+2015-04-02 17:20:13.303 INFO [creature:42] here
+2015-04-02 17:20:13.321 INFO [creature:42] here
+2015-04-02 17:20:13.335 INFO [creature:42] here
+2015-04-02 17:20:13.352 INFO [creature:42] here
+2015-04-02 17:20:13.367 INFO [creature:42] here
+2015-04-02 17:20:13.382 INFO [creature:42] here
+2015-04-02 17:20:13.398 INFO [creature:42] here
+2015-04-02 17:20:13.416 INFO [creature:42] here
+2015-04-02 17:20:13.432 INFO [creature:42] here
+2015-04-02 17:20:13.447 INFO [creature:42] here
+2015-04-02 17:20:13.462 INFO [creature:42] here
+2015-04-02 17:20:13.478 INFO [creature:42] here
+2015-04-02 17:20:13.494 INFO [creature:42] here
+2015-04-02 17:20:13.513 INFO [creature:42] here
+2015-04-02 17:20:13.526 INFO [creature:42] here
+2015-04-02 17:20:13.542 INFO [creature:42] here
+2015-04-02 17:20:13.558 INFO [creature:42] here
+2015-04-02 17:20:13.577 INFO [creature:42] here
+2015-04-02 17:20:13.590 INFO [creature:42] here
+2015-04-02 17:20:13.607 INFO [creature:42] here
+2015-04-02 17:20:13.622 INFO [creature:42] here
+2015-04-02 17:20:13.639 INFO [creature:42] here
+2015-04-02 17:20:13.655 INFO [creature:42] here
+2015-04-02 17:20:13.672 INFO [creature:42] here
+2015-04-02 17:20:13.689 INFO [creature:42] here
+2015-04-02 17:20:13.703 INFO [creature:42] here
+2015-04-02 17:20:13.719 INFO [creature:42] here
+2015-04-02 17:20:13.736 INFO [creature:42] here
+2015-04-02 17:20:13.752 INFO [creature:42] here
+2015-04-02 17:20:13.767 INFO [creature:42] here
+2015-04-02 17:20:13.783 INFO [creature:42] here
+2015-04-02 17:20:13.799 INFO [creature:42] here
+2015-04-02 17:20:13.815 INFO [creature:42] here
+2015-04-02 17:20:13.829 INFO [creature:42] here
+2015-04-02 17:20:13.848 INFO [creature:42] here
+2015-04-02 17:20:13.864 INFO [creature:42] here
+2015-04-02 17:20:13.879 INFO [creature:42] here
+2015-04-02 17:20:13.897 INFO [creature:42] here
+2015-04-02 17:20:13.910 INFO [creature:42] here
+2015-04-02 17:20:13.927 INFO [creature:42] here
+2015-04-02 17:20:13.942 INFO [creature:42] here
+2015-04-02 17:20:13.958 INFO [creature:42] here
+2015-04-02 17:20:13.977 INFO [creature:42] here
+2015-04-02 17:20:13.990 INFO [creature:42] here
+2015-04-02 17:20:14.005 INFO [creature:42] here
+2015-04-02 17:20:14.023 INFO [creature:42] here
+2015-04-02 17:20:14.040 INFO [creature:42] here
+2015-04-02 17:20:14.053 INFO [creature:42] here
+2015-04-02 17:20:14.072 INFO [creature:42] here
+2015-04-02 17:20:14.085 INFO [creature:42] here
+2015-04-02 17:20:14.104 INFO [creature:42] here
+2015-04-02 17:20:14.119 INFO [creature:42] here
+2015-04-02 17:20:14.134 INFO [creature:42] here
+2015-04-02 17:20:14.151 INFO [creature:42] here
+2015-04-02 17:20:14.167 INFO [creature:42] here
+2015-04-02 17:20:14.182 INFO [creature:42] here
+2015-04-02 17:20:14.200 INFO [creature:42] here
+2015-04-02 17:20:14.214 INFO [creature:42] here
+2015-04-02 17:20:14.232 INFO [creature:42] here
+2015-04-02 17:20:14.248 INFO [creature:42] here
+2015-04-02 17:20:14.264 INFO [creature:42] here
+2015-04-02 17:20:14.280 INFO [creature:42] here
+2015-04-02 17:20:14.293 INFO [creature:42] here
+2015-04-02 17:20:14.312 INFO [creature:42] here
+2015-04-02 17:20:14.328 INFO [creature:42] here
+2015-04-02 17:20:14.342 INFO [creature:42] here
+2015-04-02 17:20:14.358 INFO [creature:42] here
+2015-04-02 17:20:14.374 INFO [creature:42] here
+2015-04-02 17:20:14.391 INFO [creature:42] here
+2015-04-02 17:20:14.407 INFO [creature:42] here
+2015-04-02 17:20:14.423 INFO [creature:42] here
+2015-04-02 17:20:14.440 INFO [creature:42] here
+2015-04-02 17:20:14.455 INFO [creature:42] here
+2015-04-02 17:20:14.471 INFO [creature:42] here
+2015-04-02 17:20:14.486 INFO [creature:42] here
+2015-04-02 17:20:14.503 INFO [creature:42] here
+2015-04-02 17:20:14.504 WARNING [brainstem:218] Caught signal: 2
+2015-04-02 17:20:14.504 INFO [brainstem:222] Stopping Brainstem...
+2015-04-02 17:20:14.505 INFO [brainstem:231] Shutdown
+2015-04-02 17:20:40.487 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:20:40.489 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:20:40.493 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:20:40.493 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:20:40.493 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:20:40.493 INFO [brainstem:139] Now showing red...
+2015-04-02 17:20:41.498 INFO [brainstem:139] Now showing green...
+2015-04-02 17:20:42.501 INFO [brainstem:139] Now showing blue...
+2015-04-02 17:20:43.508 INFO [brainstem:139] Now showing yellow...
+2015-04-02 17:20:44.511 INFO [brainstem:139] Now showing magenta...
+2015-04-02 17:20:45.517 INFO [brainstem:139] Now showing cyan...
+2015-04-02 17:20:46.521 INFO [brainstem:139] Now showing white...
+2015-04-02 17:20:47.523 INFO [brainstem:139] Now showing black...
+2015-04-02 17:20:48.547 INFO [brainstem:151] Now waking creature "Baby"
+2015-04-02 17:20:48.564 INFO [creature:42] 0
+2015-04-02 17:20:48.579 INFO [creature:42] 0
+2015-04-02 17:20:48.594 INFO [creature:42] 0
+2015-04-02 17:20:48.612 INFO [creature:42] 0
+2015-04-02 17:20:48.628 INFO [creature:42] 0
+2015-04-02 17:20:48.644 INFO [creature:42] 0
+2015-04-02 17:20:48.657 INFO [creature:42] 0
+2015-04-02 17:20:48.676 INFO [creature:42] 0
+2015-04-02 17:20:48.693 INFO [creature:42] 0
+2015-04-02 17:20:48.708 INFO [creature:42] 0
+2015-04-02 17:20:48.722 INFO [creature:42] 0
+2015-04-02 17:20:48.738 INFO [creature:42] 0
+2015-04-02 17:20:48.757 INFO [creature:42] 0
+2015-04-02 17:20:48.772 INFO [creature:42] 0
+2015-04-02 17:20:48.788 INFO [creature:42] 0
+2015-04-02 17:20:48.803 INFO [creature:42] 0
+2015-04-02 17:20:48.818 INFO [creature:42] 0
+2015-04-02 17:20:48.836 INFO [creature:42] 0
+2015-04-02 17:20:48.851 INFO [creature:42] 0
+2015-04-02 17:20:48.867 INFO [creature:42] 0
+2015-04-02 17:20:48.883 INFO [creature:42] 0
+2015-04-02 17:20:48.901 INFO [creature:42] 0
+2015-04-02 17:20:48.916 INFO [creature:42] 0
+2015-04-02 17:20:48.932 INFO [creature:42] 0
+2015-04-02 17:20:48.949 INFO [creature:42] 0
+2015-04-02 17:20:48.962 INFO [creature:42] 0
+2015-04-02 17:20:48.981 INFO [creature:42] 0
+2015-04-02 17:20:48.996 INFO [creature:42] 0
+2015-04-02 17:20:49.012 INFO [creature:42] 0
+2015-04-02 17:20:49.028 INFO [creature:42] 0
+2015-04-02 17:20:49.042 INFO [creature:42] 0
+2015-04-02 17:20:49.057 INFO [creature:42] 0
+2015-04-02 17:20:49.077 INFO [creature:42] 0
+2015-04-02 17:20:49.090 INFO [creature:42] 0
+2015-04-02 17:20:49.109 INFO [creature:42] 0
+2015-04-02 17:20:49.124 INFO [creature:42] 0
+2015-04-02 17:20:49.138 INFO [creature:42] 0
+2015-04-02 17:20:49.157 INFO [creature:42] 0
+2015-04-02 17:20:49.171 INFO [creature:42] 0
+2015-04-02 17:20:49.188 INFO [creature:42] 0
+2015-04-02 17:20:49.204 INFO [creature:42] 0
+2015-04-02 17:20:49.221 INFO [creature:42] 0
+2015-04-02 17:20:49.235 INFO [creature:42] 0
+2015-04-02 17:20:49.253 INFO [creature:42] 0
+2015-04-02 17:20:49.268 INFO [creature:42] 0
+2015-04-02 17:20:49.282 INFO [creature:42] 0
+2015-04-02 17:20:49.301 INFO [creature:42] 0
+2015-04-02 17:20:49.314 INFO [creature:42] 0
+2015-04-02 17:20:49.332 INFO [creature:42] 0
+2015-04-02 17:20:49.347 INFO [creature:42] 0
+2015-04-02 17:20:49.362 INFO [creature:42] 0
+2015-04-02 17:20:49.381 INFO [creature:42] 0
+2015-04-02 17:20:49.396 INFO [creature:42] 0
+2015-04-02 17:20:49.412 INFO [creature:42] 0
+2015-04-02 17:20:49.426 INFO [creature:42] 0
+2015-04-02 17:20:49.441 INFO [creature:42] 0
+2015-04-02 17:20:49.458 INFO [creature:42] 0
+2015-04-02 17:20:49.475 INFO [creature:42] 0
+2015-04-02 17:20:49.492 INFO [creature:42] 0
+2015-04-02 17:20:49.507 INFO [creature:42] 0
+2015-04-02 17:20:49.522 INFO [creature:42] 0
+2015-04-02 17:20:49.539 INFO [creature:42] 0
+2015-04-02 17:20:49.558 INFO [creature:42] 0
+2015-04-02 17:20:49.572 INFO [creature:42] 0
+2015-04-02 17:20:49.589 INFO [creature:42] 0
+2015-04-02 17:20:49.603 INFO [creature:42] 0
+2015-04-02 17:20:49.619 INFO [creature:42] 0
+2015-04-02 17:20:49.637 INFO [creature:42] 0
+2015-04-02 17:20:49.652 INFO [creature:42] 0
+2015-04-02 17:20:49.667 INFO [creature:42] 0
+2015-04-02 17:20:49.683 INFO [creature:42] 0
+2015-04-02 17:20:49.699 INFO [creature:42] 0
+2015-04-02 17:20:49.713 INFO [creature:42] 0
+2015-04-02 17:20:49.730 INFO [creature:42] 0
+2015-04-02 17:20:49.747 INFO [creature:42] 0
+2015-04-02 17:20:49.762 INFO [creature:42] 0
+2015-04-02 17:20:49.779 INFO [creature:42] 0
+2015-04-02 17:20:49.795 INFO [creature:42] 0
+2015-04-02 17:20:49.813 INFO [creature:42] 0
+2015-04-02 17:20:49.826 INFO [creature:42] 0
+2015-04-02 17:20:49.842 INFO [creature:42] 0
+2015-04-02 17:20:49.858 INFO [creature:42] 0
+2015-04-02 17:20:49.875 INFO [creature:42] 0
+2015-04-02 17:20:49.892 INFO [creature:42] 0
+2015-04-02 17:20:49.906 INFO [creature:42] 0
+2015-04-02 17:20:49.923 INFO [creature:42] 0
+2015-04-02 17:20:49.940 INFO [creature:42] 0
+2015-04-02 17:20:49.954 INFO [creature:42] 0
+2015-04-02 17:20:49.969 INFO [creature:42] 0
+2015-04-02 17:20:49.988 INFO [creature:42] 0
+2015-04-02 17:20:50.005 INFO [creature:42] 0
+2015-04-02 17:20:50.021 INFO [creature:42] 0
+2015-04-02 17:20:50.034 INFO [creature:42] 0
+2015-04-02 17:20:50.052 INFO [creature:42] 0
+2015-04-02 17:20:50.069 INFO [creature:42] 0
+2015-04-02 17:20:50.082 INFO [creature:42] 0
+2015-04-02 17:20:50.098 INFO [creature:42] 0
+2015-04-02 17:20:50.114 INFO [creature:42] 0
+2015-04-02 17:20:50.133 INFO [creature:42] 0
+2015-04-02 17:20:50.147 INFO [creature:42] 0
+2015-04-02 17:20:50.162 INFO [creature:42] 0
+2015-04-02 17:20:50.178 INFO [creature:42] 0
+2015-04-02 17:20:50.197 INFO [creature:42] 0
+2015-04-02 17:20:50.212 INFO [creature:42] 0
+2015-04-02 17:20:50.226 INFO [creature:42] 0
+2015-04-02 17:20:50.243 INFO [creature:42] 0
+2015-04-02 17:20:50.258 INFO [creature:42] 0
+2015-04-02 17:20:50.276 INFO [creature:42] 0
+2015-04-02 17:20:50.292 INFO [creature:42] 0
+2015-04-02 17:20:50.308 INFO [creature:42] 0
+2015-04-02 17:20:50.322 INFO [creature:42] 0
+2015-04-02 17:20:50.341 INFO [creature:42] 0
+2015-04-02 17:20:50.357 INFO [creature:42] 0
+2015-04-02 17:20:50.373 INFO [creature:42] 0
+2015-04-02 17:20:50.389 INFO [creature:42] 0
+2015-04-02 17:20:50.402 INFO [creature:42] 0
+2015-04-02 17:20:50.421 INFO [creature:42] 0
+2015-04-02 17:20:50.436 INFO [creature:42] 0
+2015-04-02 17:20:50.452 INFO [creature:42] 0
+2015-04-02 17:20:50.466 INFO [creature:42] 0
+2015-04-02 17:20:50.485 INFO [creature:42] 0
+2015-04-02 17:20:50.498 INFO [creature:42] 0
+2015-04-02 17:20:50.518 INFO [creature:42] 0
+2015-04-02 17:20:50.532 INFO [creature:42] 0
+2015-04-02 17:20:50.546 INFO [creature:42] 0
+2015-04-02 17:20:50.562 INFO [creature:42] 0
+2015-04-02 17:20:50.578 INFO [creature:42] 0
+2015-04-02 17:20:50.594 INFO [creature:42] 0
+2015-04-02 17:20:50.612 INFO [creature:42] 0
+2015-04-02 17:20:50.628 INFO [creature:42] 0
+2015-04-02 17:20:50.643 INFO [creature:42] 0
+2015-04-02 17:20:50.658 INFO [creature:42] 0
+2015-04-02 17:20:50.677 INFO [creature:42] 0
+2015-04-02 17:20:50.692 INFO [creature:42] 0
+2015-04-02 17:20:50.708 INFO [creature:42] 0
+2015-04-02 17:20:50.723 INFO [creature:42] 0
+2015-04-02 17:20:50.741 INFO [creature:42] 0
+2015-04-02 17:20:50.757 INFO [creature:42] 0
+2015-04-02 17:20:50.773 INFO [creature:42] 0
+2015-04-02 17:20:50.789 INFO [creature:42] 0
+2015-04-02 17:20:50.802 INFO [creature:42] 0
+2015-04-02 17:20:50.821 INFO [creature:42] 0
+2015-04-02 17:20:50.835 INFO [creature:42] 0
+2015-04-02 17:20:50.851 INFO [creature:42] 0
+2015-04-02 17:20:50.869 INFO [creature:42] 0
+2015-04-02 17:20:50.881 INFO [creature:42] 0
+2015-04-02 17:20:50.901 INFO [creature:42] 0
+2015-04-02 17:20:50.916 INFO [creature:42] 0
+2015-04-02 17:20:50.932 INFO [creature:42] 0
+2015-04-02 17:20:50.945 INFO [creature:42] 0
+2015-04-02 17:20:50.965 INFO [creature:42] 0
+2015-04-02 17:20:50.978 INFO [creature:42] 0
+2015-04-02 17:20:50.994 INFO [creature:42] 0
+2015-04-02 17:20:51.013 INFO [creature:42] 0
+2015-04-02 17:20:51.026 INFO [creature:42] 0
+2015-04-02 17:20:51.044 INFO [creature:42] 0
+2015-04-02 17:20:51.059 INFO [creature:42] 0
+2015-04-02 17:20:51.076 INFO [creature:42] 0
+2015-04-02 17:20:51.093 INFO [creature:42] 0
+2015-04-02 17:20:51.109 INFO [creature:42] 0
+2015-04-02 17:20:51.123 INFO [creature:42] 0
+2015-04-02 17:20:51.141 INFO [creature:42] 0
+2015-04-02 17:20:51.156 INFO [creature:42] 0
+2015-04-02 17:20:51.173 INFO [creature:42] 0
+2015-04-02 17:20:51.189 INFO [creature:42] 0
+2015-04-02 17:20:51.201 INFO [creature:42] 0
+2015-04-02 17:20:51.220 INFO [creature:42] 0
+2015-04-02 17:20:51.234 INFO [creature:42] 0
+2015-04-02 17:20:51.252 INFO [creature:42] 0
+2015-04-02 17:20:51.267 INFO [creature:42] 0
+2015-04-02 17:20:51.283 INFO [creature:42] 0
+2015-04-02 17:20:51.300 INFO [creature:42] 0
+2015-04-02 17:20:51.316 INFO [creature:42] 0
+2015-04-02 17:20:51.332 INFO [creature:42] 0
+2015-04-02 17:20:51.346 INFO [creature:42] 0
+2015-04-02 17:20:51.365 INFO [creature:42] 0
+2015-04-02 17:20:51.378 INFO [creature:42] 0
+2015-04-02 17:20:51.394 INFO [creature:42] 0
+2015-04-02 17:20:51.411 INFO [creature:42] 0
+2015-04-02 17:20:51.427 INFO [creature:42] 0
+2015-04-02 17:20:51.444 INFO [creature:42] 0
+2015-04-02 17:20:51.457 INFO [creature:42] 0
+2015-04-02 17:20:51.474 INFO [creature:42] 0
+2015-04-02 17:20:51.492 INFO [creature:42] 0
+2015-04-02 17:20:51.507 INFO [creature:42] 0
+2015-04-02 17:20:51.522 INFO [creature:42] 0
+2015-04-02 17:20:51.541 INFO [creature:42] 0
+2015-04-02 17:20:51.556 INFO [creature:42] 0
+2015-04-02 17:20:51.572 INFO [creature:42] 0
+2015-04-02 17:20:51.585 INFO [creature:42] 0
+2015-04-02 17:20:51.602 INFO [creature:42] 0
+2015-04-02 17:20:51.621 INFO [creature:42] 0
+2015-04-02 17:20:51.635 INFO [creature:42] 0
+2015-04-02 17:20:51.652 INFO [creature:42] 0
+2015-04-02 17:20:51.669 INFO [creature:42] 0
+2015-04-02 17:20:51.682 INFO [creature:42] 0
+2015-04-02 17:20:51.701 INFO [creature:42] 0
+2015-04-02 17:20:51.717 INFO [creature:42] 0
+2015-04-02 17:20:51.732 INFO [creature:42] 0
+2015-04-02 17:20:51.746 INFO [creature:42] 0
+2015-04-02 17:20:51.765 INFO [creature:42] 0
+2015-04-02 17:20:51.779 INFO [creature:42] 0
+2015-04-02 17:20:51.794 INFO [creature:42] 0
+2015-04-02 17:20:51.811 INFO [creature:42] 0
+2015-04-02 17:20:51.828 INFO [creature:42] 0
+2015-04-02 17:20:51.845 INFO [creature:42] 0
+2015-04-02 17:20:51.858 INFO [creature:42] 0
+2015-04-02 17:20:51.877 INFO [creature:42] 0
+2015-04-02 17:20:51.891 INFO [creature:42] 0
+2015-04-02 17:20:51.909 INFO [creature:42] 0
+2015-04-02 17:20:51.922 INFO [creature:42] 0
+2015-04-02 17:20:51.941 INFO [creature:42] 0
+2015-04-02 17:20:51.956 INFO [creature:42] 0
+2015-04-02 17:20:51.972 INFO [creature:42] 0
+2015-04-02 17:20:51.989 INFO [creature:42] 0
+2015-04-02 17:20:52.003 INFO [creature:42] 0
+2015-04-02 17:20:52.018 INFO [creature:42] 0
+2015-04-02 17:20:52.034 INFO [creature:42] 0
+2015-04-02 17:20:52.051 INFO [creature:42] 0
+2015-04-02 17:20:52.069 INFO [creature:42] 0
+2015-04-02 17:20:52.084 INFO [creature:42] 0
+2015-04-02 17:20:52.098 INFO [creature:42] 0
+2015-04-02 17:20:52.117 INFO [creature:42] 0
+2015-04-02 17:20:52.131 INFO [creature:42] 0
+2015-04-02 17:20:52.148 INFO [creature:42] 0
+2015-04-02 17:20:52.162 INFO [creature:42] 0
+2015-04-02 17:20:52.181 INFO [creature:42] 0
+2015-04-02 17:20:52.195 INFO [creature:42] 0
+2015-04-02 17:20:52.212 INFO [creature:42] 0
+2015-04-02 17:20:52.229 INFO [creature:42] 0
+2015-04-02 17:20:52.243 INFO [creature:42] 0
+2015-04-02 17:20:52.257 INFO [creature:42] 0
+2015-04-02 17:20:52.278 INFO [creature:42] 0
+2015-04-02 17:20:52.291 INFO [creature:42] 0
+2015-04-02 17:20:52.309 INFO [creature:42] 0
+2015-04-02 17:20:52.324 INFO [creature:42] 0
+2015-04-02 17:20:52.341 INFO [creature:42] 0
+2015-04-02 17:20:52.356 INFO [creature:42] 0
+2015-04-02 17:20:52.372 INFO [creature:42] 0
+2015-04-02 17:20:52.388 INFO [creature:42] 0
+2015-04-02 17:20:52.405 INFO [creature:42] 0
+2015-04-02 17:20:52.419 INFO [creature:42] 0
+2015-04-02 17:20:52.435 INFO [creature:42] 0
+2015-04-02 17:20:52.451 INFO [creature:42] 0
+2015-04-02 17:20:52.468 INFO [creature:42] 0
+2015-04-02 17:20:52.483 INFO [creature:42] 0
+2015-04-02 17:20:52.499 INFO [creature:42] 0
+2015-04-02 17:20:52.514 INFO [creature:42] 0
+2015-04-02 17:20:52.533 INFO [creature:42] 0
+2015-04-02 17:20:52.548 INFO [creature:42] 0
+2015-04-02 17:20:52.562 INFO [creature:42] 0
+2015-04-02 17:20:52.579 INFO [creature:42] 0
+2015-04-02 17:20:52.596 INFO [creature:42] 0
+2015-04-02 17:20:52.612 INFO [creature:42] 0
+2015-04-02 17:20:52.627 INFO [creature:42] 0
+2015-04-02 17:20:52.643 INFO [creature:42] 0
+2015-04-02 17:20:52.658 INFO [creature:42] 0
+2015-04-02 17:20:52.677 INFO [creature:42] 0
+2015-04-02 17:20:52.692 INFO [creature:42] 0
+2015-04-02 17:20:52.709 INFO [creature:42] 0
+2015-04-02 17:20:52.722 INFO [creature:42] 0
+2015-04-02 17:20:52.739 INFO [creature:42] 0
+2015-04-02 17:20:52.757 INFO [creature:42] 0
+2015-04-02 17:20:52.772 INFO [creature:42] 0
+2015-04-02 17:20:52.786 INFO [creature:42] 0
+2015-04-02 17:20:52.802 INFO [creature:42] 0
+2015-04-02 17:20:52.819 INFO [creature:42] 0
+2015-04-02 17:20:52.835 INFO [creature:42] 0
+2015-04-02 17:20:52.852 INFO [creature:42] 0
+2015-04-02 17:20:52.869 INFO [creature:42] 0
+2015-04-02 17:20:52.882 INFO [creature:42] 0
+2015-04-02 17:20:52.900 INFO [creature:42] 0
+2015-04-02 17:20:52.917 INFO [creature:42] 0
+2015-04-02 17:20:52.933 INFO [creature:42] 0
+2015-04-02 17:20:52.947 INFO [creature:42] 0
+2015-04-02 17:20:52.964 INFO [creature:42] 0
+2015-04-02 17:20:52.979 INFO [creature:42] 0
+2015-04-02 17:20:52.997 INFO [creature:42] 0
+2015-04-02 17:20:53.011 INFO [creature:42] 0
+2015-04-02 17:20:53.029 INFO [creature:42] 0
+2015-04-02 17:20:53.042 INFO [creature:42] 0
+2015-04-02 17:20:53.061 INFO [creature:42] 0
+2015-04-02 17:20:53.077 INFO [creature:42] 0
+2015-04-02 17:20:53.093 INFO [creature:42] 0
+2015-04-02 17:20:53.109 INFO [creature:42] 0
+2015-04-02 17:20:53.121 INFO [creature:42] 0
+2015-04-02 17:20:53.140 INFO [creature:42] 0
+2015-04-02 17:20:53.156 INFO [creature:42] 0
+2015-04-02 17:20:53.171 INFO [creature:42] 0
+2015-04-02 17:20:53.187 INFO [creature:42] 0
+2015-04-02 17:20:53.202 INFO [creature:42] 0
+2015-04-02 17:20:53.221 INFO [creature:42] 0
+2015-04-02 17:20:53.235 INFO [creature:42] 0
+2015-04-02 17:20:53.252 INFO [creature:42] 0
+2015-04-02 17:20:53.269 INFO [creature:42] 0
+2015-04-02 17:20:53.284 INFO [creature:42] 0
+2015-04-02 17:20:53.300 INFO [creature:42] 0
+2015-04-02 17:20:53.316 INFO [creature:42] 0
+2015-04-02 17:20:53.332 INFO [creature:42] 0
+2015-04-02 17:20:53.348 INFO [creature:42] 0
+2015-04-02 17:20:53.361 INFO [creature:42] 0
+2015-04-02 17:20:53.379 INFO [creature:42] 0
+2015-04-02 17:20:53.397 INFO [creature:42] 0
+2015-04-02 17:20:53.412 INFO [creature:42] 0
+2015-04-02 17:20:53.428 INFO [creature:42] 0
+2015-04-02 17:20:53.445 INFO [creature:42] 0
+2015-04-02 17:20:53.458 INFO [creature:42] 0
+2015-04-02 17:20:53.477 INFO [creature:42] 0
+2015-04-02 17:20:53.492 INFO [creature:42] 0
+2015-04-02 17:20:53.508 INFO [creature:42] 0
+2015-04-02 17:20:53.522 INFO [creature:42] 0
+2015-04-02 17:20:53.541 INFO [creature:42] 0
+2015-04-02 17:20:53.557 INFO [creature:42] 0
+2015-04-02 17:20:53.572 INFO [creature:42] 0
+2015-04-02 17:20:53.587 INFO [creature:42] 0
+2015-04-02 17:20:53.601 INFO [creature:42] 0
+2015-04-02 17:20:53.619 INFO [creature:42] 0
+2015-04-02 17:20:53.636 INFO [creature:42] 0
+2015-04-02 17:20:53.652 INFO [creature:42] 0
+2015-04-02 17:20:53.669 INFO [creature:42] 0
+2015-04-02 17:20:53.684 INFO [creature:42] 0
+2015-04-02 17:20:53.699 INFO [creature:42] 0
+2015-04-02 17:20:53.717 INFO [creature:42] 0
+2015-04-02 17:20:53.732 INFO [creature:42] 0
+2015-04-02 17:20:53.748 INFO [creature:42] 0
+2015-04-02 17:20:53.762 INFO [creature:42] 0
+2015-04-02 17:20:53.779 INFO [creature:42] 0
+2015-04-02 17:20:53.797 INFO [creature:42] 0
+2015-04-02 17:20:53.812 INFO [creature:42] 0
+2015-04-02 17:20:53.829 INFO [creature:42] 0
+2015-04-02 17:20:53.843 INFO [creature:42] 0
+2015-04-02 17:20:53.858 INFO [creature:42] 0
+2015-04-02 17:20:53.877 INFO [creature:42] 0
+2015-04-02 17:20:53.892 INFO [creature:42] 0
+2015-04-02 17:20:53.909 INFO [creature:42] 0
+2015-04-02 17:20:53.922 INFO [creature:42] 0
+2015-04-02 17:20:53.938 INFO [creature:42] 0
+2015-04-02 17:20:53.957 INFO [creature:42] 0
+2015-04-02 17:20:53.972 INFO [creature:42] 0
+2015-04-02 17:20:53.986 INFO [creature:42] 0
+2015-04-02 17:20:54.002 INFO [creature:42] 0
+2015-04-02 17:20:54.019 INFO [creature:42] 0
+2015-04-02 17:20:54.037 INFO [creature:42] 0
+2015-04-02 17:20:54.052 INFO [creature:42] 0
+2015-04-02 17:20:54.068 INFO [creature:42] 0
+2015-04-02 17:20:54.085 INFO [creature:42] 0
+2015-04-02 17:20:54.100 INFO [creature:42] 0
+2015-04-02 17:20:54.117 INFO [creature:42] 0
+2015-04-02 17:20:54.132 INFO [creature:42] 0
+2015-04-02 17:20:54.146 INFO [creature:42] 0
+2015-04-02 17:20:54.162 INFO [creature:42] 0
+2015-04-02 17:20:54.179 INFO [creature:42] 0
+2015-04-02 17:20:54.195 INFO [creature:42] 0
+2015-04-02 17:20:54.211 INFO [creature:42] 0
+2015-04-02 17:20:54.229 INFO [creature:42] 0
+2015-04-02 17:20:54.242 INFO [creature:42] 0
+2015-04-02 17:20:54.258 INFO [creature:42] 0
+2015-04-02 17:20:54.275 INFO [creature:42] 0
+2015-04-02 17:20:54.293 INFO [creature:42] 0
+2015-04-02 17:20:54.308 INFO [creature:42] 0
+2015-04-02 17:20:54.323 INFO [creature:42] 0
+2015-04-02 17:20:54.340 INFO [creature:42] 0
+2015-04-02 17:20:54.357 INFO [creature:42] 0
+2015-04-02 17:20:54.372 INFO [creature:42] 0
+2015-04-02 17:20:54.387 INFO [creature:42] 0
+2015-04-02 17:20:54.404 INFO [creature:42] 0
+2015-04-02 17:20:54.418 INFO [creature:42] 0
+2015-04-02 17:20:54.437 INFO [creature:42] 0
+2015-04-02 17:20:54.452 INFO [creature:42] 0
+2015-04-02 17:20:54.468 INFO [creature:42] 0
+2015-04-02 17:20:54.482 INFO [creature:42] 0
+2015-04-02 17:20:54.501 INFO [creature:42] 0
+2015-04-02 17:20:54.517 INFO [creature:42] 0
+2015-04-02 17:20:54.532 INFO [creature:42] 0
+2015-04-02 17:20:54.549 INFO [creature:42] 0
+2015-04-02 17:20:54.563 INFO [creature:42] 0
+2015-04-02 17:20:54.579 INFO [creature:42] 0
+2015-04-02 17:20:54.595 INFO [creature:42] 0
+2015-04-02 17:20:54.612 INFO [creature:42] 0
+2015-04-02 17:20:54.626 INFO [creature:42] 0
+2015-04-02 17:20:54.643 INFO [creature:42] 0
+2015-04-02 17:20:54.657 INFO [creature:42] 0
+2015-04-02 17:20:54.676 INFO [creature:42] 0
+2015-04-02 17:20:54.691 INFO [creature:42] 0
+2015-04-02 17:20:54.709 INFO [creature:42] 0
+2015-04-02 17:20:54.722 INFO [creature:42] 0
+2015-04-02 17:20:54.740 INFO [creature:42] 0
+2015-04-02 17:20:54.757 INFO [creature:42] 0
+2015-04-02 17:20:54.771 INFO [creature:42] 0
+2015-04-02 17:20:54.788 INFO [creature:42] 0
+2015-04-02 17:20:54.802 INFO [creature:42] 0
+2015-04-02 17:20:54.820 INFO [creature:42] 0
+2015-04-02 17:20:54.835 INFO [creature:42] 0
+2015-04-02 17:20:54.851 INFO [creature:42] 0
+2015-04-02 17:20:54.869 INFO [creature:42] 0
+2015-04-02 17:20:54.884 INFO [creature:42] 0
+2015-04-02 17:20:54.901 INFO [creature:42] 0
+2015-04-02 17:20:54.917 INFO [creature:42] 0
+2015-04-02 17:20:54.932 INFO [creature:42] 0
+2015-04-02 17:20:54.946 INFO [creature:42] 0
+2015-04-02 17:20:54.965 INFO [creature:42] 0
+2015-04-02 17:20:54.979 INFO [creature:42] 0
+2015-04-02 17:20:54.993 INFO [creature:42] 0
+2015-04-02 17:20:55.012 INFO [creature:42] 0
+2015-04-02 17:20:55.029 INFO [creature:42] 0
+2015-04-02 17:20:55.042 INFO [creature:42] 0
+2015-04-02 17:20:55.061 INFO [creature:42] 0
+2015-04-02 17:20:55.077 INFO [creature:42] 0
+2015-04-02 17:20:55.092 INFO [creature:42] 0
+2015-04-02 17:20:55.109 INFO [creature:42] 0
+2015-04-02 17:20:55.122 INFO [creature:42] 0
+2015-04-02 17:20:55.139 INFO [creature:42] 0
+2015-04-02 17:20:55.154 INFO [creature:42] 0
+2015-04-02 17:20:55.172 INFO [creature:42] 0
+2015-04-02 17:20:55.189 INFO [creature:42] 0
+2015-04-02 17:20:55.202 INFO [creature:42] 0
+2015-04-02 17:20:55.221 INFO [creature:42] 0
+2015-04-02 17:20:55.235 INFO [creature:42] 0
+2015-04-02 17:20:55.252 INFO [creature:42] 0
+2015-04-02 17:20:55.268 INFO [creature:42] 0
+2015-04-02 17:20:55.282 INFO [creature:42] 0
+2015-04-02 17:20:55.301 INFO [creature:42] 0
+2015-04-02 17:20:55.317 INFO [creature:42] 0
+2015-04-02 17:20:55.331 INFO [creature:42] 0
+2015-04-02 17:20:55.349 INFO [creature:42] 0
+2015-04-02 17:20:55.365 INFO [creature:42] 0
+2015-04-02 17:20:55.379 INFO [creature:42] 0
+2015-04-02 17:20:55.397 INFO [creature:42] 0
+2015-04-02 17:20:55.410 INFO [creature:42] 0
+2015-04-02 17:20:55.429 INFO [creature:42] 0
+2015-04-02 17:20:55.442 INFO [creature:42] 0
+2015-04-02 17:20:55.458 INFO [creature:42] 0
+2015-04-02 17:20:55.474 INFO [creature:42] 0
+2015-04-02 17:20:55.492 INFO [creature:42] 0
+2015-04-02 17:20:55.507 INFO [creature:42] 0
+2015-04-02 17:20:55.524 INFO [creature:42] 0
+2015-04-02 17:20:55.540 INFO [creature:42] 0
+2015-04-02 17:20:55.557 INFO [creature:42] 0
+2015-04-02 17:20:55.572 INFO [creature:42] 0
+2015-04-02 17:20:55.586 INFO [creature:42] 0
+2015-04-02 17:20:55.603 INFO [creature:42] 0
+2015-04-02 17:20:55.620 INFO [creature:42] 0
+2015-04-02 17:20:55.637 INFO [creature:42] 0
+2015-04-02 17:20:55.652 INFO [creature:42] 0
+2015-04-02 17:20:55.668 INFO [creature:42] 0
+2015-04-02 17:20:55.682 INFO [creature:42] 0
+2015-04-02 17:20:55.700 INFO [creature:42] 0
+2015-04-02 17:20:55.716 INFO [creature:42] 0
+2015-04-02 17:20:55.732 INFO [creature:42] 0
+2015-04-02 17:20:55.749 INFO [creature:42] 0
+2015-04-02 17:20:55.764 INFO [creature:42] 0
+2015-04-02 17:20:55.779 INFO [creature:42] 0
+2015-04-02 17:20:55.795 INFO [creature:42] 0
+2015-04-02 17:20:55.812 INFO [creature:42] 0
+2015-04-02 17:20:55.827 INFO [creature:42] 0
+2015-04-02 17:20:55.843 INFO [creature:42] 0
+2015-04-02 17:20:55.860 INFO [creature:42] 0
+2015-04-02 17:20:55.877 INFO [creature:42] 0
+2015-04-02 17:20:55.892 INFO [creature:42] 0
+2015-04-02 17:20:55.907 INFO [creature:42] 0
+2015-04-02 17:20:55.925 INFO [creature:42] 0
+2015-04-02 17:20:55.939 INFO [creature:42] 0
+2015-04-02 17:20:55.954 INFO [creature:42] 0
+2015-04-02 17:20:55.973 INFO [creature:42] 0
+2015-04-02 17:20:55.987 INFO [creature:42] 0
+2015-04-02 17:20:56.004 INFO [creature:42] 0
+2015-04-02 17:20:56.018 INFO [creature:42] 0
+2015-04-02 17:20:56.036 INFO [creature:42] 0
+2015-04-02 17:20:56.052 INFO [creature:42] 0
+2015-04-02 17:20:56.068 INFO [creature:42] 0
+2015-04-02 17:20:56.085 INFO [creature:42] 0
+2015-04-02 17:20:56.099 INFO [creature:42] 0
+2015-04-02 17:20:56.117 INFO [creature:42] 0
+2015-04-02 17:20:56.132 INFO [creature:42] 0
+2015-04-02 17:20:56.149 INFO [creature:42] 0
+2015-04-02 17:20:56.162 INFO [creature:42] 0
+2015-04-02 17:20:56.179 INFO [creature:42] 0
+2015-04-02 17:20:56.194 INFO [creature:42] 0
+2015-04-02 17:20:56.213 INFO [creature:42] 0
+2015-04-02 17:20:56.228 INFO [creature:42] 0
+2015-04-02 17:20:56.241 INFO [creature:42] 0
+2015-04-02 17:20:56.259 INFO [creature:42] 0
+2015-04-02 17:20:56.277 INFO [creature:42] 0
+2015-04-02 17:20:56.292 INFO [creature:42] 0
+2015-04-02 17:20:56.308 INFO [creature:42] 0
+2015-04-02 17:20:56.323 INFO [creature:42] 0
+2015-04-02 17:20:56.339 INFO [creature:42] 0
+2015-04-02 17:20:56.355 INFO [creature:42] 0
+2015-04-02 17:20:56.372 INFO [creature:42] 0
+2015-04-02 17:20:56.389 INFO [creature:42] 0
+2015-04-02 17:20:56.402 INFO [creature:42] 0
+2015-04-02 17:20:56.418 INFO [creature:42] 0
+2015-04-02 17:20:56.438 INFO [creature:42] 0
+2015-04-02 17:20:56.451 INFO [creature:42] 0
+2015-04-02 17:20:56.467 INFO [creature:42] 0
+2015-04-02 17:20:56.484 INFO [creature:42] 0
+2015-04-02 17:20:56.501 INFO [creature:42] 0
+2015-04-02 17:20:56.516 INFO [creature:42] 0
+2015-04-02 17:20:56.532 INFO [creature:42] 0
+2015-04-02 17:20:56.546 INFO [creature:42] 0
+2015-04-02 17:20:56.562 INFO [creature:42] 0
+2015-04-02 17:20:56.579 INFO [creature:42] 0
+2015-04-02 17:20:56.594 INFO [creature:42] 0
+2015-04-02 17:20:56.613 INFO [creature:42] 0
+2015-04-02 17:20:56.628 INFO [creature:42] 0
+2015-04-02 17:20:56.642 INFO [creature:42] 0
+2015-04-02 17:20:56.661 INFO [creature:42] 0
+2015-04-02 17:20:56.677 INFO [creature:42] 0
+2015-04-02 17:20:56.692 INFO [creature:42] 0
+2015-04-02 17:20:56.706 INFO [creature:42] 0
+2015-04-02 17:20:56.722 INFO [creature:42] 0
+2015-04-02 17:20:56.740 INFO [creature:42] 0
+2015-04-02 17:20:56.756 INFO [creature:42] 0
+2015-04-02 17:20:56.772 INFO [creature:42] 0
+2015-04-02 17:20:56.789 INFO [creature:42] 0
+2015-04-02 17:20:56.804 INFO [creature:42] 0
+2015-04-02 17:20:56.821 INFO [creature:42] 0
+2015-04-02 17:20:56.836 INFO [creature:42] 0
+2015-04-02 17:20:56.853 INFO [creature:42] 0
+2015-04-02 17:20:56.868 INFO [creature:42] 0
+2015-04-02 17:20:56.882 INFO [creature:42] 0
+2015-04-02 17:20:56.900 INFO [creature:42] 0
+2015-04-02 17:20:56.917 INFO [creature:42] 0
+2015-04-02 17:20:56.931 INFO [creature:42] 0
+2015-04-02 17:20:56.948 INFO [creature:42] 0
+2015-04-02 17:20:56.963 INFO [creature:42] 0
+2015-04-02 17:20:56.979 INFO [creature:42] 0
+2015-04-02 17:20:56.994 INFO [creature:42] 0
+2015-04-02 17:20:57.011 INFO [creature:42] 0
+2015-04-02 17:20:57.027 INFO [creature:42] 0
+2015-04-02 17:20:57.044 INFO [creature:42] 0
+2015-04-02 17:20:57.060 INFO [creature:42] 0
+2015-04-02 17:20:57.075 INFO [creature:42] 0
+2015-04-02 17:20:57.092 INFO [creature:42] 0
+2015-04-02 17:20:57.108 INFO [creature:42] 0
+2015-04-02 17:20:57.122 INFO [creature:42] 0
+2015-04-02 17:20:57.138 INFO [creature:42] 0
+2015-04-02 17:20:57.157 INFO [creature:42] 0
+2015-04-02 17:20:57.171 INFO [creature:42] 0
+2015-04-02 17:20:57.189 INFO [creature:42] 0
+2015-04-02 17:20:57.204 INFO [creature:42] 0
+2015-04-02 17:20:57.221 INFO [creature:42] 0
+2015-04-02 17:20:57.237 INFO [creature:42] 0
+2015-04-02 17:20:57.252 INFO [creature:42] 0
+2015-04-02 17:20:57.266 INFO [creature:42] 0
+2015-04-02 17:20:57.282 INFO [creature:42] 0
+2015-04-02 17:20:57.301 INFO [creature:42] 0
+2015-04-02 17:20:57.315 INFO [creature:42] 0
+2015-04-02 17:20:57.332 INFO [creature:42] 0
+2015-04-02 17:20:57.346 INFO [creature:42] 0
+2015-04-02 17:20:57.362 INFO [creature:42] 0
+2015-04-02 17:20:57.379 INFO [creature:42] 0
+2015-04-02 17:20:57.396 INFO [creature:42] 0
+2015-04-02 17:20:57.412 INFO [creature:42] 0
+2015-04-02 17:20:57.429 INFO [creature:42] 0
+2015-04-02 17:20:57.444 INFO [creature:42] 0
+2015-04-02 17:20:57.458 INFO [creature:42] 0
+2015-04-02 17:20:57.476 INFO [creature:42] 0
+2015-04-02 17:20:57.492 INFO [creature:42] 0
+2015-04-02 17:20:57.508 INFO [creature:42] 0
+2015-04-02 17:20:57.522 INFO [creature:42] 0
+2015-04-02 17:20:57.541 INFO [creature:42] 0
+2015-04-02 17:20:57.557 INFO [creature:42] 0
+2015-04-02 17:20:57.571 INFO [creature:42] 0
+2015-04-02 17:20:57.586 INFO [creature:42] 0
+2015-04-02 17:20:57.602 INFO [creature:42] 0
+2015-04-02 17:20:57.621 INFO [creature:42] 0
+2015-04-02 17:20:57.637 INFO [creature:42] 0
+2015-04-02 17:20:57.653 INFO [creature:42] 0
+2015-04-02 17:20:57.669 INFO [creature:42] 0
+2015-04-02 17:20:57.682 INFO [creature:42] 0
+2015-04-02 17:20:57.697 INFO [creature:42] 0
+2015-04-02 17:20:57.717 INFO [creature:42] 0
+2015-04-02 17:20:57.732 INFO [creature:42] 0
+2015-04-02 17:20:57.748 INFO [creature:42] 0
+2015-04-02 17:20:57.762 INFO [creature:42] 0
+2015-04-02 17:20:57.780 INFO [creature:42] 0
+2015-04-02 17:20:57.795 INFO [creature:42] 0
+2015-04-02 17:20:57.812 INFO [creature:42] 0
+2015-04-02 17:20:57.829 INFO [creature:42] 0
+2015-04-02 17:20:57.842 INFO [creature:42] 0
+2015-04-02 17:20:57.858 INFO [creature:42] 0
+2015-04-02 17:20:57.874 INFO [creature:42] 0
+2015-04-02 17:20:57.892 INFO [creature:42] 0
+2015-04-02 17:20:57.908 INFO [creature:42] 0
+2015-04-02 17:20:57.922 INFO [creature:42] 0
+2015-04-02 17:20:57.941 INFO [creature:42] 0
+2015-04-02 17:20:57.955 INFO [creature:42] 0
+2015-04-02 17:20:57.972 INFO [creature:42] 0
+2015-04-02 17:20:57.988 INFO [creature:42] 0
+2015-04-02 17:20:58.002 INFO [creature:42] 0
+2015-04-02 17:20:58.019 INFO [creature:42] 0
+2015-04-02 17:20:58.033 INFO [creature:42] 0
+2015-04-02 17:20:58.052 INFO [creature:42] 0
+2015-04-02 17:20:58.067 INFO [creature:42] 0
+2015-04-02 17:20:58.085 INFO [creature:42] 0
+2015-04-02 17:20:58.099 INFO [creature:42] 0
+2015-04-02 17:20:58.117 INFO [creature:42] 0
+2015-04-02 17:20:58.131 INFO [creature:42] 0
+2015-04-02 17:20:58.146 INFO [creature:42] 0
+2015-04-02 17:20:58.162 INFO [creature:42] 0
+2015-04-02 17:20:58.180 INFO [creature:42] 0
+2015-04-02 17:20:58.196 INFO [creature:42] 0
+2015-04-02 17:20:58.212 INFO [creature:42] 0
+2015-04-02 17:20:58.227 INFO [creature:42] 0
+2015-04-02 17:20:58.242 INFO [creature:42] 0
+2015-04-02 17:20:58.258 INFO [creature:42] 0
+2015-04-02 17:20:58.277 INFO [creature:42] 0
+2015-04-02 17:20:58.292 INFO [creature:42] 0
+2015-04-02 17:20:58.309 INFO [creature:42] 0
+2015-04-02 17:20:58.323 INFO [creature:42] 0
+2015-04-02 17:20:58.341 INFO [creature:42] 0
+2015-04-02 17:20:58.355 INFO [creature:42] 0
+2015-04-02 17:20:58.372 INFO [creature:42] 0
+2015-04-02 17:20:58.389 INFO [creature:42] 0
+2015-04-02 17:20:58.404 INFO [creature:42] 0
+2015-04-02 17:20:58.419 INFO [creature:42] 0
+2015-04-02 17:20:58.437 INFO [creature:42] 0
+2015-04-02 17:20:58.452 INFO [creature:42] 0
+2015-04-02 17:20:58.469 INFO [creature:42] 0
+2015-04-02 17:20:58.482 INFO [creature:42] 0
+2015-04-02 17:20:58.500 INFO [creature:42] 0
+2015-04-02 17:20:58.517 INFO [creature:42] 0
+2015-04-02 17:20:58.532 INFO [creature:42] 0
+2015-04-02 17:20:58.547 INFO [creature:42] 0
+2015-04-02 17:20:58.563 INFO [creature:42] 0
+2015-04-02 17:20:58.578 INFO [creature:42] 0
+2015-04-02 17:20:58.596 INFO [creature:42] 0
+2015-04-02 17:20:58.612 INFO [creature:42] 0
+2015-04-02 17:20:58.628 INFO [creature:42] 0
+2015-04-02 17:20:58.644 INFO [creature:42] 0
+2015-04-02 17:20:58.660 INFO [creature:42] 0
+2015-04-02 17:20:58.677 INFO [creature:42] 0
+2015-04-02 17:20:58.691 INFO [creature:42] 0
+2015-04-02 17:20:58.708 INFO [creature:42] 0
+2015-04-02 17:20:58.724 INFO [creature:42] 0
+2015-04-02 17:20:58.738 INFO [creature:42] 0
+2015-04-02 17:20:58.757 INFO [creature:42] 0
+2015-04-02 17:20:58.771 INFO [creature:42] 0
+2015-04-02 17:20:58.787 INFO [creature:42] 0
+2015-04-02 17:20:58.802 INFO [creature:42] 0
+2015-04-02 17:20:58.819 INFO [creature:42] 0
+2015-04-02 17:20:58.834 INFO [creature:42] 0
+2015-04-02 17:20:58.851 INFO [creature:42] 0
+2015-04-02 17:20:58.868 INFO [creature:42] 0
+2015-04-02 17:20:58.882 INFO [creature:42] 0
+2015-04-02 17:20:58.901 INFO [creature:42] 0
+2015-04-02 17:20:58.914 INFO [creature:42] 0
+2015-04-02 17:20:58.932 INFO [creature:42] 0
+2015-04-02 17:20:58.947 INFO [creature:42] 0
+2015-04-02 17:20:58.964 INFO [creature:42] 0
+2015-04-02 17:20:58.979 INFO [creature:42] 0
+2015-04-02 17:20:58.997 INFO [creature:42] 0
+2015-04-02 17:20:59.011 INFO [creature:42] 0
+2015-04-02 17:20:59.029 INFO [creature:42] 0
+2015-04-02 17:20:59.044 INFO [creature:42] 0
+2015-04-02 17:20:59.058 INFO [creature:42] 0
+2015-04-02 17:20:59.077 INFO [creature:42] 0
+2015-04-02 17:20:59.092 INFO [creature:42] 0
+2015-04-02 17:20:59.109 INFO [creature:42] 0
+2015-04-02 17:20:59.123 INFO [creature:42] 0
+2015-04-02 17:20:59.141 INFO [creature:42] 0
+2015-04-02 17:20:59.154 INFO [creature:42] 0
+2015-04-02 17:20:59.172 INFO [creature:42] 0
+2015-04-02 17:20:59.188 INFO [creature:42] 0
+2015-04-02 17:20:59.204 INFO [creature:42] 0
+2015-04-02 17:20:59.221 INFO [creature:42] 0
+2015-04-02 17:20:59.237 INFO [creature:42] 0
+2015-04-02 17:20:59.252 INFO [creature:42] 0
+2015-04-02 17:20:59.269 INFO [creature:42] 0
+2015-04-02 17:20:59.283 INFO [creature:42] 0
+2015-04-02 17:20:59.299 INFO [creature:42] 0
+2015-04-02 17:20:59.313 INFO [creature:42] 0
+2015-04-02 17:20:59.332 INFO [creature:42] 0
+2015-04-02 17:20:59.349 INFO [creature:42] 0
+2015-04-02 17:20:59.362 INFO [creature:42] 0
+2015-04-02 17:20:59.379 INFO [creature:42] 0
+2015-04-02 17:20:59.397 INFO [creature:42] 0
+2015-04-02 17:20:59.412 INFO [creature:42] 0
+2015-04-02 17:20:59.426 INFO [creature:42] 0
+2015-04-02 17:20:59.442 INFO [creature:42] 0
+2015-04-02 17:20:59.460 INFO [creature:42] 0
+2015-04-02 17:20:59.474 INFO [creature:42] 0
+2015-04-02 17:20:59.493 INFO [creature:42] 0
+2015-04-02 17:20:59.509 INFO [creature:42] 0
+2015-04-02 17:20:59.522 INFO [creature:42] 0
+2015-04-02 17:20:59.540 INFO [creature:42] 0
+2015-04-02 17:20:59.557 INFO [creature:42] 0
+2015-04-02 17:20:59.572 INFO [creature:42] 0
+2015-04-02 17:20:59.588 INFO [creature:42] 0
+2015-04-02 17:20:59.603 INFO [creature:42] 0
+2015-04-02 17:20:59.619 INFO [creature:42] 0
+2015-04-02 17:20:59.635 INFO [creature:42] 0
+2015-04-02 17:20:59.652 INFO [creature:42] 0
+2015-04-02 17:20:59.666 INFO [creature:42] 0
+2015-04-02 17:20:59.682 INFO [creature:42] 0
+2015-04-02 17:20:59.699 INFO [creature:42] 0
+2015-04-02 17:20:59.715 INFO [creature:42] 0
+2015-04-02 17:20:59.732 INFO [creature:42] 0
+2015-04-02 17:20:59.749 INFO [creature:42] 0
+2015-04-02 17:20:59.763 INFO [creature:42] 0
+2015-04-02 17:20:59.779 INFO [creature:42] 0
+2015-04-02 17:20:59.796 INFO [creature:42] 0
+2015-04-02 17:20:59.811 INFO [creature:42] 0
+2015-04-02 17:20:59.827 INFO [creature:42] 0
+2015-04-02 17:20:59.842 INFO [creature:42] 0
+2015-04-02 17:20:59.860 INFO [creature:42] 0
+2015-04-02 17:20:59.877 INFO [creature:42] 0
+2015-04-02 17:20:59.892 INFO [creature:42] 0
+2015-04-02 17:20:59.909 INFO [creature:42] 0
+2015-04-02 17:20:59.922 INFO [creature:42] 0
+2015-04-02 17:20:59.940 INFO [creature:42] 0
+2015-04-02 17:20:59.957 INFO [creature:42] 0
+2015-04-02 17:20:59.972 INFO [creature:42] 0
+2015-04-02 17:20:59.989 INFO [creature:42] 0
+2015-04-02 17:21:00.002 INFO [creature:42] 0
+2015-04-02 17:21:00.021 INFO [creature:42] 0
+2015-04-02 17:21:00.037 INFO [creature:42] 0
+2015-04-02 17:21:00.051 INFO [creature:42] 0
+2015-04-02 17:21:00.066 INFO [creature:42] 0
+2015-04-02 17:21:00.084 INFO [creature:42] 0
+2015-04-02 17:21:00.100 INFO [creature:42] 0
+2015-04-02 17:21:00.114 INFO [creature:42] 0
+2015-04-02 17:21:00.132 INFO [creature:42] 0
+2015-04-02 17:21:00.148 INFO [creature:42] 0
+2015-04-02 17:21:00.164 INFO [creature:42] 0
+2015-04-02 17:21:00.180 INFO [creature:42] 0
+2015-04-02 17:21:00.194 INFO [creature:42] 0
+2015-04-02 17:21:00.212 INFO [creature:42] 0
+2015-04-02 17:21:00.227 INFO [creature:42] 0
+2015-04-02 17:21:00.243 INFO [creature:42] 0
+2015-04-02 17:21:00.258 INFO [creature:42] 0
+2015-04-02 17:21:00.275 INFO [creature:42] 0
+2015-04-02 17:21:00.292 INFO [creature:42] 0
+2015-04-02 17:21:00.309 INFO [creature:42] 0
+2015-04-02 17:21:00.324 INFO [creature:42] 0
+2015-04-02 17:21:00.338 INFO [creature:42] 0
+2015-04-02 17:21:00.357 INFO [creature:42] 0
+2015-04-02 17:21:00.371 INFO [creature:42] 0
+2015-04-02 17:21:00.388 INFO [creature:42] 0
+2015-04-02 17:21:00.405 INFO [creature:42] 0
+2015-04-02 17:21:00.418 INFO [creature:42] 0
+2015-04-02 17:21:00.435 INFO [creature:42] 0
+2015-04-02 17:21:00.452 INFO [creature:42] 0
+2015-04-02 17:21:00.467 INFO [creature:42] 0
+2015-04-02 17:21:00.482 INFO [creature:42] 0
+2015-04-02 17:21:00.497 INFO [creature:42] 0
+2015-04-02 17:21:00.515 INFO [creature:42] 0
+2015-04-02 17:21:00.532 INFO [creature:42] 0
+2015-04-02 17:21:00.548 INFO [creature:42] 0
+2015-04-02 17:21:00.563 INFO [creature:42] 0
+2015-04-02 17:21:00.581 INFO [creature:42] 0
+2015-04-02 17:21:00.597 INFO [creature:42] 0
+2015-04-02 17:21:00.612 INFO [creature:42] 0
+2015-04-02 17:21:00.628 INFO [creature:42] 0
+2015-04-02 17:21:00.645 INFO [creature:42] 0
+2015-04-02 17:21:00.658 INFO [creature:42] 0
+2015-04-02 17:21:00.676 INFO [creature:42] 0
+2015-04-02 17:21:00.691 INFO [creature:42] 0
+2015-04-02 17:21:00.709 INFO [creature:42] 0
+2015-04-02 17:21:00.723 INFO [creature:42] 0
+2015-04-02 17:21:00.741 INFO [creature:42] 0
+2015-04-02 17:21:00.754 INFO [creature:42] 0
+2015-04-02 17:21:00.771 INFO [creature:42] 0
+2015-04-02 17:21:00.789 INFO [creature:42] 0
+2015-04-02 17:21:00.803 INFO [creature:42] 0
+2015-04-02 17:21:00.818 INFO [creature:42] 0
+2015-04-02 17:21:00.834 INFO [creature:42] 0
+2015-04-02 17:21:00.852 INFO [creature:42] 0
+2015-04-02 17:21:00.869 INFO [creature:42] 0
+2015-04-02 17:21:00.882 INFO [creature:42] 0
+2015-04-02 17:21:00.901 INFO [creature:42] 0
+2015-04-02 17:21:00.915 INFO [creature:42] 0
+2015-04-02 17:21:00.931 INFO [creature:42] 0
+2015-04-02 17:21:00.949 INFO [creature:42] 0
+2015-04-02 17:21:00.964 INFO [creature:42] 0
+2015-04-02 17:21:00.979 INFO [creature:42] 0
+2015-04-02 17:21:00.996 INFO [creature:42] 0
+2015-04-02 17:21:01.012 INFO [creature:42] 0
+2015-04-02 17:21:01.026 INFO [creature:42] 0
+2015-04-02 17:21:01.042 INFO [creature:42] 0
+2015-04-02 17:21:01.058 INFO [creature:42] 0
+2015-04-02 17:21:01.074 INFO [creature:42] 0
+2015-04-02 17:21:01.092 INFO [creature:42] 0
+2015-04-02 17:21:01.105 INFO [creature:42] 0
+2015-04-02 17:21:01.122 INFO [creature:42] 0
+2015-04-02 17:21:01.141 INFO [creature:42] 0
+2015-04-02 17:21:01.156 INFO [creature:42] 0
+2015-04-02 17:21:01.170 INFO [creature:42] 0
+2015-04-02 17:21:01.187 INFO [creature:42] 0
+2015-04-02 17:21:01.203 INFO [creature:42] 0
+2015-04-02 17:21:01.219 INFO [creature:42] 0
+2015-04-02 17:21:01.235 INFO [creature:42] 0
+2015-04-02 17:21:01.252 INFO [creature:42] 0
+2015-04-02 17:21:01.268 INFO [creature:42] 0
+2015-04-02 17:21:01.280 WARNING [brainstem:218] Caught signal: 2
+2015-04-02 17:21:01.280 INFO [brainstem:222] Stopping Brainstem...
+2015-04-02 17:21:01.281 INFO [brainstem:231] Shutdown
+2015-04-02 17:22:27.375 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:22:27.377 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:22:27.380 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:22:27.380 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:22:27.380 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:22:27.380 INFO [brainstem:139] Now showing red...
+2015-04-02 17:22:28.383 INFO [brainstem:139] Now showing green...
+2015-04-02 17:22:29.387 INFO [brainstem:139] Now showing blue...
+2015-04-02 17:22:30.392 INFO [brainstem:139] Now showing yellow...
+2015-04-02 17:22:31.397 INFO [brainstem:139] Now showing magenta...
+2015-04-02 17:22:32.399 INFO [brainstem:139] Now showing cyan...
+2015-04-02 17:22:33.404 INFO [brainstem:139] Now showing white...
+2015-04-02 17:22:34.411 INFO [brainstem:139] Now showing black...
+2015-04-02 17:22:35.434 INFO [brainstem:151] Now waking creature "Baby"
+2015-04-02 17:22:52.094 WARNING [brainstem:218] Caught signal: 2
+2015-04-02 17:22:52.094 INFO [brainstem:222] Stopping Brainstem...
+2015-04-02 17:22:52.095 INFO [brainstem:231] Shutdown
+2015-04-02 17:25:47.595 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:25:47.598 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:25:47.600 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:25:47.600 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:25:47.600 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:25:47.601 INFO [brainstem:139] Now showing red...
+2015-04-02 17:25:48.603 INFO [brainstem:139] Now showing green...
+2015-04-02 17:25:49.609 INFO [brainstem:139] Now showing blue...
+2015-04-02 17:25:50.615 INFO [brainstem:139] Now showing yellow...
+2015-04-02 17:25:51.620 INFO [brainstem:139] Now showing magenta...
+2015-04-02 17:25:52.624 INFO [brainstem:139] Now showing cyan...
+2015-04-02 17:25:53.628 INFO [brainstem:139] Now showing white...
+2015-04-02 17:25:54.635 INFO [brainstem:139] Now showing black...
+2015-04-02 17:25:55.653 INFO [brainstem:151] Now waking creature "Baby"
+2015-04-02 17:26:00.603 WARNING [brainstem:218] Caught signal: 2
+2015-04-02 17:26:00.603 INFO [brainstem:222] Stopping Brainstem...
+2015-04-02 17:26:00.604 INFO [brainstem:231] Shutdown
+2015-04-02 17:26:50.514 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:26:50.516 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:26:50.519 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:26:50.519 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:26:50.519 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:26:50.537 INFO [brainstem:152] Now waking creature "Baby"
+2015-04-02 17:26:53.130 WARNING [brainstem:219] Caught signal: 2
+2015-04-02 17:26:53.130 INFO [brainstem:223] Stopping Brainstem...
+2015-04-02 17:26:53.132 INFO [brainstem:232] Shutdown
+2015-04-02 17:27:37.490 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:27:37.492 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:27:37.495 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:27:37.495 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:27:37.496 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:27:37.515 INFO [brainstem:152] Now waking creature "Baby"
+2015-04-02 17:27:37.516 INFO [creature:69] waking up...
+2015-04-02 17:27:39.081 WARNING [brainstem:219] Caught signal: 2
+2015-04-02 17:27:39.082 INFO [brainstem:223] Stopping Brainstem...
+2015-04-02 17:27:39.083 INFO [brainstem:232] Shutdown
+2015-04-02 17:28:12.576 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:28:12.579 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:28:12.582 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:28:12.582 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:28:12.582 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:28:12.601 INFO [brainstem:152] Now waking creature "Baby"
+2015-04-02 17:28:12.601 INFO [creature:71] waking up...
+2015-04-02 17:28:14.641 WARNING [brainstem:219] Caught signal: 2
+2015-04-02 17:28:14.642 INFO [brainstem:223] Stopping Brainstem...
+2015-04-02 17:28:14.643 INFO [brainstem:232] Shutdown
+2015-04-02 17:28:34.673 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:28:34.675 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:28:34.678 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:28:34.678 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:28:34.679 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:28:34.697 INFO [brainstem:152] Now waking creature "Baby"
+2015-04-02 17:28:34.697 INFO [creature:73] waking up...
+2015-04-02 17:28:37.169 WARNING [brainstem:219] Caught signal: 2
+2015-04-02 17:28:37.169 INFO [brainstem:223] Stopping Brainstem...
+2015-04-02 17:28:37.170 INFO [brainstem:232] Shutdown
+2015-04-02 17:28:46.376 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:28:46.378 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:28:46.381 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:28:46.381 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:28:46.381 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:28:46.399 INFO [creature:42] update
+2015-04-02 17:28:46.400 INFO [brainstem:152] Now waking creature "Baby"
+2015-04-02 17:28:46.400 INFO [creature:75] waking up...
+2015-04-02 17:28:46.414 INFO [creature:42] update
+2015-04-02 17:28:46.434 INFO [creature:42] update
+2015-04-02 17:28:46.447 INFO [creature:42] update
+2015-04-02 17:28:46.465 INFO [creature:42] update
+2015-04-02 17:28:46.481 INFO [creature:42] update
+2015-04-02 17:28:46.497 INFO [creature:42] update
+2015-04-02 17:28:46.511 INFO [creature:42] update
+2015-04-02 17:28:46.529 INFO [creature:42] update
+2015-04-02 17:28:46.544 INFO [creature:42] update
+2015-04-02 17:28:46.559 INFO [creature:42] update
+2015-04-02 17:28:46.576 INFO [creature:42] update
+2015-04-02 17:28:46.591 INFO [creature:42] update
+2015-04-02 17:28:46.609 INFO [creature:42] update
+2015-04-02 17:28:46.623 INFO [creature:42] update
+2015-04-02 17:28:46.640 INFO [creature:42] update
+2015-04-02 17:28:46.655 INFO [creature:42] update
+2015-04-02 17:28:46.673 INFO [creature:42] update
+2015-04-02 17:28:46.689 INFO [creature:42] update
+2015-04-02 17:28:46.705 INFO [creature:42] update
+2015-04-02 17:28:46.721 INFO [creature:42] update
+2015-04-02 17:28:46.736 INFO [creature:42] update
+2015-04-02 17:28:46.752 INFO [creature:42] update
+2015-04-02 17:28:46.769 INFO [creature:42] update
+2015-04-02 17:28:46.784 INFO [creature:42] update
+2015-04-02 17:28:46.801 INFO [creature:42] update
+2015-04-02 17:28:46.814 INFO [creature:42] update
+2015-04-02 17:28:46.834 INFO [creature:42] update
+2015-04-02 17:28:46.849 INFO [creature:42] update
+2015-04-02 17:28:46.865 INFO [creature:42] update
+2015-04-02 17:28:46.879 INFO [creature:42] update
+2015-04-02 17:28:46.898 INFO [creature:42] update
+2015-04-02 17:28:46.912 INFO [creature:42] update
+2015-04-02 17:28:46.926 INFO [creature:42] update
+2015-04-02 17:28:46.944 INFO [creature:42] update
+2015-04-02 17:28:46.960 INFO [creature:42] update
+2015-04-02 17:28:46.976 INFO [creature:42] update
+2015-04-02 17:28:46.993 INFO [creature:42] update
+2015-04-02 17:28:47.009 INFO [creature:42] update
+2015-04-02 17:28:47.024 INFO [creature:42] update
+2015-04-02 17:28:47.041 INFO [creature:42] update
+2015-04-02 17:28:47.055 INFO [creature:42] update
+2015-04-02 17:28:47.073 INFO [creature:42] update
+2015-04-02 17:28:47.088 INFO [creature:42] update
+2015-04-02 17:28:47.104 INFO [creature:42] update
+2015-04-02 17:28:47.121 INFO [creature:42] update
+2015-04-02 17:28:47.135 INFO [creature:42] update
+2015-04-02 17:28:47.151 INFO [creature:42] update
+2015-04-02 17:28:47.166 INFO [creature:42] update
+2015-04-02 17:28:47.184 INFO [creature:42] update
+2015-04-02 17:28:47.202 INFO [creature:42] update
+2015-04-02 17:28:47.214 INFO [creature:42] update
+2015-04-02 17:28:47.230 INFO [creature:42] update
+2015-04-02 17:28:47.250 INFO [creature:42] update
+2015-04-02 17:28:47.264 INFO [creature:42] update
+2015-04-02 17:28:47.279 INFO [creature:42] update
+2015-04-02 17:28:47.296 INFO [creature:42] update
+2015-04-02 17:28:47.310 INFO [creature:42] update
+2015-04-02 17:28:47.327 INFO [creature:42] update
+2015-04-02 17:28:47.345 INFO [creature:42] update
+2015-04-02 17:28:47.361 INFO [creature:42] update
+2015-04-02 17:28:47.376 INFO [creature:42] update
+2015-04-02 17:28:47.392 INFO [creature:42] update
+2015-04-02 17:28:47.408 INFO [creature:42] update
+2015-04-02 17:28:47.424 INFO [creature:42] update
+2015-04-02 17:28:47.440 INFO [creature:42] update
+2015-04-02 17:28:47.457 INFO [creature:42] update
+2015-04-02 17:28:47.472 INFO [creature:42] update
+2015-04-02 17:28:47.489 INFO [creature:42] update
+2015-04-02 17:28:47.503 INFO [creature:42] update
+2015-04-02 17:28:47.521 INFO [creature:42] update
+2015-04-02 17:28:47.535 INFO [creature:42] update
+2015-04-02 17:28:47.551 INFO [creature:42] update
+2015-04-02 17:28:47.569 INFO [creature:42] update
+2015-04-02 17:28:47.583 INFO [creature:42] update
+2015-04-02 17:28:47.601 INFO [creature:42] update
+2015-04-02 17:28:47.614 INFO [creature:42] update
+2015-04-02 17:28:47.630 INFO [creature:42] update
+2015-04-02 17:28:47.649 INFO [creature:42] update
+2015-04-02 17:28:47.664 INFO [creature:42] update
+2015-04-02 17:28:47.680 INFO [creature:42] update
+2015-04-02 17:28:47.696 INFO [creature:42] update
+2015-04-02 17:28:47.713 INFO [creature:42] update
+2015-04-02 17:28:47.729 INFO [creature:42] update
+2015-04-02 17:28:47.744 INFO [creature:42] update
+2015-04-02 17:28:47.761 INFO [creature:42] update
+2015-04-02 17:28:47.774 INFO [creature:42] update
+2015-04-02 17:28:47.793 INFO [creature:42] update
+2015-04-02 17:28:47.809 INFO [creature:42] update
+2015-04-02 17:28:47.825 INFO [creature:42] update
+2015-04-02 17:28:47.841 INFO [creature:42] update
+2015-04-02 17:28:47.856 INFO [creature:42] update
+2015-04-02 17:28:47.857 WARNING [brainstem:219] Caught signal: 2
+2015-04-02 17:28:47.857 INFO [brainstem:223] Stopping Brainstem...
+2015-04-02 17:28:47.858 INFO [brainstem:232] Shutdown
+2015-04-02 17:29:06.469 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:29:06.472 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:29:06.474 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:29:06.475 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:29:06.475 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:29:06.491 INFO [brainstem:152] Now waking creature "Baby"
+2015-04-02 17:29:06.492 INFO [creature:75] waking up...
+2015-04-02 17:29:06.509 INFO [creature:45] update
+2015-04-02 17:29:06.524 INFO [creature:45] update
+2015-04-02 17:29:06.542 INFO [creature:45] update
+2015-04-02 17:29:06.558 INFO [creature:45] update
+2015-04-02 17:29:06.572 INFO [creature:45] update
+2015-04-02 17:29:06.589 INFO [creature:45] update
+2015-04-02 17:29:06.605 INFO [creature:45] update
+2015-04-02 17:29:06.623 INFO [creature:45] update
+2015-04-02 17:29:06.635 INFO [creature:45] update
+2015-04-02 17:29:06.655 INFO [creature:45] update
+2015-04-02 17:29:06.670 INFO [creature:45] update
+2015-04-02 17:29:06.684 INFO [creature:45] update
+2015-04-02 17:29:06.701 INFO [creature:45] update
+2015-04-02 17:29:06.719 INFO [creature:45] update
+2015-04-02 17:29:06.731 INFO [creature:45] update
+2015-04-02 17:29:06.751 INFO [creature:45] update
+2015-04-02 17:29:06.766 INFO [creature:45] update
+2015-04-02 17:29:06.781 INFO [creature:45] update
+2015-04-02 17:29:06.796 INFO [creature:45] update
+2015-04-02 17:29:06.812 INFO [creature:45] update
+2015-04-02 17:29:06.831 INFO [creature:45] update
+2015-04-02 17:29:06.843 INFO [creature:45] update
+2015-04-02 17:29:06.861 INFO [creature:45] update
+2015-04-02 17:29:06.876 INFO [creature:45] update
+2015-04-02 17:29:06.892 INFO [creature:45] update
+2015-04-02 17:29:06.911 INFO [creature:45] update
+2015-04-02 17:29:06.926 INFO [creature:45] update
+2015-04-02 17:29:06.940 INFO [creature:45] update
+2015-04-02 17:29:06.958 INFO [creature:45] update
+2015-04-02 17:29:06.972 INFO [creature:45] update
+2015-04-02 17:29:06.991 INFO [creature:45] update
+2015-04-02 17:29:07.003 INFO [creature:45] update
+2015-04-02 17:29:07.022 INFO [creature:45] update
+2015-04-02 17:29:07.036 INFO [creature:45] update
+2015-04-02 17:29:07.053 INFO [creature:45] update
+2015-04-02 17:29:07.069 INFO [creature:45] update
+2015-04-02 17:29:07.086 INFO [creature:45] update
+2015-04-02 17:29:07.101 INFO [creature:45] update
+2015-04-02 17:29:07.119 INFO [creature:45] update
+2015-04-02 17:29:07.131 INFO [creature:45] update
+2015-04-02 17:29:07.148 INFO [creature:45] update
+2015-04-02 17:29:07.167 INFO [creature:45] update
+2015-04-02 17:29:07.182 INFO [creature:45] update
+2015-04-02 17:29:07.195 INFO [creature:45] update
+2015-04-02 17:29:07.214 INFO [creature:45] update
+2015-04-02 17:29:07.229 INFO [creature:45] update
+2015-04-02 17:29:07.245 INFO [creature:45] update
+2015-04-02 17:29:07.258 WARNING [brainstem:219] Caught signal: 2
+2015-04-02 17:29:07.258 INFO [brainstem:223] Stopping Brainstem...
+2015-04-02 17:29:07.259 INFO [brainstem:232] Shutdown
+2015-04-02 17:29:14.519 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:29:14.521 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:29:14.524 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:29:14.525 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:29:14.525 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:29:14.543 INFO [brainstem:152] Now waking creature "Baby"
+2015-04-02 17:29:14.543 INFO [creature:76] waking up...
+2015-04-02 17:29:16.040 WARNING [brainstem:219] Caught signal: 2
+2015-04-02 17:29:16.040 INFO [brainstem:223] Stopping Brainstem...
+2015-04-02 17:29:16.042 INFO [brainstem:232] Shutdown
+2015-04-02 17:29:31.443 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:29:31.446 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:29:31.449 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:29:31.449 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:29:31.449 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:29:31.469 INFO [brainstem:152] Now waking creature "Baby"
+2015-04-02 17:29:31.469 INFO [creature:72] waking up...
+2015-04-02 17:29:31.882 INFO [creature:46] update
+2015-04-02 17:29:31.899 INFO [creature:46] update
+2015-04-02 17:29:31.914 INFO [creature:46] update
+2015-04-02 17:29:31.931 INFO [creature:46] update
+2015-04-02 17:29:31.948 INFO [creature:46] update
+2015-04-02 17:29:31.963 INFO [creature:46] update
+2015-04-02 17:29:31.978 INFO [creature:46] update
+2015-04-02 17:29:31.994 INFO [creature:46] update
+2015-04-02 17:29:32.014 INFO [creature:46] update
+2015-04-02 17:29:32.028 INFO [creature:46] update
+2015-04-02 17:29:32.042 INFO [creature:46] update
+2015-04-02 17:29:32.058 INFO [creature:46] update
+2015-04-02 17:29:32.076 INFO [creature:46] update
+2015-04-02 17:29:32.093 INFO [creature:46] update
+2015-04-02 17:29:32.109 INFO [creature:46] update
+2015-04-02 17:29:32.124 INFO [creature:46] update
+2015-04-02 17:29:32.138 INFO [creature:46] update
+2015-04-02 17:29:32.156 INFO [creature:46] update
+2015-04-02 17:29:32.171 INFO [creature:46] update
+2015-04-02 17:29:32.188 INFO [creature:46] update
+2015-04-02 17:29:32.204 INFO [creature:46] update
+2015-04-02 17:29:32.218 INFO [creature:46] update
+2015-04-02 17:29:32.237 INFO [creature:46] update
+2015-04-02 17:29:32.250 INFO [creature:46] update
+2015-04-02 17:29:32.268 INFO [creature:46] update
+2015-04-02 17:29:32.282 INFO [creature:46] update
+2015-04-02 17:29:32.298 INFO [creature:46] update
+2015-04-02 17:29:32.317 INFO [creature:46] update
+2015-04-02 17:29:32.330 INFO [creature:46] update
+2015-04-02 17:29:32.348 INFO [creature:46] update
+2015-04-02 17:29:32.364 INFO [creature:46] update
+2015-04-02 17:29:32.378 INFO [creature:46] update
+2015-04-02 17:29:32.394 INFO [creature:46] update
+2015-04-02 17:29:32.410 INFO [creature:46] update
+2015-04-02 17:29:32.428 INFO [creature:46] update
+2015-04-02 17:29:32.445 INFO [creature:46] update
+2015-04-02 17:29:32.461 INFO [creature:46] update
+2015-04-02 17:29:32.477 INFO [creature:46] update
+2015-04-02 17:29:32.493 INFO [creature:46] update
+2015-04-02 17:29:32.508 INFO [creature:46] update
+2015-04-02 17:29:32.522 INFO [creature:46] update
+2015-04-02 17:29:32.541 INFO [creature:46] update
+2015-04-02 17:29:32.557 INFO [creature:46] update
+2015-04-02 17:29:32.572 INFO [creature:46] update
+2015-04-02 17:29:32.588 INFO [creature:46] update
+2015-04-02 17:29:32.605 INFO [creature:46] update
+2015-04-02 17:29:32.621 INFO [creature:46] update
+2015-04-02 17:29:32.634 INFO [creature:46] update
+2015-04-02 17:29:32.649 WARNING [brainstem:219] Caught signal: 2
+2015-04-02 17:29:32.650 INFO [brainstem:223] Stopping Brainstem...
+2015-04-02 17:29:32.651 INFO [brainstem:232] Shutdown
+2015-04-02 17:30:54.776 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:30:54.782 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:30:54.786 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:30:54.786 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:30:54.787 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:30:54.806 INFO [brainstem:152] Now waking creature "Baby"
+2015-04-02 17:30:54.806 INFO [creature:71] waking up...
+2015-04-02 17:30:54.821 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:30:54.836 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:30:54.854 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:30:54.869 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:30:54.885 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:30:54.902 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:30:54.917 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:30:54.932 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:54.948 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:54.967 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:54.980 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:54.997 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.013 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.027 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.044 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.063 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.076 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.094 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.109 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.126 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.142 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.156 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.173 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.188 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.205 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.221 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.237 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.254 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.268 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.287 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.299 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.317 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.334 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.348 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.366 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.380 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.397 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.414 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.427 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.446 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.462 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.477 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.493 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.507 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x1087169e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 46, in update
+    self.draw_lids()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 135, in draw_lids
+    if not self.is_transitioning:
+AttributeError: 'Creature' object has no attribute 'is_transitioning'
+2015-04-02 17:30:55.519 WARNING [brainstem:216] Caught signal: 2
+2015-04-02 17:30:55.519 INFO [brainstem:220] Stopping Brainstem...
+2015-04-02 17:30:55.520 INFO [brainstem:229] Shutdown
+2015-04-02 17:31:17.938 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:31:17.941 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:31:17.944 INFO [brainstem:115] Loaded info for creature "Baby"
+2015-04-02 17:31:17.944 INFO [brainstem:120] Creature data loaded from filesystem
+2015-04-02 17:31:17.944 INFO [brainstem:126] Showing test pattern
+2015-04-02 17:31:17.962 INFO [brainstem:152] Now waking creature "Baby"
+2015-04-02 17:31:17.962 INFO [creature:71] waking up...
+2015-04-02 17:31:17.978 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x10ffd49e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:31:17.996 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x10ffd49e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:31:18.011 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x10ffd49e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:31:18.025 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x10ffd49e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:31:18.043 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x10ffd49e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:31:18.057 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x10ffd49e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:31:18.076 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x10ffd49e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:31:18.092 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x10ffd49e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:31:18.106 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x10ffd49e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:31:18.123 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x10ffd49e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:31:18.137 ERROR [ioloop:585] Exception in callback <bound method Brainstem.update of <__main__.Brainstem instance at 0x10ffd49e0>>
+Traceback (most recent call last):
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/venv/lib/python2.7/site-packages/tornado/ioloop.py", line 976, in _run
+    return self.callback()
+  File "brainstem.py", line 161, in update
+    creature.update(t - self.start_time)
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 45, in update
+    self.draw_eyes()
+  File "/Users/bhall/Documents/Lab/TheEyes/dev/brainstem/creature.py", line 127, in draw_eyes
+    if self.current[i] != (255, 255, 255):
+IndexError: list index out of range
+2015-04-02 17:31:18.153 INFO [creature:52] process blink
+2015-04-02 17:31:18.153 INFO [creature:143] Blinking! 6 7
+2015-04-02 17:31:18.172 INFO [creature:52] process blink
+2015-04-02 17:31:18.188 INFO [creature:52] process blink
+2015-04-02 17:31:18.202 INFO [creature:52] process blink
+2015-04-02 17:31:18.220 INFO [creature:52] process blink
+2015-04-02 17:31:18.236 INFO [creature:52] process blink
+2015-04-02 17:31:18.249 INFO [creature:52] process blink
+2015-04-02 17:31:18.268 INFO [creature:52] process blink
+2015-04-02 17:31:18.282 INFO [creature:52] process blink
+2015-04-02 17:31:18.300 INFO [creature:52] process blink
+2015-04-02 17:31:18.316 INFO [creature:52] process blink
+2015-04-02 17:31:18.331 INFO [creature:52] process blink
+2015-04-02 17:31:18.347 INFO [creature:52] process blink
+2015-04-02 17:31:18.361 INFO [creature:52] process blink
+2015-04-02 17:31:18.379 INFO [creature:52] process blink
+2015-04-02 17:31:18.396 INFO [creature:52] process blink
+2015-04-02 17:31:18.411 INFO [creature:52] process blink
+2015-04-02 17:31:18.426 INFO [creature:52] process blink
+2015-04-02 17:31:18.442 INFO [creature:52] process blink
+2015-04-02 17:31:18.460 INFO [creature:52] process blink
+2015-04-02 17:31:18.473 INFO [creature:52] process blink
+2015-04-02 17:31:18.493 INFO [creature:52] process blink
+2015-04-02 17:31:18.507 INFO [creature:52] process blink
+2015-04-02 17:31:18.524 INFO [creature:52] process blink
+2015-04-02 17:31:18.538 INFO [creature:52] process blink
+2015-04-02 17:31:18.553 INFO [creature:52] process blink
+2015-04-02 17:31:18.570 INFO [creature:52] process blink
+2015-04-02 17:31:18.588 INFO [creature:52] process blink
+2015-04-02 17:31:18.602 INFO [creature:52] process blink
+2015-04-02 17:31:18.619 INFO [creature:52] process blink
+2015-04-02 17:31:18.636 INFO [creature:52] process blink
+2015-04-02 17:31:18.650 INFO [creature:52] process blink
+2015-04-02 17:31:18.668 INFO [creature:52] process blink
+2015-04-02 17:31:18.682 INFO [creature:52] process blink
+2015-04-02 17:31:18.700 INFO [creature:52] process blink
+2015-04-02 17:31:18.716 INFO [creature:52] process blink
+2015-04-02 17:31:18.732 INFO [creature:52] process blink
+2015-04-02 17:31:18.746 INFO [creature:52] process blink
+2015-04-02 17:31:18.763 INFO [creature:52] process blink
+2015-04-02 17:31:18.780 INFO [creature:52] process blink
+2015-04-02 17:31:18.794 INFO [creature:52] process blink
+2015-04-02 17:31:18.812 INFO [creature:52] process blink
+2015-04-02 17:31:18.827 INFO [creature:52] process blink
+2015-04-02 17:31:18.843 INFO [creature:52] process blink
+2015-04-02 17:31:18.860 INFO [creature:52] process blink
+2015-04-02 17:31:18.875 INFO [creature:52] process blink
+2015-04-02 17:31:18.892 INFO [creature:52] process blink
+2015-04-02 17:31:18.907 INFO [creature:52] process blink
+2015-04-02 17:31:18.922 INFO [creature:52] process blink
+2015-04-02 17:31:18.938 INFO [creature:52] process blink
+2015-04-02 17:31:18.955 INFO [creature:52] process blink
+2015-04-02 17:31:18.970 INFO [creature:52] process blink
+2015-04-02 17:31:18.988 INFO [creature:52] process blink
+2015-04-02 17:31:19.004 INFO [creature:52] process blink
+2015-04-02 17:31:19.018 INFO [creature:52] process blink
+2015-04-02 17:31:19.035 INFO [creature:52] process blink
+2015-04-02 17:31:19.050 INFO [creature:52] process blink
+2015-04-02 17:31:19.067 INFO [creature:52] process blink
+2015-04-02 17:31:19.083 INFO [creature:52] process blink
+2015-04-02 17:31:19.098 INFO [creature:52] process blink
+2015-04-02 17:31:19.113 INFO [creature:52] process blink
+2015-04-02 17:31:19.118 WARNING [brainstem:216] Caught signal: 2
+2015-04-02 17:31:19.119 INFO [brainstem:220] Stopping Brainstem...
+2015-04-02 17:31:19.119 INFO [brainstem:229] Shutdown
+2015-04-02 17:33:50.051 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:33:50.053 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:33:50.056 INFO [brainstem:116] Loaded info for creature "Baby"
+2015-04-02 17:33:50.057 INFO [brainstem:121] Creature data loaded from filesystem
+2015-04-02 17:33:50.057 INFO [brainstem:127] Showing test pattern
+2015-04-02 17:33:50.076 INFO [brainstem:153] Now waking creature "Baby"
+2015-04-02 17:33:50.076 INFO [creature:71] waking up...
+2015-04-02 17:33:50.091 INFO [creature:52] process blink
+2015-04-02 17:33:50.091 INFO [creature:143] Blinking! 6 7
+2015-04-02 17:33:50.108 INFO [creature:52] process blink
+2015-04-02 17:33:50.124 INFO [creature:52] process blink
+2015-04-02 17:33:50.139 INFO [creature:52] process blink
+2015-04-02 17:33:50.154 INFO [creature:52] process blink
+2015-04-02 17:33:50.170 INFO [creature:52] process blink
+2015-04-02 17:33:50.189 INFO [creature:52] process blink
+2015-04-02 17:33:50.203 INFO [creature:52] process blink
+2015-04-02 17:33:50.220 INFO [creature:52] process blink
+2015-04-02 17:33:50.234 INFO [creature:52] process blink
+2015-04-02 17:33:50.250 INFO [creature:52] process blink
+2015-04-02 17:33:50.268 INFO [creature:52] process blink
+2015-04-02 17:33:50.284 INFO [creature:52] process blink
+2015-04-02 17:33:50.298 INFO [creature:52] process blink
+2015-04-02 17:33:50.314 INFO [creature:52] process blink
+2015-04-02 17:33:50.331 INFO [creature:52] process blink
+2015-04-02 17:33:50.347 INFO [creature:52] process blink
+2015-04-02 17:33:50.364 INFO [creature:52] process blink
+2015-04-02 17:33:50.379 INFO [creature:52] process blink
+2015-04-02 17:33:50.393 INFO [creature:52] process blink
+2015-04-02 17:33:50.413 INFO [creature:52] process blink
+2015-04-02 17:33:50.427 INFO [creature:52] process blink
+2015-04-02 17:33:50.443 INFO [creature:52] process blink
+2015-04-02 17:33:50.460 INFO [creature:52] process blink
+2015-04-02 17:33:50.476 INFO [creature:52] process blink
+2015-04-02 17:33:50.492 INFO [creature:52] process blink
+2015-04-02 17:33:50.506 INFO [creature:52] process blink
+2015-04-02 17:33:50.524 INFO [creature:52] process blink
+2015-04-02 17:33:50.540 INFO [creature:52] process blink
+2015-04-02 17:33:50.556 INFO [creature:52] process blink
+2015-04-02 17:33:50.570 INFO [creature:52] process blink
+2015-04-02 17:33:50.589 INFO [creature:52] process blink
+2015-04-02 17:33:50.601 INFO [creature:52] process blink
+2015-04-02 17:33:50.618 INFO [creature:52] process blink
+2015-04-02 17:33:50.634 INFO [creature:52] process blink
+2015-04-02 17:33:50.651 INFO [creature:52] process blink
+2015-04-02 17:33:50.668 INFO [creature:52] process blink
+2015-04-02 17:33:50.684 INFO [creature:52] process blink
+2015-04-02 17:33:50.698 INFO [creature:52] process blink
+2015-04-02 17:33:50.700 WARNING [brainstem:217] Caught signal: 2
+2015-04-02 17:33:50.700 INFO [brainstem:221] Stopping Brainstem...
+2015-04-02 17:33:50.701 INFO [brainstem:230] Shutdown
+2015-04-02 17:34:07.632 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:34:07.635 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:34:07.640 INFO [brainstem:116] Loaded info for creature "Baby"
+2015-04-02 17:34:07.640 INFO [brainstem:121] Creature data loaded from filesystem
+2015-04-02 17:34:07.640 INFO [brainstem:127] Showing test pattern
+2015-04-02 17:34:07.657 INFO [brainstem:153] Now waking creature "Baby"
+2015-04-02 17:34:07.657 INFO [creature:69] waking up...
+2015-04-02 17:34:07.675 INFO [creature:141] Blinking! 6 7
+2015-04-02 17:34:24.540 INFO [creature:60] Blink
+2015-04-02 17:34:24.556 INFO [creature:141] Blinking! 0 7
+2015-04-02 17:34:24.572 INFO [creature:141] Blinking! 1 7
+2015-04-02 17:34:24.586 INFO [creature:141] Blinking! 2 7
+2015-04-02 17:34:24.601 INFO [creature:141] Blinking! 3 7
+2015-04-02 17:34:24.617 INFO [creature:141] Blinking! 4 7
+2015-04-02 17:34:24.636 INFO [creature:141] Blinking! 5 7
+2015-04-02 17:34:24.652 INFO [creature:141] Blinking! 6 7
+2015-04-02 17:34:39.499 INFO [creature:60] Blink
+2015-04-02 17:34:39.516 INFO [creature:141] Blinking! 0 7
+2015-04-02 17:34:39.529 INFO [creature:141] Blinking! 1 7
+2015-04-02 17:34:39.546 INFO [creature:141] Blinking! 2 7
+2015-04-02 17:34:39.564 INFO [creature:141] Blinking! 3 7
+2015-04-02 17:34:39.579 INFO [creature:141] Blinking! 4 7
+2015-04-02 17:34:39.593 INFO [creature:141] Blinking! 5 7
+2015-04-02 17:34:39.612 INFO [creature:141] Blinking! 6 7
+2015-04-02 17:34:43.091 WARNING [brainstem:217] Caught signal: 2
+2015-04-02 17:34:43.092 INFO [brainstem:221] Stopping Brainstem...
+2015-04-02 17:34:43.093 INFO [brainstem:230] Shutdown
+2015-04-02 17:35:04.196 INFO [brainstem:27] Initializing Brainstem...
+2015-04-02 17:35:04.203 INFO [brainstem:38] Starting Brainstem...
+2015-04-02 17:35:04.207 INFO [brainstem:116] Loaded info for creature "Baby"
+2015-04-02 17:35:04.208 INFO [brainstem:121] Creature data loaded from filesystem
+2015-04-02 17:35:04.208 INFO [brainstem:127] Showing test pattern
+2015-04-02 17:35:04.227 INFO [brainstem:153] Now waking creature "Baby"
+2015-04-02 17:35:09.283 WARNING [brainstem:217] Caught signal: 2
+2015-04-02 17:35:09.283 INFO [brainstem:221] Stopping Brainstem...
+2015-04-02 17:35:09.284 INFO [brainstem:230] Shutdown

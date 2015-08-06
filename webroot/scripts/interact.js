@@ -197,7 +197,8 @@
 
     function showAsleep() {
         $("#stage").empty();
-        $("#stage").append('<h3 class="center-text">The Eyes are nocturnal.</h3><p class="center-text">They are awake from dusk until 10pm.</p>');
+    //    $("#stage").append('<h3 class="center-text">The Eyes are nocturnal.</h3><p class="center-text">They are awake from dusk until 10pm.</p>');
+        $("#stage").append('<h3 class="center-text">The Eyes are down for maintenance.</h3><p class="center-text">Please come back soon!</p>');
     }
 
     function showUnavailable() {

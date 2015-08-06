@@ -65,6 +65,24 @@ def brainstem():
 
 
 @task
+def automata():
+    env.run = run
+    env.cd = cd
+    env.user = 'pi'
+    env.name = 'brainstem'
+    env.hosts = ['theeyes.local']
+    env.path = '/srv/theeyes/brainstem/'
+    env.project = 'theeyes'
+    env.virtualenv = 'virtualenv -p python'
+    env.environment = env.path + 'venv'
+    env.warn_only = True
+    env.python = 'source {0}venv/bin/activate && python'.format(env.path)
+    env.pip = 'source {0}venv/bin/activate && pip'.format(env.path)
+    env.manage = MANAGE.format(env.python)
+    env.restart = ('',)
+
+
+@task
 def brainstem_dev():
     env.run = run
     env.cd = cd
